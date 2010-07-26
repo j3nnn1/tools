@@ -1,4 +1,8 @@
 #! /usr/bin/perl -w
+#%%% made by Jennifer Maldonado
+#%%% license: GPLv3
+#%%% enjoy 
+
 use strict;
 use LWP::UserAgent;
 use Data::Dumper;
