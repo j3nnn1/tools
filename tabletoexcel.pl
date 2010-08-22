@@ -1,6 +1,9 @@
 #!/usr/bin/perl -w
-use strict;
+#%%% made by j3nnn
+#%%% license: GPLv3
+#%%% enjoy 
 
+use strict;
 use Spreadsheet::WriteExcel::FromDB;
 use Spreadsheet::WriteExcel;
 use DBI;
