@@ -1,5 +1,5 @@
 #! /usr/bin/perl -w
-#%%% made by Jennifer Maldonado
+#%%% made by j3nnn
 #%%% license: GPLv3
 #%%% enjoy 
 
@@ -93,8 +93,7 @@ if ($resultado->is_success) {
    }
 
    #checkin if I'm in
-   if ($pagina3 =~/pt-userpage/) 
-   {
+   if ($pagina3 =~/pt-userpage/) {
       say "I'm  in";
       #listando los archivos a subir guardandolos en el arreglo @archivos
       chdir($pathfileupload);
@@ -102,8 +101,7 @@ if ($resultado->is_success) {
       my $pagina5;
       chomp @files;
 
-      foreach (@files)
-      {
+      foreach (@files) {
          $namefile   = $pathfileupload.$_;
          say         cwd;
          $form       = [ wpUploadFile        => [$namefile,$_,Content_Type=>'application/pdf'],
