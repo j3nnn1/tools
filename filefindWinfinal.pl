@@ -48,11 +48,11 @@ if ($argumento{e}){ $unlink 	= $argumento{e};}
 if ($argumento{t}){ $elapsetime = $argumento{t};}
 
 unless ($unlink =~/(no|si)/i) {
-	print "opcion invalida para parametro -e, usage [no, NO, si, SI]";
+	print 'opcion invalida para parametro -e, usage [no, NO, si, SI]';
 	exit 1;
 }
 unless ($elapsetime =~ /^\d+$/) {
-	print "mal formato - el tiempo debe estar en segundos y ser un numero entero\n";
+	print 'mal formato - el tiempo debe estar en segundos y ser un numero entero\n';
 	exit 1;
 }
 
@@ -84,8 +84,8 @@ foreach(@FilesDir){
 			elsif($unlink =~/(si)/i){
 		
 				unlink "$filename" or die "no se borro $filename : $@";
-				$name_file = "log_delete_file".Getcurrentdate().".txt";
-				open (LOG, ">> $name_file") or die "Imposible abrir archivo o usuario no posee privilegios";
+				$name_file = 'log_delete_file'.Getcurrentdate().'.txt';
+				open (LOG, ">> $name_file") or die 'Imposible abrir archivo o usuario no posee privilegios';
 				$cadena = "$filename eliminado el: ".Getcurrentdate()."\n";
 				print LOG "$cadena";
 				close (LOG);
@@ -94,13 +94,13 @@ foreach(@FilesDir){
 	}
 }
 if ($name_file){
-   say("Se genero el log correspondiente...");
+   say('Se genero el log correspondiente...');
 }
 else {
    if($unlink =~/si/i){
-				$name_file = "log_delete_file".Getcurrentdate().".txt";
-				open (LOG, ">> $name_file") or die "Imposible abrir archivo o usuario no posee privilegios";
-				print LOG "el ".Getcurrentdate()." No se encontraron archivos con ".$elapsetime." dias de antiguedad".@FilesNames."\n";
+				$name_file = 'log_delete_file'.Getcurrentdate().'.txt';
+				open (LOG, ">> $name_file") or die 'Imposible abrir archivo o usuario no posee privilegios';
+				print LOG 'el '.Getcurrentdate().' No se encontraron archivos con '.$elapsetime.' dias de antiguedad'.@FilesNames."\n";
 				close (LOG);
    }
 }
@@ -127,7 +127,7 @@ return $diff;
 #Obtener fecha actual con formato para imprimir
 sub Getcurrentdate{
 my $currentdate;
-my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime(time) or die "Imposible obtener hora del sistema";
+my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime(time) or die 'Imposible obtener hora del sistema';
 $mon = $mon + 1;
 $year  = $year + 1900;
 $currentdate = $mday."-".$mon."-".$year;
