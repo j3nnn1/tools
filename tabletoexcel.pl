@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 #%%% made by j3nnn
 #%%% license: GPLv3
-#%%% enjoy 
+
 
 use strict;
 use Spreadsheet::WriteExcel::FromDB;
@@ -10,7 +10,7 @@ use DBI;
 use DBD::mysql;
 use Data::Dumper;
 
-require "../configs/configtabletoexcelv1.pl";
+require '../configs/configtabletoexcelv1.pl';
 
 our $dsn;
 our $user;
