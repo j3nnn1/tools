@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 #%%% made by j3nnn
 #%%% license: GPLv3
-#%%% enjoy 
+
 use strict;
 
 use File::stat;
