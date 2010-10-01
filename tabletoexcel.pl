@@ -23,7 +23,7 @@ $dbh = DBI->connect($dsn, $user, $password);
 
 #Obteniendo listado de tablas 
 
-$sth = $dbh->prepare(qq{show tables});
+$sth = $dbh->prepare(q{show tables});
 $sth->execute();
 my $data = $sth->fetchall_arrayref();
 my $sizearray = $#$data;
