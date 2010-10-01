@@ -8,7 +8,7 @@ use LWP::UserAgent;
 use Data::Dumper;
 use HTTP::Request::Common qw (POST GET);
 use HTTP::Cookies;
-use feature "say";
+use feature 'say';
 use Cwd;
 
 require '../configs/configuploadmanyfilev6.pl';
@@ -58,9 +58,9 @@ my $resultado = $ua->request( GET($mainpage));
 if ($resultado->is_success) {
    my $pagina1 =  $resultado->decoded_content;
    if ($debug==1) { 
-      say "########################### Pagina 1 ########################################";
+      say '########################### Pagina 1 ########################################';
       say $pagina1;
-      say "#############################################################";
+      say '#############################################################';
    }
 
    #obtengo el url del action, el metodo a utilizar
@@ -80,16 +80,16 @@ if ($resultado->is_success) {
    eval '$resultado2 = $ua->request('. uc($method).' $url, $form )->as_string()';
 
    if ($debug==1) { 
-   say "########################### Pagina 2 ########################################";
+   say '########################### Pagina 2 ########################################';
    say  $resultado2; 
-   say "####################################################################";
+   say '####################################################################';
    }
    my $resultado = $ua->request( GET($mainpage));
    my $pagina3 =  $resultado->decoded_content;
    if ($debug==1) { 
-   say "########################### Pagina 3 ########################################";
+   say '########################### Pagina 3 ########################################';
    say $pagina3; 
-   say "###################################################################";
+   say '###################################################################';
    }
 
    #checkin if I'm in
@@ -112,14 +112,14 @@ if ($resultado->is_success) {
                          wpIgnoreWarning     => 'true'
                          ];
          
-         $pagina5    = $ua->request(POST $urlupload, $form, Content_Type=>'form-data') or die "No subió ningun archivo";
+         $pagina5    = $ua->request(POST $urlupload, $form, Content_Type=>'form-data') or die 'No subió ningun archivo';
 
          say         "Uploading the file ".$namefile. '...';
 
          if ($debug==1) { 
-            say "########################### Pagina 5 ########################################";
+            say '########################### Pagina 5 ########################################';
             say $pagina5;
-            say "###################################################################";
+            say '###################################################################';
          }
          exit 0;
       }
@@ -127,12 +127,12 @@ if ($resultado->is_success) {
    
    }
    else {
-      say "autenticacion fallida sorry.. coloca bien la clave..";
-      say "pueden ser ñas cookies";
-      say "echa un vistazo";
+      say 'autenticacion fallida sorry.. coloca bien la clave..';
+      say 'pueden ser ñas cookies';
+      say 'echa un vistazo';
    }
 
 }
 else {
-say "ERROR:". $resultado->status_line();
+say 'ERROR:'. $resultado->status_line();
 }
