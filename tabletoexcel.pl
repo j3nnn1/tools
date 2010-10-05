@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 #%%% made by j3nnn
 #%%% license: GPLv3
-#%%% enjoy 
+
 
 use strict;
 use Spreadsheet::WriteExcel::FromDB;
@@ -10,7 +10,7 @@ use DBI;
 use DBD::mysql;
 use Data::Dumper;
 
-require "../configs/configtabletoexcelv1.pl";
+require '../configs/configtabletoexcelv1.pl';
 
 our $dsn;
 our $user;
@@ -23,7 +23,7 @@ $dbh = DBI->connect($dsn, $user, $password);
 
 #Obteniendo listado de tablas 
 
-$sth = $dbh->prepare(qq{show tables});
+$sth = $dbh->prepare(q{show tables});
 $sth->execute();
 my $data = $sth->fetchall_arrayref();
 my $sizearray = $#$data;
