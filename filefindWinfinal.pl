@@ -6,7 +6,7 @@ use strict;
 
 use File::stat;
 use File::Find::Rule;
-use Mail::Sender;
+#use Mail::Sender; use Email::Stuff;
 use Getopt::Std;
 use POSIX;
 require('../configs/configfilefindWinfinal.pl');
