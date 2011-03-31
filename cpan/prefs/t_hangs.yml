@@ -1,0 +1,166 @@
+--- 
+comment: |
+  Things that hang in tests
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |Acme-Method-CaseInsensitive  # deep recursion
+    |Acme-Tests
+    |Acme-RPC             # web server waits for connection
+    |ApacheBench
+    |App-Control
+    |Attribute-Persistent # deep recursion
+    |Audio-FLAC-Header    # endless loop takes all memory
+    |Authen-CyrusSAS
+    |Authen-CyrusSASL
+    |Bot-Net
+    |B-C
+    |B-Debugger           # test.pl hangs
+    |C-DynaLib
+    |CSS-Moonfall         # some endless uninitialized value loop
+    |Catalyst-View-Reproxy
+    |Cisco-Management     # prompts
+    |Class-Random         # hangs with apparent mem leak
+    |Class-Scaffold       # deep recursion
+    |Cluster-Init         # some daemon hang
+    |Crypt-DH 
+    |Crypt-RandPasswd
+    |Crypt-SKey
+    |DBIx-Broker
+    |DBIx-CSSQuery
+    |DBIx-DataModel
+    |DBIx-NamedDSN
+    |DBIx-SQLCrosstab
+    |DBIx-SQLEngine
+    |DBIx-XHTML_Table
+    |Daemon-Simple
+    |Data-HexDump         # hangs in test.pl
+    |Date-LastModified
+    |Debug-Client
+    |Devel-ObjectTracker    # consumes all system memory on my smoker
+    |Devel-PreProcessor
+    |Devel-Trace
+    |Device-Audiotron
+    |Device-SerialPort
+    |Device-WxM2
+    |Directory-Transactional
+    |DustyDB
+    |EZDBI
+    |Egg-Release-DBI        # deep recursion
+    |Emacs-EPL
+    |FAQ-OMatic
+    |Faster
+    |Facebook               # network hang ?
+    |Fax-Hylafax-Client
+    |Filter-Handle
+    |FlatFile-DataStore
+    |Flickr-Embed
+    |Game-Planeshift-Info
+    |Geo-Weather
+    |GnuPG
+    |Google-Adwords
+    |HTML-FormFu # deep recursion
+    |HTML-Tested
+    |HTTP-File
+    |HTTP-Lite
+    |HTTP-MessageParser
+    |HTTP-Proxy
+    |Handel
+    |Hardware-1Wire-HA7Net
+    |IMAP-Admin
+    |IO-File-Log
+    |IO-Async
+    |IPC-DirQueue
+    |IPC-Shareable
+    |Java
+    |Jifty              # hangs (can't find Jifty::Test::WWW::Mechanize )
+    |LWPx-TimedHTTP
+    |Log-ErrLogger
+    |Log-Report           # deep recursion
+    |Log-Syslog-DangaSocket # test hangs
+    |Mail-DSPAM-Learning    # prompts
+    |MARC-Errorchecks
+    |MIDI-Music
+    |MMM-OracleDump
+    |MMM-Text-Search
+    |MOP
+    |Mac-iTunes
+    |Mail-SendEasy
+    |Mail-Sender
+    |Mail-Webmail-Yahoo   # prompt
+    |Math-TrulyRandom
+    |Mobile-Wurfl       # prompts for DB
+    |MySQL-TableInfo
+    |Net-APP
+    |Net-Amazon-Thumbnail
+    |Net-DLookup
+    |Net-FTPSSL # prompts
+    |Net-Goofey
+    |Net-Google
+    |Net-Ifconfig-Wrapper
+    |Net-Link
+    |Net-Peep
+    |Net-SeedServe
+    |Net-SNMPTrapd   # prompts
+    |Net-Telnet
+    |NetServer-Generic
+    |OpenFrame
+    |OpenFrame-Segment-Apache
+    |PAR
+    |POE-Component-Archive-Any
+    |POE-Component-CPAN-LinksToDocs-No404s
+    |POE-Component-Child
+    |POE-Component-CPAN-SQLite-Info
+    |POE-Component-DirWatch
+    |POE-Component-WWW-Google-PageRank
+    |POE-Component-WebService-HtmlKitCom-FavIconFromImage
+    |POE-Component-WebService-Validator-CSS-W3C
+    |POE-Filter-Hessian
+    |Proc-Safetynet
+    |Qmail-Mysql
+    |Quota
+    |Relations-Abstract
+    |Rstat-Client
+    |Scraper
+    |SQL-AnyDBD
+    |Schedule-Cron
+    |Script
+    |Statistics-MaxEntropy
+    |Sudo
+    |Sybase-RepAgent
+    |Sys-Ptrace
+    |TableMap
+    |TaskForest
+    |Template-Alloy-XS       # deep recursion
+    |Term-Screen
+    |Term-Twiddle
+    |Test-Fork
+    |Test-Harness-FileFilter  # deep recursion
+    |Test-WWW-Mechanize
+    |TextLinkAds              # prompts
+    |Text-Reflow
+    |threads-emulate
+    |TiVo-HME
+    |Tie-Table
+    |UDPM
+    |UWO-Directory-Student
+    |VCS-Vss
+    |WebService-ChangesXml
+    |WAIT                     # infinite loop prompt
+    |WWW-Google-Groups
+    |WWW-Hashdb
+    |WWW-LEO
+    |WWW-Mechanize-Shell
+    |WWW-Patent-Page        # lengthy download
+    |WWW-Search-Googlism
+    |WebService-FreeDB
+    |WebService-GoogleHack
+    |WebService-Mappoint
+    |XiaoI
+    |XUL-Gui              # hangs waiting for browser
+    |only                 # deep recursion
+    |sitemapper
+    )-v?\d|
+

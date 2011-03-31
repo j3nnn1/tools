@@ -1,0 +1,49 @@
+--- 
+comment: |
+  Things not to test at all
+disabled: 1
+match:
+  distribution: |
+    /(?x:
+    .^   # never matches, only purpose is to let things align nicely
+    |(?:emb|syb|bio)?perl-\d
+    |(?:parrot|ponie|kurila|Perl6-Pugs)-\d
+    |Perl-Dist- # don't test perl builders
+    |perl-?5\.004 
+    |perl_mlb\.zip
+    |Acme-BadExample
+    |Acme-Mom-Yours
+    |FreeHAL  # huge!
+    |ORDB-CPANTesters    # big download
+    |Text-Xslate    	 # big download
+    |Dist-Zilla    	 # big download
+    |Pango    	 # big download
+    |AnyEvent-MQTT    	 # big download
+    |Rubric #error con forks
+    |WWW-Scraper-ISBN-Booktopia_Driver #error wait for..??¡
+    |WWW-Scraper-ISBN-AmazonUS_Driver
+    |WWW-Scraper-ISBN-AmazonUK_Driver
+    |WWW-Scraper-ISBN-Driver #error wait for..??¡
+    |WWW-Scraper-ISBN-Wheelers_Driver #error wait for..??¡
+    |WWW-Scraper-ISBN-TheNile_Driver
+    |WWW-Scraper-ISBN-OpenLibrary_Driver
+    |WWW-Scraper-ISBN-BarnesNoble_Driver
+    |WWW-Scraper-ISBN-Yahoo_Driver
+    |WWW-Scraper-ISBN-WordPower_Driver
+    |WWW-Scraper-ISBN-EdenBooks_Driver
+    |WWW-Scraper-ISBN-ORA_Driver
+    |WWW-Scraper-ISBN-Pearson_Driver
+    |WWW-Scraper-ISBN-ISBNnu_Driver
+    |WWW-Scraper-ISBN-LOC_Driver
+    |WWW-Scraper-ISBN-Record
+    |Task-BeLike-DOY
+    |App-Rad-Plugin-Daemonize
+    |SDL
+    |Genome
+    |SVN-Hooks
+    |Alien-SDL
+    |UR
+    |POEx-HTTP-Server
+    |Bio-BigFile
+    )|
+
