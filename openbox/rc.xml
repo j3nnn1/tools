@@ -295,7 +295,7 @@
 	</action>
     </keybind>
     <keybind key="Print">
-      <action name="PrintScreen">
+      <action name="Print">
         <execute>  gnome-screenshot </execute>
       </action>
     </keybind>
