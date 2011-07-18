@@ -44,6 +44,9 @@ match:
     |Alien-SDL
     |UR
     |POEx-HTTP-Server
+    |POE-Component-Server-REST
     |Bio-BigFile
+    |POE-Filter-DNS-TCP
+	|Smoking-Rex
     )|
 
