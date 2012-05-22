@@ -31,26 +31,28 @@ echo '-----------------------------------------------------'."\n"
 
 confidencefactor="0.0"
 
-cont=25
+cont=10
+
 while [ $cont -le 501 ]; do 
-	if [ $cont -gt 75 ]; then
+
+	if [ $cont -gt 99 ]; then
 		confidencefactor="0."
 	fi
    	size=`java -classpath $pathtoweka weka.classifiers.trees.J48 -C $confidencefactor$cont $options -t $file | grep Size`;
 	correctly=`java -classpath $pathtoweka weka.classifiers.trees.J48 -C $confidencefactor$cont $options -t $file | grep "Correctly Classified Instances"`;
-	echo ".:FACTOR  DE CONFIANZA (-C):."  "-" $confidencefactor$cont
-	echo ".:Size:. -" $size
-	echo ".:Optiones:. - $options"
+	echo "FACTOR  DE CONFIANZA (-C):."  $confidencefactor$cont
+	echo "Size:. " $size
+	echo "Optiones:. $options"
+	
 	echo $correctly
 	int_size="$(echo $size | awk '{print $6}')"
 	int_cases="$(echo $correctly | awk '{print $4}')"
 	prc_cases="$(echo $correctly | awk '{print $5}')"
-	echo $int_size
+	echo
 	echo "#" factor confianza, tam_arbol, casos correctos, porcentaje
 	echo "@" $confidencefactor$cont","$int_size","$int_cases","$prc_cases
-	echo
 	echo 
-   	cont=`expr $cont + 25`
+   	cont=`expr $cont + 10`
 done
 echo '---------------------------------------------------------------------------------------------------------------------------------'
 echo 'Finish!.. almost..';
