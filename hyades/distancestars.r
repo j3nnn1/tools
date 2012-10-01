@@ -5,17 +5,21 @@ simbad = read.table('simbad.csv', header=T, sep=';')
 hipparcos = read.table('HIPPARCOS.csv', header=T, sep=';')
 cruzados = read.table('id_cruzados.csv', header=T, sep=',')
 
-#dist
-mdistances = dist(rbind(hipparcos[,2:3], simbad[,4:5])) 
 
-#dist to matrix 
+#diit to matrix 
 mdist =as.matrix(mdistances)
 
 #matrix to vector
 vecdist <- c(mdist)
 
+#withoutzero
+vecdist <- vecdist[vecdist>0]
+
 #unclassify stars, do a hist
-hist(vecdist,col="gray20");
+hdatadist = hist(vecdist);
+
+#where cut
+hdatadist$breaks
 
 #classify stars, do a hist
 allcruzados = rbind(as.matrix(cruzados[2:nrow(cruzados),3:4]), as.matrix(cruzados[2:nrow(cruzados),5:6]))
@@ -27,7 +31,33 @@ mdistcruz = dist(allcruzados)
 vecdistcruz = c(as.matrix(mdistcruz))
 
 #oh god why
-hist(vecdistcruz, col="green", add=T)
+hdatacruz = hist(vecdistcruz, col="green", add=T)
+
+#where cut
+hdatacruz$breaks
+
+#deleting with out zerc
+sincero = vecdistcruz[vecdistcruz>0]
+
+#min distance to be hyades de 0 a 2
+mincruz = min(sincero)
+
+#plotting
+h = hist(vecdist);
+plot(h$counts, log="xy", pch=20, col="blue",
+	main="Log-normal distribution",
+	xlab="Value", ylab="Frequency")
+
+hc = hist(sincero)
+points(hc$counts, pch=20, col="green",
+	main="Log-normal distribution",
+	xlab="Value", ylab="Frequency")
+
+#filtering distances
+
+
+
+
 
 
 
