@@ -1,6 +1,6 @@
 #!/usr/bin/R
-#getwd()
-#setwd('C:/somethingnull/git/tools/hyades/')
+getwd()
+setwd('C:/somethingnull/git/tools/hyades/')
 simbad = read.table('simbad.csv', header=T, sep=';')
 hipparcos = read.table('HIPPARCOS.csv', header=T, sep=';')
 cruzados = read.table('id_cruzados.csv', header=T, sep=',')
@@ -59,13 +59,13 @@ for (i in 1:length(vecdist2)) {
 #getting the registers.
 mallmerge = rbind(hipparcos[2:nrow(hipparcos),2:3], simbad[2:nrow(simbad),4:5])
 
-newhyades <- data.frame()
-newhyades$fila <- ''
-newhyades$columna  <- ''
-newhyades$RA_J2001  <- ''
-newhyades$DE_J2001  <- ''
-newhyades$RA_J2000  <- ''
-newhyades$DE_J2000  <- ''
+newhyades <- data.frame(fila=NA, columna=NA, RA_J2001=NA, DE_J2001=NA,RA_J2000=NA, DE_J2000=NA )
+newhyades$fila <- 0
+newhyades$columna  <-0
+newhyades$RA_J2001  <- 0
+newhyades$DE_J2001  <- 0
+newhyades$RA_J2000  <- 0
+newhyades$DE_J2000  <- 0
 
 for (i in 1:nrow(star)) {
 	print (star[i,1]) 
