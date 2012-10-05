@@ -1,10 +1,15 @@
 #!/usr/bin/R
-getwd()
-setwd('C:/somethingnull/git/tools/hyades/')
-simbad = read.table('simbad.csv', header=T, sep=';')
-hipparcos = read.table('HIPPARCOS.csv', header=T, sep=';')
+#getwd()
+#setwd('C:/somethingnull/git/tools/hyades/')
+simbadO = read.table('simbad.csv', header=T, sep=',')
+hipparcosO = read.table('hipparcos.csv', header=T, sep=',')
+
+#cut columns
+simbad = data.frame(Id= simbadO$identifier,RA_J2000 = simbadO$RA_J2000, DE_J2000=simbadO$DE_J2000)
+hipparcos = data.frame(ID_HIP = hipparcosO$HIP, RA_J2000=hipparcosO$RA_J2000, DE_J2000=hipparcosO$DE_J2000)
+
 cruzados = read.table('id_cruzados.csv', header=T, sep=',')
-mdistances = dist(rbind(hipparcos[2:nrow(hipparcos),2:3], simbad[2:nrow(simbad),4:5]))
+mdistances = dist(rbind(hipparcos[1:nrow(hipparcos),2:3], simbad[1:nrow(simbad),2:3]))
 
 #dist to matrix 
 mdist =as.matrix(mdistances)
