@@ -1,12 +1,15 @@
 #!/usr/bin/R
 #getwd()
 #setwd('C:/somethingnull/git/tools/hyades/')
-simbadO = read.table('simbad.csv', header=T, sep=',')
-hipparcosO = read.table('hipparcos.csv', header=T, sep=',')
+simbadO = read.table('simbad.csv', header=T, sep=';')
+hipparcosO = read.table('hipparcos.csv', header=T, sep=';')
 
 #cut columns
 simbad = data.frame(Id= simbadO$identifier,RA_J2000 = simbadO$RA_J2000, DE_J2000=simbadO$DE_J2000)
 hipparcos = data.frame(ID_HIP = hipparcosO$HIP, RA_J2000=hipparcosO$RA_J2000, DE_J2000=hipparcosO$DE_J2000)
+
+simbad = as.matrix(simbad)
+hipparcos = as.matrix(hipparcos)
 
 cruzados = read.table('id_cruzados.csv', header=T, sep=',')
 mdistances = dist(rbind(hipparcos[1:nrow(hipparcos),2:3], simbad[1:nrow(simbad),2:3]))
@@ -47,7 +50,7 @@ maxjoindist = max(cruzados$distancia)
 
 #compare distances with the max, this get the index where the value is lower than maxjoindist
 vecdist2 = which(vecdist < as.numeric(maxjoindist))
-print (vecdist[vecdist2])
+#print (vecdist[vecdist2])
 
 #getting index from mdistances
 getindexs <- function (i, mdist) {
@@ -62,7 +65,8 @@ for (i in 1:length(vecdist2)) {
 
 #star contain the index of stars more closed to be hyades. 
 #getting the registers.
-mallmerge = rbind(hipparcos[2:nrow(hipparcos),2:3], simbad[2:nrow(simbad),4:5])
+
+mallmerge = rbind(hipparcos[1:nrow(hipparcos),2:3], simbad[1:nrow(simbad),2:3])
 
 newhyades <- data.frame(fila=NA, columna=NA, RA_J2001=NA, DE_J2001=NA,RA_J2000=NA, DE_J2000=NA )
 newhyades$fila <- 0
@@ -73,8 +77,8 @@ newhyades$RA_J2000  <- 0
 newhyades$DE_J2000  <- 0
 
 for (i in 1:nrow(star)) {
-	print (star[i,1]) 
-	print (star[i,2])
+	#print (star[i,1]) 
+	#print (star[i,2])
 	newhyades[i,1] = star[i,1] 
 	newhyades[i,2] = star[i,2] 
 	newhyades[i,3:4] = mallmerge [star[i,1],]
@@ -84,3 +88,5 @@ write.csv(newhyades, 'newcandidatetohyades.csv')
 
 ##end giselle's theorem
 ####################################################################
+
+#next do a pam

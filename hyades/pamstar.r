@@ -1,13 +1,17 @@
 library('cluster')
-getwd()
-setwd('C:/somethingnull/git/tools/hyades/')
-simbad = read.table('simbad.csv', header=T, sep=';')
-hipparcos = read.table('HIPPARCOS.csv', header=T, sep=';')
+#getwd()
+#setwd('C:/somethingnull/git/tools/hyades/')
+#simbad = read.table('simbad.csv', header=T, sep=';')
+
+hipparcos = read.table('newhipparcos.csv', header=T, sep=';')
 cruzados = read.table('id_cruzados.csv', header=T, sep=',')
-mallmerge = rbind(hipparcos[2:nrow(hipparcos),2:3], simbad[2:nrow(simbad),4:5])
+
+mallmerge = data.frame(RA=hipparcos$RA_J2000,DE=hipparcos$DE_J2000, PLX=hipparcos$Plx, PMRA=hipparcos$pmRA, PMDE=hipparcos$pmDE, VMAG=hipparcos$Vmag, BV=$hipparcos$BV, HYADES=hipparcos$hyades)
+
 asw <- numeric(20)
+
 for (k in 2:20)
-	 asw[k] <- pam(mallmerge, k) $ silinfo $ avg.width
+	 asw[k] <- pam(mallmerge[,-1], k) $ silinfo $ avg.width
 k.best <- which.max(asw)
 cat("silhouette-optimal number of clusters:", k.best, "\n")
 plot(1:20, asw, type= "h", main = "pam() clustering assessment",
