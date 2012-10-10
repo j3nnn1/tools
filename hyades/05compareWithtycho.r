@@ -1,6 +1,6 @@
 getwd()
 setwd('C:/somethingnull/git/tools/hyades/');
-tycho = read.table('tycho.csv', sep=';', header=T)
+tycho = read.table('tycho.csv', sep='\t', header=T)
 simbad = read.table('simbad.csv', sep=';', header=T)
 crossover = read.table('id_cruzadoswithdistance.csv', sep=',', header=T)
 
