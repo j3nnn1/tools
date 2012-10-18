@@ -65,6 +65,15 @@ vindexdis = which(vdistancemin < as.numeric(maxjoindist))
 
 vfinalid = vidhipparmin[vindexdis]
 
-#creating df with merge with hipp and simbad
+dfhip = subset(hipparcosO, hipparcosO$HIP==vfinalid)
 
+outbind =  cbind(vidsimbad, vfinalid)
+
+#creating df with merge with hipp and simbad
 #merge
+dfcruzado = merge(outbind, simbadO, by.x='ID', by.y='identifier' )
+dfmergeall = merge(dfcruzado, hipparcosO, by.x='ID_HIP', by.y='HIP')
+#saving
+write.csv(dfmergeall, 'identificacioncruzadasimbadhipparcos.csv')
+
+
