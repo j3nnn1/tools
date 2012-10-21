@@ -8,7 +8,7 @@ cluspam <- list()
 mallmerge = data.frame(RA=hipparcos$RA_J2000,DE=hipparcos$DE_J2000, PLX=hipparcos$Plx, PMRA=hipparcos$pmRA, PMDE=hipparcos$pmDE, VMAG=hipparcos$Vmag, BV=hipparcos$BV, HYADES=hipparcos$hyades)
 
 for (k in 2:20) {
-	 cluspam[[k]] <- pam(mallmerge[,-8], k) 
+	 cluspam[[k]] <- pam(mallmerge[,-8], k, stand = TRUE) 
 	 asw[k] <- cluspam[[k]]$silinfo$avg.width 
 	 print (k)
 }
@@ -33,5 +33,28 @@ for (k in 2:20) {
 ### scatter plot matrix
 pairs(~RA+DE+PLX+PMRA+PMDE+VMAG+BV+HYADES,data=mallmerge,
    main="Matriz de Gráficos de Dispersión")
+
+
+library(gclus)
+dta <- hipparcos[c(2,3,4,5,6,7,8)] # get data
+dta.r <- abs(cor(dta)) # get correlations
+dta.col <- dmat.color(dta.r) # get colors
+# reorder variables so those with highest correlation
+# are closest to the diagonal
+dta.o <- order.single(dta.r)
+cpairs(dta, dta.o, panel.colors=dta.col, gap=.5, pch='.',
+main="Variables Ordenadas y Coloreadas por la correlación" )
+
+
+#this is a scatter plot
+plot(hipparcos, pch='.')
+grid(col = "lightgray", lty = "dotted", equilogs = TRUE)
+
+#getting sse for k=2 and k=3
+SSE <- function(x,c,cl) { sum((c[cl,]-x)^2) }
+
+
+
+
 
 

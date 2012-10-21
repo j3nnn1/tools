@@ -79,3 +79,4 @@ dfmergeall = merge(candidate.name.df, hipparcosO, by.x='ID_HIP', by.y='indexcand
 
 #saving
 write.csv(dfmergeall, 'identificacioncruzadasimbadhipparcos.csv')
+write.csv(candidate.name, 'hipparcoshyades.csv')
