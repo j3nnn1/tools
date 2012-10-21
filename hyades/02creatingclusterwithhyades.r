@@ -53,6 +53,17 @@ grid(col = "lightgray", lty = "dotted", equilogs = TRUE)
 #getting sse for k=2 and k=3
 SSE <- function(x,c,cl) { sum((c[cl,]-x)^2) }
 
+sse = array()
+
+for (k in 2:20) {
+sse[k] = SSE(mallmerge[,-8], cluspam[[k]]$medoids, cluspam[[k]]$clustering)
+}
+
+#plotting sse vs k
+plot (1:20,sse, pch='*', xlab='k', ylab='sse', type= "h")
+
+
+
 
 
 
