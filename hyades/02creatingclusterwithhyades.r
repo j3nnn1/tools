@@ -81,8 +81,8 @@ outbind = subset(outbind, clusterNum==2)
 
 #getting candidate
 join = subset(hipparcos, hyades==1)
-plot(hipparcos[c(7, 8)], col=cluspam[[5]]$cluster, pch="+")
-points(cluspam[[5]]$medoids[,6:7],col = 1:5, pch=19, cex=3)
+plot(hipparcos[c(7, 8)], col=cluspam[[2]]$cluster, pch="+")
+points(cluspam[[2]]$medoids[,6:7],col = 1:5, pch=19, cex=3)
 points(join[, 7:8], col='blue', pch='x', cex=1)
 grid(col = "lightgray", lty = "dotted", equilogs = TRUE)
 abline(h=0, v=0, untf = FALSE, lty = "dotted")
@@ -99,5 +99,8 @@ candidatematrix = matrix(c(1, nrow(clust1candidate), nrow(outbind[outbind$cluste
 			   2, nrow(clust2candidate), nrow(outbind[outbind$clusterNum==2,])), byrow=TRUE, nrow=2, ncol=3) 
 
 
+#guardando las estrellas del cluster de 403, cluster 2.
 
+final = outbind[outbind$clusterNum==2,]
+write.csv (final, 'starshyadescandidatepart1.csv')
 
