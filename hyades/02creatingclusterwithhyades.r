@@ -88,6 +88,15 @@ grid(col = "lightgray", lty = "dotted", equilogs = TRUE)
 abline(h=0, v=0, untf = FALSE, lty = "dotted")
 legend(0,2.5,c(1:2), col=c('black', 'red'), plot=TRUE, pch="-", lty=0)
 
+#another cluster
+join = subset(hipparcos, hyades==1)
+plot(hipparcos[c(5, 6)], col=cluspam[[2]]$cluster, pch="+")
+points(cluspam[[2]]$medoids[,4:5],col = 1:5, pch=19, cex=3)
+points(join[, 5:6], col='blue', pch='x', cex=1)
+grid(col = "lightgray", lty = "dotted", equilogs = TRUE)
+abline(h=0, v=0, untf = FALSE, lty = "dotted")
+legend(0,2.5,c(1:2), col=c('black', 'red'), plot=TRUE, pch="-", lty=0)
+
 
 #creando tabla que contiene en que cluster se distribuyen las hyades.
 clust1candidate = subset(outbind, clusterNum==1 & hyades==1)
