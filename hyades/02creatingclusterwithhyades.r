@@ -65,6 +65,38 @@ plot (1:20,sse, pch='*', xlab='k', ylab='sse', type= "h")
 
 
 
+#scatter plot matrix with cluster
+outbind = cbind(hipparcos, clusterNum = cluspam[[2]]$clustering)
+plot(outbind[,-10], col=outbind$clusterNum, pch='.')
+outbind = subset(outbind, clusterNum==2)
+
+
+#cluster 5
+outbind5 = cbind(hipparcos, clusterNum = cluspam[[5]]$clustering)
+plot(outbind[,-10], col=outbind$clusterNum, pch='.')
+outbind = subset(outbind, clusterNum==2)
+
+
+
+
+#getting candidate
+join = subset(hipparcos, hyades==1)
+plot(hipparcos[c(7, 8)], col=cluspam[[5]]$cluster, pch="+")
+points(cluspam[[5]]$medoids[,6:7],col = 1:5, pch=19, cex=3)
+points(join[, 7:8], col='blue', pch='x', cex=1)
+grid(col = "lightgray", lty = "dotted", equilogs = TRUE)
+abline(h=0, v=0, untf = FALSE, lty = "dotted")
+legend(0,2.5,c(1:2), col=c('black', 'red'), plot=TRUE, pch="-", lty=0)
+
+
+#creando tabla que contiene en que cluster se distribuyen las hyades.
+clust1candidate = subset(outbind, clusterNum==1 & hyades==1)
+clust2candidate = subset(outbind, clusterNum==2 & hyades==1)
+nrow(outbind[outbind$clusterNum==1,])
+nrow(outbind[outbind$clusterNum==2,])
+
+candidatematrix = matrix(c(1, nrow(clust1candidate), nrow(outbind[outbind$clusterNum==1,]),
+			   2, nrow(clust2candidate), nrow(outbind[outbind$clusterNum==2,])), byrow=TRUE, nrow=2, ncol=3) 
 
 
 
