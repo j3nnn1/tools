@@ -85,12 +85,12 @@ scatterplot3d(dta[1:3], main="3D Scatterplot", highlight.3d=TRUE, type="h", pch=
 #getting candidate
 
 join = subset(hipparcos, hyades==1)
-plot(hipparcos[c(7, 8)], col=cluspam[[3]]$cluster, pch="+")
-points(cluspam[[3]]$medoids[,6:7],col = 1:3, pch=19, cex=3)
+plot(hipparcos[c(7, 8)], col=cluspam[[2]]$cluster, pch="+")
+points(cluspam[[2]]$medoids[,6:7],col = 1:2, pch=19, cex=3)
 points(join[, 7:8], col='blue', pch='x', cex=1)
 grid(col = "lightgray", lty = "dotted", equilogs = TRUE)
 abline(h=0, v=0, untf = FALSE, lty = "dotted")
-legend(0,2.5,c(1:3), col=c('black', 'red', 'green'), plot=TRUE, pch="-", lty=0)
+legend(0,2.5,c(1:2), col=c('black', 'red'), plot=TRUE, pch="-", lty=0)
 
 #adding new nding real value with the group
 outbind = cbind(hipparcos, clusterNum = cluspam[[3]]$clustering)
