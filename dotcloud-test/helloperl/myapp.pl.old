@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use Mojolicious::Lite;
 use Mojolicious::Plugin::Mongodb;
-use lib 'lib';
 
 sub startup {
         my $self = shift;

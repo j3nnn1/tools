@@ -10,6 +10,9 @@ WriteMakefile(
                 'Dancer'     => 1.3030,
                 'Plack'      => 0.9974,
                 'PSGI'       => 1.03,
+                'Mojolicious::Plugin::Mongodb' => 1.07,
+                'Net::Twitter' => 3.18,
+                'Mojolicious::Plugin::LinkedContent' => 0.04 ,
   }
   );
 

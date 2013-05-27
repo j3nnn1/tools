@@ -6,7 +6,7 @@ tweet_ids = Array.new
 
 #filename to save CSV
 fileout = File.open("twitter_flisol2012.csv", "a")
-filein  = File.open("idsflisol2012.txt");
+filein  = File.open("../data/idsflisol2012.txt");
 
 #saving ID's tweets
 filein.each_line do |line|
