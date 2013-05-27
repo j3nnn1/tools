@@ -16,7 +16,7 @@ fi
 
 echo ' COPY  '$table" TO '"$output"' WITH CSV HEADER" > sql.tmp
 
-psql -d recuperatorio -f sql.tmp
+psql -d database -f sql.tmp
 
 rm sql.tmp
 

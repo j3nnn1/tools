@@ -1,4 +1,6 @@
 
+#Ojo con eso y las clases, resulto peor que la solucion
+
 file=$1
 if [ "x${1}" = "x" ]; then
 	echo 'Parametros faltantes, ./convert_y_n_to_numeric.sh file.csv'
