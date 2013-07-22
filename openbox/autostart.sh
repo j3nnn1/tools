@@ -9,13 +9,12 @@ nitrogen --restore&
 xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
 
 
+#blueman-manager&
 # Programs that will run after Openbox has started
-(sleep 2 && pypanel) &
-#nautilus &
+(sleep 2 && fbpanel ) &
 nitrogen --restore & 
-volwheel &
-#wicd-client &
 conky&
 skype&
-#blueman-manager&
-#guake &
+pytyle&
+tint2&
+/usr/lib/notification-daemon-1.0/notification-daemon&
