@@ -69,3 +69,11 @@ vnoremap <silent> _t :!perltidy -q<Enter>
 
 nnoremap ' :wa<CR>:!dcop konsole-`pidof konsole` session-1 sendSession r<CR><CR>
 
+" TMUX
+if &term == "screen"
+        set t_kN=^[[6;*~
+        set t_kP=^[[5;*~
+endif
+
+set encoding=utf-8
+
