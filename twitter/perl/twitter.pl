@@ -59,7 +59,7 @@ else {
 sub restore_tokens {
 my $a = shift;
 my $b = shift;
-open FILE, "tokenaccess.db";
+open FILE, "tokenaccess.db.nosubir";
 my $linea = <FILE>;
 chomp $linea;
 my @result = split ';', $linea;
@@ -70,7 +70,7 @@ return @result;
 sub save_tokens {
 my $a = shift;
 my $b = shift;
-open FILE, ">>tokenaccess.db";
+open FILE, ">>tokenaccess.db.nosubir";
 print FILE $a.';'.$b;
 close FILE;
 }

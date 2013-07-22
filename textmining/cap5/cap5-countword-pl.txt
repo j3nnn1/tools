@@ -1,0 +1,6 @@
+#Add a note here5.2.1 Counting Letters in Poe with Perl
+#Deben ser eliminados los puntos.
+#ejecutar un programa que determine los diferentes caracteres usados en estas 4 historias
+
+
+my %freq;
