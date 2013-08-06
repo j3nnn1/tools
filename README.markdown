@@ -2,7 +2,7 @@
 Tools and Config Files
 ======================
 
-### cpan dir, 
+### cpan dir 
 * config files for CPAN
 * config files specialized on cygwin and linux 
 
@@ -15,7 +15,8 @@ Tools and Config Files
 * a lot of shell script, and query for postgresql, and data format. 
 
 ### dotcloud-test/  
-* when dotcloud was free, I used it to my blog and this is a example with Perl, MojoLite deprecated. 
+* when dotcloud was free, I used it to my blog and this is a example with Perl, MojoLite deprecated
+
 ### frozenbubble/   
 * I like so much this game!, here my config files.
 ### hyades/
