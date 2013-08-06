@@ -20,9 +20,6 @@ Tools and Config Files
 ### frozenbubble/   
 * I like so much this game!, here my config files.
 
-### hyades/
-* a TP about start and hyades :)
-
 ### introlinux/
 .* this is my spanish slides about a Introduction to Linux with Debian, long time ago I gave a course.
 
@@ -41,9 +38,6 @@ Tools and Config Files
 
 ### textmining/
 * exercise incompleted about textmining, take from a book about textmining and Perl
-
-### tp_aid/
-* contains R scripts.
 
 ### twitter/
 * contains scripts to get data from twitter
