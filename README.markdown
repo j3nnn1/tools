@@ -19,44 +19,64 @@ Tools and Config Files
 
 ### frozenbubble/   
 * I like so much this game!, here my config files.
+
 ### hyades/
 * a TP about start and hyades :)
+
 ### introlinux/
-* this is my spanish slides about a Introduction to Linux with Debian, long time ago I gave a course.
+.* this is my spanish slides about a Introduction to Linux with Debian, long time ago I gave a course.
+
 ### nitrogen/
 * this is my config files for the app nitrogen, easy way to set a wallpaper.   
+
 ### openbox/
 * My config files of openbox
+
 ### opensuse/
 * this is my spanish slides about a Introduction to Linux with OpenSuse, long time ago I gave a course.
+
 ### pytyle/
 * Pytyle es pretty way to sorting my windows, or better definitions is a tiling manager that works with openbox and KWin.
 * Here my config files.
+
 ### textmining/
 * exercise incompleted about textmining, take from a book about textmining and Perl
+
 ### tp_aid/
 * contains R scripts.
+
 ### twitter/
 * contains scripts to get data from twitter
+
 ### vim/
 * vim plugins
+
 ### vimrc
 * vimrc taken from another config files that I saw on internet.
+
 ### weka/
 * shell script for invoke to weka jar, doing trees and measuse their behavior
+
 ### filefindWinfinal.pl
 * a perl script with the use file::find::win
+
 ### alarm.pl
 * a perl script for wake me every morning displaying a movie in my laptop 
+
 ### increaseSWAP.sh
 * increase Swap memory for working with R, R used a lot memory R. 
+
 ### rtorrent.rc
 * config file for rtorrent app.  
+
 ### tabletoexcel.pl
 * a table from mysql convert in a excel file
+
 ### uploadmanyfilev6.pl
 * log in a wiki, and upload many files.
+
 ### xinitrc
 *  X config file 
+
 ### conky dir, save my conky config
 * more config files.
