@@ -21,7 +21,8 @@ Tools and Config Files
 * I like so much this game!, here my config files.
 
 ### introlinux/
-.* this is my spanish slides about a Introduction to Linux with Debian, long time ago I gave a course.
+* this is my spanish slides about a Introduction to Linux with Debian, long time ago I gave a course.
+* here the slide: http://www.slideshare.net/j3nnn1/introduccion-linux-9666611
 
 ### nitrogen/
 * this is my config files for the app nitrogen, easy way to set a wallpaper.   
@@ -31,6 +32,7 @@ Tools and Config Files
 
 ### opensuse/
 * this is my spanish slides about a Introduction to Linux with OpenSuse, long time ago I gave a course.
+* here the slide: http://www.slideshare.net/j3nnn1/opensuse 
 
 ### pytyle/
 * Pytyle es pretty way to sorting my windows, or better definitions is a tiling manager that works with openbox and KWin.
