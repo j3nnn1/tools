@@ -1,0 +1,10 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+LOCALE=es_VE.UTF-8
+LC_ALL="es_VE.UTF-8"
+LANG="es_VE.UTF-8"
+LC_COLLATE=C

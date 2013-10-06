@@ -1,0 +1,21 @@
+
+ paprefs pavucontrol grub  net-tools  os-prober dosfstools mtools libisoburn
+
+xorg-xinit xf86-input-keyboard xf86-input-mouse xf86-input-synaptics xf86-input-void xf86-video-vesa xf86-video-intel xorg-server xorg-setxkbmap xorg-font-util
+
+wicd wicd-gtk libreoffice latex lxterminal spacefm nitrogen xcompmgr conky pytyle tint2 notification-daemon skype-call-recorder
+
+libao libpulse pulseaudio gconf rexima alsa-lib libpulse fluidsynth
+
+lm_sensors cpupower dmenu
+
+ pulseaudio-alsa  lib32-libpulse lib32-alsa-plugins
+
+
+vlc mplayer flashplugin rtorrent git  artwiz-fonts  ttf-dejavu extra/freetype2 extra/fontsproto
+
+extra/libfontenc extra/libxfont extra/libxft community/ttf-ubuntu-font-family
+
+multilib/lib32-fontconfig multilib/lib32-freetype2 pidgin xchat
+
+curl zsh volumeicon tmux tiv
