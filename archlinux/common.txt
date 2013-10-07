@@ -19,3 +19,5 @@ extra/libfontenc extra/libxfont extra/libxft community/ttf-ubuntu-font-family
 multilib/lib32-fontconfig multilib/lib32-freetype2 pidgin xchat
 
 curl zsh volumeicon tmux tiv
+
+gimp blender feh mmaker
