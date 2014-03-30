@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/usr/share/icons/gnome/16x16'
+let g:netrw_dirhist_2='/usr/share/icons/gnome/24x24'
+let g:netrw_dirhist_3='/home/j3nnn1/git/.git/info'
+let g:netrw_dirhist_4='/home/j3nnn1/perl5/perlbrew/etc'

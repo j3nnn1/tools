@@ -1,0 +1,100 @@
+
+filezilla
+
+paprefs pavucontrol grub  net-tools  os-prober dosfstools mtools libisoburn
+
+xorg-xinit xf86-input-keyboard xf86-input-mouse xf86-input-synaptics xf86-input-void xf86-video-vesa xf86-video-intel xorg-server xorg-setxkbmap xorg-font-util
+
+wicd wicd-gtk libreoffice latex lxterminal spacefm nitrogen xcompmgr conky pytyle tint2 notification-daemon skype-call-recorder
+
+libao libpulse pulseaudio gconf rexima alsa-lib libpulse fluidsynth
+
+lm_sensors cpupower dmenu
+
+pulseaudio-alsa  lib32-libpulse lib32-alsa-plugins
+
+
+vlc mplayer flashplugin rtorrent git  artwiz-fonts  ttf-dejavu extra/freetype2 extra/fontsproto
+
+extra/libfontenc extra/libxfont extra/libxft community/ttf-ubuntu-font-family
+
+multilib/lib32-fontconfig multilib/lib32-freetype2 pidgin xchat
+
+curl zsh volumeicon tmux tiv
+
+gimp blender feh mmaker r texlive-bin
+
+evince 
+
+mariadb libmariadbclient frozen-bubble postgresql mongodb python-pymongo apache nginx php-apache bluez bluez-utils blueman obexfs obextool openobex oblogout gedit audacious brasero cheese blueman-manager obconf htop xarchiver smplayer smplayer smplayer unzip gzip p7zip zip 
+
+cups arj bluez-firmware bluez-libs bluez-utils bluez4 xbmc brasero ca-certificates-java cairo cdparanoia cfitsio chmlib cifs-utils
+
+clucene
+
+cmake convertlit crypto++ cups-pk-helper dnsutils dvdauthor
+
+dvgrab ebook-tools enca eventlog exempi exiv2 fakechroot farstream
+
+fcgi foomatic-db foomatic-filters foomatic-db-engine freeglut gc gdb geoclue geoip geoip-database  glib glib-perl glpk glproto gnu-netcat gnuplot
+
+gpart gparted 
+
+dosfstools jfsutils f2fs-tools btrfs-progs exfat-utils ntfs-3g reiserfsprogs xfsprogs nilfs-utils mtools
+
+gperf graphicsmagick graphviz dot2tex
+
+gsl
+
+community/gsmartcontrol
+
+extra/gstreamer0.10-base-plugins extra/gstreamer0.10-python extra/gstreamer0.10-ugly extra/gstreamer0.10-ugly-plugins guile
+
+gutenprint extra/hddtemp
+
+hdf5 hplip sane xsane
+
+hwdetect
+
+inkscape iptraf-ng irssi extra/js extra/js185  json-c json-glib
+
+libaio libcaca libdiscid libdvdcss
+
+libical libiodbc libmcrypt libmspack libmusicbrainz3 libmusicbrainz5
+
+libmythes liboggz
+
+mencoder lynx lsof lzop mcpp
+
+mytop namcap
+
+net-snmp netcdf nettle ntfs-3g ntp obex-data-server obexftp octave opencv opencv-samples openexr opengl-man-pages openjpeg openmpi openobex openslp opensp
+
+k3b papyon phonon php-gd php-mcrypt php-pgsql php-sqlite php-tidy  physfs pixman plotutils pm-quirks pm-utils portmidi ppl printproto progsreiserfs pstoedit  
+
+pyobject-devel pygtk pyqt4 python-cairo 
+
+qca qca-ossl qhull qjson extra/r extra/randproto extra/raptor rasqal redland recode renderproto rest rpmextract rddtool rsync rtkit rtmpdump ruby sane schroedinger scrnsaverproto
+
+serf sg3_utils sip slib slim smartmontools smbclient smpeg smplayer sofia-sip soprano soundtouch sox speech-dispatcher speex sqlite strace suitesparse swig 
+
+
+t1lib taglib talloc tcl tdb testdisk tevent textlive  thunderbird tidyhtml tk udisks udisks2 unixodbc unrar unzip upower usbmuxd whois vala  valgrind vcdimager videoproto vigra vim vim-runtime virtuoso vlc vorbis-tools wavpack wayland wget wildmidi wpa_supplicant_gui  xmms  xsane xulrunner xvidcore zvbi zziplib bchunk arpack  yajl blueman chmsee chrootuid cpupower dmenu dos2unix dynamite filezilla frei0r-plugins gavl gdal geos glitz goocanvas ipython2 ipython ktikz lsb-release mlt mongodb nodejs notify-osd obconf obexfs oblogout obmenu opencollada opencolorio openimageio openshadinglanguage openshot os-prober pari pgadmin3 php-docs php-geoip php-memcache phpmyadmin podofo poedit polipo privoxy portaudio proj pstreams pygoocanvas pyogg reflector raptor rkhunter roxterm rtorrent rxvt sakura shotwell sysstat synce-core tightvnc tint2 tmux tor torsocks vim-rails vidalia vbetool  wgetpaste xbindkeys xbmc xdebug xdotool xlockmore youtube-dl binutils-multilib
+
+texlive-bin  texlive-fontsextra texlive-formatsextra texlive-games texlive-genericextra texlive-humanities texlive-langcjk texlive-langcyrillic  texlive-langextra  texlive-langgreek texlive-latexextra texlive-music texlive-pictures texlive-plainextra texlive-pstricks texlive-publishers texlive-science
+
+
+
+extra/libsamplerate extra/libsecret extra/libsexy extra/libshout extra/libsidplay extra/libsigc++ extra/libsigsegv extra/libsm extra/libsndfile extra/libsoup extra/libspectre extra/libssh extra/libstdc++5 extra/libtasn1 extra/libtextcat extra/libthai extra/libtheora extra/libtiff extra/libtiger extra/libtracker-sparql extra/libunique extra/libunique3 extra/libunistring extra/libunrar extra/libupnp extra/libusb-compat extra/libutempter extra/libva extra/libvdpau extra/libvisual extra/libvncserver extra/libvorbis extra/libvpx extra/libwacom extra/libwbclient extra/libwebp extra/libwmf extra/libwnck extra/libwnck3 extra/libwpd extra/libwpg extra/libwps extra/libx11 extra/libxau extra/libxaw extra/libxcb extra/libxcomposite extra/libxcursor extra/libxdamage extra/libxdmcp extra/libxext extra/libxfce4ui extra/libxfce4util extra/libxfixes extra/libxfont extra/libxft extra/libxi extra/libxinerama extra/libxkbcommon extra/libxkbfile extra/libxml++ extra/libxml2 extra/libxmu extra/libxp extra/libxpm extra/libxrandr extra/libxrender extra/libxres extra/libxslt extra/libxss extra/libxt extra/libxtst extra/libxv extra/libxvmc extra/libxxf86dga extra/libxxf86vm extra/libzip extra/lirc-utils extra/llvm extra/llvm-libs  extra/perl-alien-sdl extra/perl-capture-tiny extra/perl-class-inspector extra/perl-common-sense extra/perl-compress-bzip2 extra/perl-crypt-openssl-bignum extra/perl-crypt-ssleay extra/perl-dbd-mysql extra/perl-dbd-sqlite extra/perl-dbi extra/perl-encode-locale extra/perl-error extra/perl-file-copy-recursive extra/perl-file-listing extra/perl-file-sharedir extra/perl-file-which extra/perl-html-parser extra/perl-html-tagset extra/perl-http-cookies extra/perl-http-daemon extra/perl-http-date extra/perl-http-message extra/perl-http-negotiate extra/perl-io-socket-ssl extra/perl-ipc-system-simple extra/perl-libwww extra/perl-list-moreutils extra/perl-lwp-mediatypes extra/perl-lwp-protocol-https extra/perl-mozilla-ca extra/perl-net-http extra/perl-net-ssleay extra/perl-sdl extra/perl-term-readkey extra/perl-text-iconv extra/perl-tie-simple extra/perl-try-tiny extra/perl-uri extra/perl-www-robotrules extra/perl-xml-parser extra/perl-xml-simple extra/perl-xml-twig extra/pixman extra/python extra/python-beaker extra/python-cairo extra/python-dbus extra/python-dbus-common extra/python-gobject extra/python-mako extra/python-markupsafe extra/python-numpy extra/python-pip extra/python-pyelftools extra/python-pyqt4 extra/python-qscintilla-common extra/python-setuptools extra/python-sip extra/python-urwid extra/python-virtualenv extra/python-xdg extra/python2 extra/python2-astroid extra/python2-beaker extra/python2-cairo extra/python2-crypto extra/python2-dbus extra/python2-django extra/python2-egenix-mx-base extra/python2-gobject extra/python2-gobject2 extra/python2-logilab-common extra/python2-lxml extra/python2-mako extra/python2-markupsafe extra/python2-notify extra/python2-numpy extra/python2-opengl extra/python2-pylint extra/python2-pyopenssl extra/python2-pyqt4 extra/python2-pysqlite extra/python2-qscintilla extra/python2-setuptools extra/python2-sip extra/python2-telepathy extra/python2-urwid extra/python2-virtualenv extra/python2-xdg extra/pyxml extra/t1lib community/libdbi community/libdbi-drivers community/libdesktop-agnostic community/libfm community/libgeotiff community/libgexiv2 community/libkeybinder2 community/libmicrohttpd community/libnfs community/libpng12 community/libpqxx community/libraw community/libshairport community/libtorrent community/libx86 community/libyaml community/perl-algorithm-diff community/perl-crypt-blowfish community/perl-file-next community/perl-file-pushd community/perl-file-remove community/perl-file-slurp community/perl-gtk2-trayicon community/perl-io-string community/perl-io-tty community/perl-ipc-run community/perl-json-xs community/perl-net-dbus community/perl-net-smtp-ssl community/perl-params-util community/perl-path-class community/perl-tree-dag-node multilib/binutils-multilib multilib/lib32-acl multilib/lib32-alsa-lib multilib/lib32-alsa-oss multilib/lib32-alsa-plugins multilib/lib32-atk multilib/lib32-attr multilib/lib32-bzip2 multilib/lib32-cairo multilib/lib32-dbus multilib/lib32-e2fsprogs multilib/lib32-elfutils multilib/lib32-expat multilib/lib32-fontconfig multilib/lib32-freetype2 multilib/lib32-gcc-libs multilib/lib32-gdk-pixbuf2 multilib/lib32-gettext multilib/lib32-glib2 multilib/lib32-glibc multilib/lib32-glu multilib/lib32-gmp multilib/lib32-gnutls multilib/lib32-gtk2 multilib/lib32-harfbuzz multilib/lib32-icu multilib/lib32-json-c multilib/lib32-keyutils multilib/lib32-krb5 multilib/lib32-lcms2 multilib/lib32-libcap multilib/lib32-libcups multilib/lib32-libdrm multilib/lib32-libffi multilib/lib32-libgcrypt multilib/lib32-libgpg-error multilib/lib32-libice multilib/lib32-libjpeg-turbo multilib/lib32-libldap multilib/lib32-libmng multilib/lib32-libpciaccess multilib/lib32-libpng multilib/lib32-libsm multilib/lib32-libssh2 multilib/lib32-libstdc++5 multilib/lib32-libtasn1 multilib/lib32-libtiff multilib/lib32-libx11 multilib/lib32-libxau multilib/lib32-libxcb multilib/lib32-libxcomposite multilib/lib32-libxcursor multilib/lib32-libxdamage multilib/lib32-libxdmcp multilib/lib32-libxext multilib/lib32-libxfixes multilib/lib32-libxft multilib/lib32-libxi multilib/lib32-libxinerama multilib/lib32-libxml2 multilib/lib32-libxrandr multilib/lib32-libxrender multilib/lib32-libxss multilib/lib32-libxt multilib/lib32-libxtst multilib/lib32-libxv multilib/lib32-libxxf86vm multilib/lib32-llvm-libs multilib/lib32-mesa multilib/lib32-mesa-libgl multilib/lib32-ncurses multilib/lib32-nettle multilib/lib32-nspr multilib/lib32-nss multilib/lib32-openssl multilib/lib32-p11-kit multilib/lib32-pango multilib/lib32-pcre multilib/lib32-pixman multilib/lib32-qt4 multilib/lib32-readline multilib/lib32-sqlite multilib/lib32-systemd multilib/lib32-util-linux multilib/lib32-v4l-utils multilib/lib32-xz multilib/lib32-zlib multilib/nspluginwrapper
+
+
+
+vbetool : video bios
+
+valgrind //manejo de memoria programas
+
+
+
+xorg-util-macros
+
+base-devel
