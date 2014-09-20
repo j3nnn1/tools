@@ -278,11 +278,6 @@
         <execute>gnome-panel-control --main-menu</execute>
       </action>
     </keybind>
-    <keybind key="A-F2">
-      <action name="execute">
-        <execute>gnome-panel-control --run-dialog</execute>
-      </action>
-    </keybind>
 	<!-- <keybind key="A-F2">
 		<action name="execute"><execute>gmrun</execute></action>
 	</keybind> -->
