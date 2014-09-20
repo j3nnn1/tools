@@ -283,8 +283,11 @@
         <execute>gnome-panel-control --run-dialog</execute>
       </action>
     </keybind>
-	<keybind key="A-F2">
+	<!-- <keybind key="A-F2">
 		<action name="execute"><execute>gmrun</execute></action>
+	</keybind> -->
+	<keybind key="A-F2">
+		<action name="execute"><execute>dmenu_run</execute></action>
 	</keybind>
     <keybind key="C-A-d">
       <action name="ToggleShowDesktop"/>
