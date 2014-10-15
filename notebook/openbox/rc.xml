@@ -287,6 +287,12 @@
     <keybind key="C-A-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
+    <keybind key="W-S-space">
+      <action name="execute"><execute> setxkbmap -layout us</execute> </action>
+    </keybind>
+    <keybind key="W-S-e">
+      <action name="execute"><execute> setxkbmap -layout es</execute> </action>
+    </keybind>
     <keybind key="A-F1">
 	<action name="ShowMenu">
 	<menu>root-menu</menu>
