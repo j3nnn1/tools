@@ -77,3 +77,11 @@ endif
 
 set encoding=utf-8
 
+execute pathogen#infect()
+syntax enable
+set background=dark
+colorscheme solarized
+
+"Pathogen package manager for vim
+filetype plugin indent on
+
