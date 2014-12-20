@@ -57,6 +57,12 @@ let perl_include_pod = 1
 " syntax color complex things like @{${"foo"}}
 let perl_extended_vars = 1
 
+" vim-markdown plugin
+let g:vim_markdown_folding_disabled=1 "new line at the end.
+let g:vim_markdown_initial_foldlevel=1
+let g:vim_markdown_frontmatter=1
+let g:vim_markdown_math=1
+
 " Tidy selected lines (or entire file) with _t:
 "http://perltidy.sourceforge.net/
 nnoremap <silent> _t :%!perltidy -q<Enter>
