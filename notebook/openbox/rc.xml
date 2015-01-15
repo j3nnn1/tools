@@ -278,7 +278,7 @@
     </keybind>
     <keybind key="A-F1">
       <action name="execute">
-        <execute>gnome-panel-control --main-menu</execute>
+	      <!-- <execute>gnome-panel-control main-menu</execute> -->
       </action>
     </keybind>
 	<!-- <keybind key="A-F2">
