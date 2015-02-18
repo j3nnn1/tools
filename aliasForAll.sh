@@ -14,6 +14,9 @@ export DIFF_STASH="git stash show -p" #idSTash
 #git config --global alias.stash-unapply '!git stash show -p | git apply -R'
 export APPLY_DIFF="git apply -R"
 
+#add revert change to a file.
+#git checkout origin/master -- path/to/file
+
 
 #do a branch from a stash
 #git stash branch namebranch
