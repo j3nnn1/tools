@@ -11,18 +11,23 @@ syntax on
 " autoindent
 autocmd FileType perl set autoindent|set smartindent
 autocmd FileType python set autoindent|set smartindent
+autocmd FileType php set autoindent|set smartindent
 
 " 4 space tabs
 autocmd FileType perl set tabstop=4|set shiftwidth=4|set expandtab|set softtabstop=4
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab|set softtabstop=4
+autocmd FileType php set tabstop=4|set shiftwidth=4|set expandtab|set softtabstop=4
+
 
 " show matching brackets
 autocmd FileType perl set showmatch
 autocmd FileType python set showmatch
+autocmd FileType php set showmatch
 
 " show line numbers
 autocmd FileType perl set number
 autocmd FileType python set number
+autocmd FileType php set number
 
 " check perl code with :make
 autocmd FileType perl set makeprg=perl\ -c\ %\ $*
@@ -63,6 +68,15 @@ let g:vim_markdown_initial_foldlevel=1
 let g:vim_markdown_frontmatter=1
 let g:vim_markdown_math=1
 
+"code sniffer/messdetector plugin
+"let g:phpqa_codesniffer_args = '--standard=Zend'
+"let g:phpqa_codesniffer_args = '--standard=/path/to/xml/file.xml --tab-width=4'
+"let g:phpqa_codesniffer_cmd='/path/to/phpcs'
+"let g:phpqa_codesniffer_autorun = 0
+"let g:phpqa_messdetector_ruleset = '/path/to/phpmd.xml'
+"let g:phpqa_messdetector_cmd='/path/to/phpmd'
+"let g:phpqa_messdetector_autorun = 0
+
 " Tidy selected lines (or entire file) with _t:
 "http://perltidy.sourceforge.net/
 nnoremap <silent> _t :%!perltidy -q<Enter>
@@ -82,12 +96,31 @@ if &term == "screen"
 endif
 
 set encoding=utf-8
-
-execute pathogen#infect()
 syntax enable
-set background=dark
-colorscheme solarized
 
+
+"Pathogen package manager for vim
+execute pathogen#infect()
+call pathogen#helptags()
+
+"All plugins should be before pathogen#infect
+"solarized
+colorscheme solarized
+set background=dark
+
+"NERDtree
+"autocmd vimenter * NERDTree    //abrir al iniciar VIM
+map <C-t> :NERDTreeToggle<CR>
+
+"supertab // instalado con pacman //pacman -Syu vim-supertab
 "Pathogen package manager for vim
 filetype plugin indent on
 
+"laravel config // mode command
+nmap <leader>lc :e composer.json<cr>
+nmap <leader>lcd :e app/config/database.php<cr>
+nmap <leader>lca :e app/config/app.php<cr>
+nmap <leader>lr :e app/routes.php<cr>
+
+"phpcomplete-extended-laravel depende de phpcomplete-extended y este depende
+"de vimproc y tiene que ser compilado ojo.. y vim-unite
