@@ -1,0 +1,9 @@
+# from .vim/bundle/
+git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/m2mdas/phpcomplete-extended.git
+git clone https://github.com/m2mdas/phpcomplete-extended-laravel.git
+git clone https://github.com/Shougo/vimproc.vim.git
+git clone https://github.com/godlygeek/tabular.git
+git clone https://github.com/Shougo/unite.vim.git
+git clone git://github.com/altercation/vim-colors-solarized.git
+git clone https://github.com/plasticboy/vim-markdown.git
