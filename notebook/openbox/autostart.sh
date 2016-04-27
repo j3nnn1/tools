@@ -2,7 +2,8 @@
 	$GLOBALAUTOSTART
 
 # Programs to launch at startup
-setxkbmap latam&
+#setxkbmap latam&
+setxkbmap us altgr-intl&
 gconftool-2 --set /apps/gnome_settings_daemon/plugins/background/active --type bool False
 
 
