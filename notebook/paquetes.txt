@@ -1,0 +1,3 @@
+pavucontrol tint2 openbox dmenu nitrogen mysql-workbench htop smartctl lshw meld
+
+
