@@ -1,0 +1,14 @@
+
+[alias]
+
+please=push --force-with-lease
+commend=commit --amend --no-edit
+it=!git init && git commit -m “root” --allow-empty
+stsh=stash --keep-index # stash only unstaged changes to tracked files
+staash=stash --include-untracked # stash untracked and tracked files
+staaash=stash --all # stash ignored, untracked, and tracked files 
+shorty=status --short --branch
+mersquash=merge --Squash
+grog=log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"
+
+
