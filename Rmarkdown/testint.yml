@@ -1,0 +1,49 @@
+
+---
+title: " This is my Rmarkdown test "
+author: 
+        - Jennifer Maldonado, CC
+date: "February 05, 2018"
+documentclass: "article"
+header-includes:
+           - \usepackage{amsmath}
+output:
+          bookdown::pdf_document2:
+          #  #bookdown::word_document2
+          #    bookdown::html_document2:
+                  toc: no
+                      pandoc_args: [
+                            "--csl", "clinical-chemistry.csl" , "--citation-abbreviations", "abbreviations.json"
+                                ]
+                                bibliography: bibliography.bib
+                                abstract: |
+                                  **Background:** Put
+                                    
+                                  **Methods:** Your
+                                        
+                                  **Results:** Abstract
+          #                                  
+                                  **Conclusions:** Here
+          #                                      
+                                  keywords: "bla bla bla"
+
+```{r, echo = FALSE}
+library(RJSONIO)
+if(!file.exists("abbreviations.json")){
+        download.file("https://ndownloader.figshare.com/files/5212423","wos_abbrev_table.csv")
+        abbrev <- read.csv("wos_abbrev_table.csv", sep = ";", header = TRUE, stringsAsFactors = FALSE)
+        abbrev$full <- gsub("\\", "\\\\",abbrev$full, fixed = TRUE)
+        abbrev.list <- list('default' = list('container-title' = abbrev$abbrev.dots))
+        names(abbrev.list$default$`container-title`) = abbrev$full
+        write(toJSON(abbrev.list), "abbreviations.json")
+        rm(abbrev)
+        rm(abbrev.list)
+}
+```
+![Grumpy Cat does not care about reproducibility](grumpy.jpg)
+
+
+```{r ancient-aliens, fig.height=3, fig.width=2, fig.cap="This is the ancient aliens guy.", echo = FALSE}
+          knitr::include_graphics('ancient_aliens.jpg')
+```
+---

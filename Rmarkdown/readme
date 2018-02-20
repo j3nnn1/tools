@@ -1,0 +1,7 @@
+% para probar en casa
+ library(rmarkdown)
+install.packages('RJSONIO')
+install.packages('xtable')
+render("testint.yml", pdf_document()) 
+render("Rmd_paper_template.Rmd", pdf_document()) 
+

@@ -1,0 +1,19 @@
+var news = $('a[data-pb-field="headlines.basic"]');
+var result = [];
+
+$(news).each(function(index, link) {
+    var entity = {};
+    entity['link']  = window.location.origin+$(link).attr('href');
+    entity['title'] = $(link).text();
+
+    urlattr = $(link).attr('href').split('/');
+    entity['category'] = urlattr[1]+' > '+urlattr[2];
+
+    var urlImage=$(link).attr('href');
+    entity['image'] = $('a[href="'+urlImage+'"]').children().attr('data-original');
+
+    result.push(entity);
+});
+JSON.stringify(result);
+
+
