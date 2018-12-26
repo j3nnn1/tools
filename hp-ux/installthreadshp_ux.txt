@@ -1,0 +1,64 @@
+1 ) realizar respaldo de las librerías que existen actualmente en QA.
+2 ) tener a la mano, la forma de volver a instalar perl 5.8.
+3 ) Revisar cuales son los script que se ejecutan en calls y probarlos. (hacer listado y obtener librerias)
+4 ) revisar dependencias del .depot perl 5.10.1
+4 ) llevar el .depot 5.10.10 revisar si se puede instalar en QA 
+6 ) verificar todos los scripts de calls compilen y se ejecuten con esa librería.
+
+Dependencias.
+
+Perl 5.10.1
+	db
+		make
+		tcltk
+			expat
+				make
+			fontconfig
+				expat
+				freetype
+				gettext
+				libiconv
+				make
+				zlib
+			freetype
+				make
+				python
+				zlib
+			gettext
+				bison
+				flex
+				libiconv
+				make
+			libXft
+				expat
+				fontconfig
+				freetype
+				gettext
+				libXrender
+				libiconv
+				make 
+				zlib			
+			libXrender
+				make
+				renderproto
+			libiconv
+				gettext
+				make
+			make
+			renderproto
+				make
+			zlib
+				make
+
+	expat
+		make
+	gdbm	
+		make
+
+2 ) llevar el código fuente de perl. y compilarlo.
+	2.1 ) revisar tener la dependencias.
+		2.1.1 )Install db     --> http://hpux.connect.org.uk/hppd/hpux/Development/Tools/db-4.8.24/
+			2.1.1.2 ) Install tcltk --> http://hpux.connect.org.uk/hppd/hpux/Tcl/tcltk-8.5.7/
+		2.1.2 )Install expact --> http://hpux.connect.org.uk/hppd/hpux/Development/Tools/expat-2.0.1/
+		2.1.3 )Install gdbm   --> http://hpux.connect.org.uk/hppd/hpux/Gnu/gdbm-1.8.3/
+		2.1.4 )Install make   --> http://hpux.connect.org.uk/hppd/hpux/Gnu/make-3.81/

@@ -1,0 +1,23 @@
+
+<!--this javascript function will open link in another window-->
+function openExternal(address){
+	var agent = navigator.userAgent.toLowerCase();
+	var ns = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1)));
+
+	if (ns) {
+		var x_offset = 10; // in % screen
+		var y_offset = 3; // in % screen
+		var height = 60; // in % screen
+		var width = 80; // in % screen
+		var x = x_offset/100 * screen.width;
+		var y = y_offset/100 * screen.height;
+		var h = height/100 * screen.height;
+		var w = width/100 * screen.width;
+		var features = "scrollbars, personalbar,status,toolbar,menubar,location,resizable,width="+ w +",height=" + h +",screenX="+x+",screenY="+y;
+
+		open(address,'_content',features);
+	}
+	else
+		open(address,'_content');
+}
+

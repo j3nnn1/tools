@@ -1,0 +1,1987 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-"><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+	  
+	  
+	  
+	  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>IT Resource Center forums - Perl error on HP-UX - again</title>
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<meta name="hp_design_version" content="hpweb.1.2a">
+
+<meta name="GENERATOR" content="WPA HPWEB2003">
+ 
+
+<script type="text/javascript" language="JavaScript"><!--
+ var theme='#336633';
+ //--></script>
+
+<script type="text/javascript" language="JavaScript" src="questionanswer.do_files/hpweb_utilities.js"></script><link rel="stylesheet" type="text/css" href="questionanswer.do_files/hpweb_styles_mac.css"><style type="text/css">
+.themeheader {color:#FFFFFF; font-weight:bold;}
+
+.themeheaderA {color:#FFFFFF; font-weight:bold; font-size: 140%;}
+
+.leveld {font-weight: bold; border-bottom: solid 2px #336633; margin: 0px 0px 0px 0px; padding:1px;}
+.themebody {color:#FFFFFF;}
+
+a.themeheaderlink {font-weight: bold; color:#FFFFFF; text-decoration: none;}
+a.themeheaderlink:active {font-weight: bold; color:#FFFFFF;}
+a.themeheaderlink:link {font-weight: bold; color:#FFFFFF;}
+a.themeheaderlink:visited {font-weight: bold; color:#FFFFFF;}
+a.themeheaderlink:hover {text-decoration: underline;}
+
+a.themelink {color:#FFFFFF; text-decoration: none;}
+a.themelink:active {color:#FFFFFF;}
+a.themelink:link {color:#FFFFFF;}
+a.themelink:visited {color:#FFFFFF;}
+a.themelink:hover {text-decoration: underline;}
+
+a.themebodylink {color:#FFFFFF; text-decoration: underline;}
+a.themebodylink:active {color:#FFFFFF;}
+a.themebodylink:link {color:#FFFFFF;}
+a.themebodylink:visited {color:#FFFFFF;}
+
+.headerAlpha {color:#FFFFFF; background-color: #336633; background-image: url(http://welcome.hp-ww.com/img/header_336633.gif);}
+
+.headerAlpha a, .headerAlpha a:active, .headerAlpha a:link, .headerAlpha a:visited {color:#FFFFFF;}
+.headerDelta, .headerEpsilon, .calloutEnhanced {color:#336633;}
+
+.headerGamma {color:#336633; border-color: #99CC99;}
+
+.primButtonEnhanced {color:#FFFFFF; background-color: #336633; background-image: url(http://welcome.hp-ww.com/img/button_336633.gif);}
+
+a.primButtonEnhanced:active, a.primButtonEnhanced:link, a.primButtonEnhanced:visited {color:#FFFFFF;}
+a.primButtonEnhanced:hover, input.primButtonEnhanced:hover {background-image: url(http://welcome.hp-ww.com/img/button_336633_over.gif);}
+
+input.arrowButtonTheme {color:#FFFFFF; background-image: url(http://welcome.hp-ww.com/img/arrow_336633.gif);}
+
+input.arrowButtonTheme:hover {background-image: url(http://welcome.hp-ww.com/img/arrow_336633_over.gif);}
+
+#stretchLogoWithPageTitle {color:#FFFFFF; background-color: #336633;}
+
+#stretchLogoWithPageTitle #logo {background-image: url(http://welcome.hp-ww.com/country/img/slp_logo_336633.gif);}
+
+#tabbedNavEnhanced {border-color: #336633;}
+
+#tabbedNavEnhanced .tabSelected {color:#FFFFFF; background-color: #336633; background-image: url(http://welcome.hp-ww.com/img/tab_336633.gif);}
+
+.themeRightBorder {border-right: 2px solid #336633;}
+
+.theme {background: #336633}
+</style>
+
+
+<script language="JavaScript">
+<!-- 
+function openSelectCountryPopup (resource)
+{
+  var newWindow;
+  if (resource != null)  {
+  window.name = "selectCountryTargetWindow";
+  newWindow =  window.open ("/service/itrc/selectCountry.do?resource=" + escape (resource), "selectCountryPopup", "width=475,height=200");
+  newWindow.focus ();
+}
+}
+function openCompaqUrl (url)
+{
+  var newWindow;
+ if (url != null)  {
+  newWindow =  window.open (url, "compaqTargetWindow");
+  newWindow.focus ();
+}
+}
+function coreSearch(){if(document.coreSearchForm.hpl[0].checked == true){
+     document.coreSearchForm.action ="http://www.itrc.hp.com/service/james/search.do";
+     document.coreSearchForm.from.value="forums"; 
+     document.coreSearchForm.submit(); }
+if(document.coreSearchForm.hpl[1].checked == true){
+     document.coreSearchForm.action ="http://search.hp.com/query.html"; 
+     document.coreSearchForm.elements[0].name = "qt";
+     document.coreSearchForm.elements[0].value = document.coreSearchForm.searchtext.value;
+     document.coreSearchForm.submit();
+     return;
+}
+}
+function didIt ()  {
+if (alreadyDidIt)  {
+return false;
+}
+else {
+alreadyDidIt = true;
+return true;
+}
+}
+alreadyDidIt = false;
+ // --></script>
+
+
+<meta name="sitewide_search" content="no"><meta name="ITRCforumsname" content="IT Resource Center Forums"><meta name="ITRCfamilyname" content="HP-UX"><meta name="ITRCcategoryname" content="system administration"><meta name="Keywords" content="Perl error on HP-UX - again Radim Jarosek   kernel syslog LVM panic q4 swlist swinstall mk_kernel mirror sam ioscan dmesg lp vxfs hfs ifconfig lanscan jfs inittab rc.config.d rc.log vmunix community communities hewlett packard hp enterprise computing technical support services maintenance training education consulting patch update diagnostic question problem license software hardware "><meta name="Description" content="Perl error on HP-UX - again"><meta name="date" content="2000-10-11"><meta name="contentarea" content="discuss"><meta name="publisher" content="discussion groups"><meta name="locale" content="US_en"><meta name="productclass" content=""><meta name="published" content="Perl error on HP-UX - again"><meta name="robots" content="nofollow"><meta name="username" content="Radim Jarosek"><meta name="solution" content="0"><meta name="reply" content="1"><meta name="replyauthors" content="John Palmer, Radim Jarosek, Christian Hettler"><meta name="page_content" content="products.services.solutions"><meta name="user_type" content="IT_professional.technical_end_user.developer"><meta name="segment" content="smb.partners.large.public_sector"><meta name="lifecycle" content="support.applied_use"></head><body class="colorFFFFFFbg" leftmargin="0" topmargin="0" text="#000000" vlink="#660066" link="#003366" marginheight="0" marginwidth="0" alink="#003366">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--stopindex-->
+
+
+<!-- Begin Top Navigation Area -->
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr class="decoration">
+		<td width="10"><a href="#jumptocontent"><img src="questionanswer.do_files/s.gif" alt="Jump to content" width="10" height="1" border="0"></a><noscript><a href="http://welcome.hp.com/country/us/en/noscript.html">summary of site-wide JavaScript functionality</a></noscript></td>
+		<td class="smallbold" width="260" align="left"></td>
+		<td><img src="questionanswer.do_files/s.gif" alt="" width="10" height="24" border="0"></td>
+		<td class="color003366" width="155" align="left"></td>
+		<td align="right">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript" type="text/javascript"><!--
+function selectLang(thisForm)
+{
+	thisForm.submit();
+}
+
+//-->
+</script>
+
+<noscript>this drop down will allow you to select a language</noscript>
+
+<table summary="spacer table" width="720" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="2" class="color003366" width="357" nowrap="nowrap" align="right"></td>
+<td class="color003366" width="363" align="right">
+
+<table border="0" cols="1">
+
+<tbody><tr>
+
+	<td align="left">&nbsp;English
+	</td>
+
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+		</td>
+
+
+	</tr>
+	</tbody></table>
+
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td valign="top" align="left" bgcolor="#666666">
+				<table width="720" border="0" cellpadding="0" cellspacing="0">
+					<tbody><tr class="decoration">
+						<td><a href="http://welcome.hp.com/country/us/en/welcome.html"><img src="questionanswer.do_files/hpweb_1-2_topnav_home.gif" alt="HP.com Home" width="100" height="24" border="0"></a></td>
+						<td class="colorE7E7E7bg"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="1" border="0"></td>
+						<td><a href="http://welcome.hp.com/country/us/en/prodserv.html"><img src="questionanswer.do_files/hpweb_1-2_topnav_prdsrv.gif" alt="Products and Services" width="166" height="24" border="0"></a></td>
+						<td class="colorE7E7E7bg"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="1" border="0"></td>
+						<td><a href="http://welcome.hp.com/country/us/en/support.html"><img src="questionanswer.do_files/hpweb_1-2_topnav_supprt.gif" alt="Support and Drivers" width="163" height="24" border="0"></a></td>
+						<td class="colorE7E7E7bg"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="1" border="0"></td>
+						<td><a href="http://welcome.hp.com/country/us/en/solutions.html"><img src="questionanswer.do_files/hpweb_1-2_topnav_slutns.gif" alt="Solutions" width="143" height="24" border="0"></a></td>
+						<td class="colorE7E7E7bg"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="1" border="0"></td>
+						<td><a href="http://welcome.hp.com/country/us/en/howtobuy.html"><img src="questionanswer.do_files/hpweb_1-2_topnav_buy.gif" alt="How to Buy" width="143" height="24" border="0"></a></td>
+						<td class="colorE7E7E7bg"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="1" border="0"></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<!-- End Top Navigation Area -->
+
+<!-- Begin Search Area -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td valign="top" align="left" bgcolor="#e7e7e7">
+			<table width="740" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td valign="top" width="20"><img src="questionanswer.do_files/s.gif" alt="" class="decoration" width="20" height="48" border="0"></td>
+					<td class="color003366bld" valign="middle" width="150" align="left">»&nbsp;<a href="http://www.itrc.hp.com/service/help/contactHP.do?Page=contact_hp" class="smallbld">Contact HP</a></td>
+					<td width="570" align="right"><!-- NOTE: ANY CHANGES YOU MAKE FOR THIS FILE MUST WORK FOR BOTH 
+     FORUMS AND MAINTAINER.  THIS FILE WILL BE USED ON BOTH THE 
+     MAIN ITRC PAGES AND ON THE FORUMS PAGES.  THIS IS TRUE OF
+     EVERY FILE IN THE ITRC SERVICE.
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<form method="GET" name="coreSearchForm" onsubmit="coreSearch()">
+<table align="right" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr class="decoration">
+<td colspan="4"><img alt="" src="questionanswer.do_files/s.gif" width="1" height="2" border="0"></td></tr>
+<tr>
+<td class="color333333" valign="center" align="left">&nbsp;
+<strong><label for="textbox1">Search:&nbsp;&nbsp;</label></strong></td>
+<td valign="top"></td>
+<td valign="top" align="left">
+
+<input name="searchtext" size="26" maxlength="1991" id="textbox1" alt="Enter search criteria here" type="text">
+&nbsp;&nbsp; 
+<a id="country" onmouseover="status='Search using the specified criteria';return true;" onmouseout="status='';return true;" onfocus="status='Search using the specified criteria';return true;" onblur="status='';return true;">
+<!--<input type="image" name="submit" src="http://welcome.hp-ww.com/img/hpweb_1-2_arrw_sbmt.gif" border="0" alt="Begin your search" width="14" height="13"></a>-->
+<input name="submit" src="questionanswer.do_files/hpc60_arrow_submit.gif" alt="Begin your search" type="image" width="14" height="13" border="0"></a>
+
+
+<a href="http://forums11.itrc.hp.com/service/james/home.do?from=forums" name="moreOptionsLink" class="udrlinesmall">
+
+
+
+Forums advanced search</a> 
+<!-- $main'SearchMoreOptionLink --></td>
+  
+
+
+
+<td align="left"></td>
+</tr>
+  <tr>
+  <td align="left"></td>
+  <td colspan="3" class="srchopt" align="left">
+  <div style="">
+  
+  <input value="1" name="hpl" class="srchradbtn" id="sectionRadio" checked="checked" type="radio">
+<b>
+<!-- Added by Mohanty for JAGaf39493,lines having value home,cpqmaintainer and hpmaintainer -->
+  
+  
+
+  
+    
+  
+
+  
+    
+      <label for="sectionRadio">IT Resource Center (Forums)</label>
+    
+  
+
+  
+</b> 
+<!-- hide the second button (compaq) if we are in bsdforums
+     This works because notMatch looks to see if bsdforums is a substring.
+     This also forces us to change 
+     src/com/hp/bco/pl/itrc/action/ItrcHpwebLayoutAction.java because
+     src/com/hp/bco/pl/itrc/action/ForumsBSDLayoutAction.java because
+     it was  assuming 0 - itrc/forums 1 - compaq 2 -all of hp.
+     now we have in forums 0 - forums 1 - all of hp.
+-->
+
+  <input value="0" name="hpl" id="countryRadio" class="srchradbtn" type="radio">
+  <label for="countryRadio">All of <abbr title="hewlett-packard">HP</abbr> (US)</label>
+
+
+
+  <input name="todo" value="search" type="hidden">
+  <input name="searchcriteria" value="allwords" type="hidden"> 
+  <input name="from" value="hpmaintainer" type="hidden">
+  <input name="searchcategory" value="ALL" type="hidden">
+  <input name="rn" value="25" type="hidden">
+  <input name="presort" value="rank" type="hidden">
+  <!-- Compaq Search hidden form fileds -->
+  <input name="source" value="7000" type="hidden">
+  <input name="esc" value="support.itrc.hp.com" type="hidden">
+  <input name="wpa" value="forums11.itrc.hp.com:80" type="hidden">
+  <input name="origin" value="0" type="hidden">
+  <input name="chkServStor" value="on" type="hidden">
+  </div>
+  </td>
+  </tr>
+  </tbody></table>
+</form>
+
+
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<!-- End Search Area -->
+
+
+
+<!--startindex-->
+<!-- Begin Page Title Area -->
+
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+
+	<tbody><tr>
+		<td valign="middle" width="170" align="center"><a href="http://welcome.hp.com/country/us/en/welcome.html"><img src="questionanswer.do_files/hpweb_1-2_topnav_hp_logo.gif" alt="HP.com Home" width="64" height="55" border="0"></a><br></td>
+
+		<td width="10"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="93" border="0"></td>
+
+		
+		<td valign="top" width="560" align="left">
+		
+		
+			<a href="http://forums11.itrc.hp.com/service/forums/home.do?forumId=1" class="udrlinesmall">IT Resource Center Forums</a>&nbsp;<span class="color666666">&gt;</span>&nbsp;<a href="http://forums11.itrc.hp.com/service/forums/familyhome.do?familyId=117" class="udrlinesmall">HP-UX</a>&nbsp;<span class="color666666">&gt;</span>&nbsp;<a href="http://forums11.itrc.hp.com/service/forums/categoryhome.do?categoryId=156" class="udrlinesmall">system administration</a><br>
+			<img src="questionanswer.do_files/s.gif" alt="" width="1" height="6" border="0"><h1>Perl error on HP-UX - again</h1>
+		</td>
+		
+			
+		
+
+		
+
+<!--stopindex-->
+	</tr>
+</tbody></table>
+<!-- End Page Title Area -->
+
+
+
+<!-- Begin Left Navigation and Content Area -->
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+
+	
+<!-- Start Left Navigation -->
+		<td valign="top" width="170" align="left" bgcolor="#f0f0f0">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<table width="170" background="questionanswer.do_files/s.gif" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr class="colorDCDCDCbg">
+					<td width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="1" border="0"></td>
+					<td class="color003366bld" valign="top" width="10" align="left">»&nbsp;</td>
+					<td valign="middle" align="left"><h2><a href="http://www.itrc.hp.com/service/home/home.do" class="bold">IT Resource Center</a></h2></td>
+				</tr>
+			</tbody></table>
+
+
+
+
+			<table width="170" background="questionanswer.do_files/s.gif" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td valign="top" width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="1" border="0"></td>
+					<td valign="top" width="150" align="left">
+						<table width="150" background="questionanswer.do_files/s.gif" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr class="decoration">
+								<td width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="10" border="0"></td>
+								<td width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="10" border="0"></td>
+								<td width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="10" border="0"></td>
+								<td width="120" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="120" height="10" border="0"></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://forums11.itrc.hp.com/service/ciss/login.do?TargetPage=http%3A%2F%2Fforums11.itrc.hp.com%2Fservice%2Fforums%2Fquestionanswer.do%3Fadmit%3D109447626%2B1267557273547%2B28353475%26threadId%3D84029">Login</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/ciss/register.do">Register</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/home/myProfile.do">My profile</a></td>
+							</tr>
+							<tr class="decoration">
+								<td colspan="4" width="150" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="150" height="10" border="0"></td>
+							</tr>
+							<tr class="decoration">
+								<td width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="1" border="0"></td>
+								<td class="colorCCCCCCbg" colspan="3" valign="top" width="140" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="140" height="1" border="0"></td>
+							</tr>
+							<tr class="decoration">
+								<td colspan="4" width="150" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="150" height="10" border="0"></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/james/home.do">Search knowledge base</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366bld" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://forums11.itrc.hp.com/service/forums/home.do" class="bold">Forums</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/patch/mainPage.do">Patch database</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://h20000.www2.hp.com/bizsupport/TechSupport/ProductRoot.jsp?lang=en&amp;cc=us&amp;taskId=135">Download drivers, software and firmware</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/ewarranty/warrantyInput.do">Warranty check </a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/mcm/homepageRequest.do">Support Case Manager</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/sum/home.do">Software Update Manager</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://education.itresourcecenter.hp.com/">Training and Education</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/home/moreOptions.do">More maintenance and support options</a></td>
+							</tr>
+							<tr class="decoration">
+								<td colspan="4" width="150" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="150" height="10" border="0"></td>
+							</tr>
+							<tr class="decoration">
+								<td width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="1" border="0"></td>
+								<td class="colorCCCCCCbg" colspan="3" valign="top" width="140" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="140" height="1" border="0"></td>
+							</tr>
+							<tr class="decoration">
+								<td colspan="4" width="150" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="150" height="10" border="0"></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/help/onlineHelpHome.do">Online help</a></td>
+							</tr>
+							<tr>
+								<td width="10" align="left"></td>
+								<td class="color003366" valign="top" width="10" align="left">»</td>
+								<td colspan="2" width="130" align="left"><a href="http://www.itrc.hp.com/service/help/siteMap.do">Site map</a></td>
+							</tr>
+							<tr class="decoration">
+								<td colspan="4" width="150" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="150" height="10" border="0"></td>
+							</tr>
+						</tbody></table>
+					</td>
+					<td valign="top" width="10" align="left"><img src="questionanswer.do_files/s.gif" alt="" width="10" height="1" border="0"></td>
+				</tr>
+				<tr class="decoration">
+					<td colspan="3" class="colorCCCCCCbg"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="2" border="0"></td>
+				</tr>
+			</tbody></table>
+
+
+			<table width="170" background="questionanswer.do_files/s.gif" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr class="decoration">
+					<td><img src="questionanswer.do_files/s.gif" alt="" width="1" height="20" border="0"></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</td>
+				</tr>
+				<tr class="decoration">
+					<td><img src="questionanswer.do_files/s.gif" alt="" width="1" height="20" border="0"></td>
+				</tr>
+				<tr>
+					<td valign="top" align="center">
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!--%@ include file="/wpa/snf2/jsp/wpa-tlds.jsp" %-->
+
+
+<table summary="Icon legend" width="148" border="0" cellpadding="0" cellspacing="0">
+        
+        <tbody><tr>
+          <td valign="top" width="10" bgcolor="#cccccc"><br></td>
+          <th class="subheadNoLinkWhite" id="selectionadvice" width="128" nowrap="nowrap" align="left" bgcolor="#cccccc"><spacer type="block" width="1" height="1"></th>
+          <td valign="top" width="10" bgcolor="#cccccc"></td></tr>
+        <tr>
+          <td bgcolor="#cccccc"><spacer type="block" width="1" height="1"></td>
+          <td header="selectionadvice" width="128" bgcolor="#cccccc">
+            <table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+                <td colspan="2"><strong>Member icons</strong></td>
+		</tr>
+                <tr>
+                <td colspan="2">&nbsp;</td></tr>
+                           
+              <tr>
+                <td align="center">&nbsp;<img src="questionanswer.do_files/hp_small.gif" alt="HP moderator" width="22" height="14"></td>
+                <td colspan="2">&nbsp;HP moderator</td></tr>
+		
+              <tr>
+                <td valign="top" width="22" align="middle">&nbsp;<img src="questionanswer.do_files/expert_small.gif" alt="Expert in this area" width="13" height="12"></td>
+                <td colspan="2">&nbsp;Expert in this area</td></tr>
+              <tr>
+                <td height="10"><spacer type="block" width="1" height="1"></td>
+              </tr><tr>
+                <td colspan="2"><strong>Member status</strong></td></tr>
+                <tr>
+                  <td colspan="2">
+                    <table width="122" border="0" cellpadding="0" cellspacing="0">
+
+
+                     
+
+
+			<tbody><tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=250">
+                        <img src="questionanswer.do_files/cap.gif" alt="ITRC Pro " border="0"></a></td>
+                        <td width="82" align="left"><em>ITRC Pro </em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">250 points</td>
+                      </tr>
+
+			<tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=500">
+                        <img src="questionanswer.do_files/mortarboard.gif" alt="ITRC Graduate " border="0"></a></td>
+                        <td width="82" align="left"><em>ITRC Graduate </em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">500  points</td>
+                      </tr>
+
+			<tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=1000">
+                        <img src="questionanswer.do_files/magichat.gif" alt="ITRC Wizard " border="0"></a></td>
+                        <td width="82" align="left"><em>ITRC Wizard </em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">1000 points</td>
+                      </tr>
+
+			<tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=2500">
+                        <img src="questionanswer.do_files/crown.gif" alt="ITRC Royalty " border="0"></a></td>
+                        <td width="82" align="left"><em>ITRC Royalty </em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">2500 points</td>
+                      </tr>
+
+			<tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=7500">
+                        <img src="questionanswer.do_files/pharoah.gif" alt="ITRC Pharaoh " border="0"></a></td>
+                        <td width="82" align="left"><em>ITRC Pharaoh </em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">7500 points</td>
+                      </tr>
+
+			<tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=20000">
+                        <img src="questionanswer.do_files/laurel.gif" alt="Olympian" border="0"></a></td>
+                        <td width="82" align="left"><em>Olympian</em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">20000 points</td>
+                      </tr>
+			<tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=40000">
+                        <img src="questionanswer.do_files/laurel_1star.gif" alt="1-Star Olympian" border="0"></a></td>
+                        <td width="82" align="left"><em>1-Star Olympian</em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">40000 points</td>
+                      </tr>
+			<tr>
+                        <td colspan="2" width="120" height="5" align="center"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" width="36" align="center">
+                        <a href="http://forums11.itrc.hp.com/service/forums/memberList.do?forumId=1&amp;filterType=points&amp;sortOrder=80000">
+                        <img src="questionanswer.do_files/laurel_2stars.gif" alt="2-Star Olympian " border="0"></a></td>
+                        <td width="82" align="left"><em>2-Star Olympian </em></td>
+                      </tr>
+                      <tr>
+                        <td width="82" align="left">80000 points</td>
+                      </tr>					
+		      
+		</tbody></table></td></tr>
+              <tr>
+                <td height="10"><spacer type="block" width="1" height="1"></td>
+              </tr><tr>
+                <td width="22" nowrap="nowrap" align="right">»&nbsp;</td>
+                <td valign="top" nowrap="nowrap"><a class="navArrowReg" href="http://forums11.itrc.hp.com/service/forums/helptips.do?#28">How to earn points</a></td></tr>
+
+		<tr>
+                <td height="10"><spacer type="block" width="1" height="1"></td>
+                </tr>
+
+		<tr>
+                    <td width="22" nowrap="nowrap" align="right">»&nbsp;</td>
+                   <td valign="top"><a class="navArrowReg" href="http://forums11.itrc.hp.com/service/forums/helptips.do?#overview">Support forums FAQs</a></td>
+	     	</tr>
+              <tr>
+                <td height="10"><spacer type="block" width="1" height="1"></td>
+              </tr><tr>
+                <td colspan="2"><strong>Question status</strong></td></tr>
+              <tr>
+                <td colspan="2">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                    
+                    <tbody><tr>
+                      <td rowspan="2"><img src="questionanswer.do_files/rabbit.gif" alt="Magical answer" width="28" height="32"></td>
+                      <td><span class="SubTextItalic"><em>Magical answer 
+                        </em></span></td></tr>
+                    <tr>
+                      <td>Message with a response that solved the author's question
+                        </td></tr>
+		    <tr>
+                   	<td height="10"><spacer type="block" width="1" height="1"></td>
+	      	     </tr>
+		    <tr>
+                    			<td colspan="2"><strong>Favorites status</strong></td>
+				</tr>
+				
+				<tr>
+                   			<td height="10"><spacer type="block" width="1" height="1"></td>
+	      			</tr>
+
+				<tr>
+					<td bgcolor="#cccccc"><img src="questionanswer.do_files/favorites_add.gif" alt="Add to my favorites" width="21" height="17"></td>
+					<td nowrap="nowrap" bgcolor="#cccccc">Add to my favorites </td>
+				</tr>
+				<tr>
+                        		<td colspan="2" width="120" height="5" align="center"></td>
+                      		</tr>
+
+				<tr>
+                     			<td bgcolor="#cccccc"><img src="questionanswer.do_files/favorites_remove.gif" alt="Delete from my favorites" width="21" height="17"></td>
+			
+                      			<td bgcolor="#cccccc"><span>Delete from my favorites</span></td>
+    				</tr>
+
+					<tr>
+								<td><img src="questionanswer.do_files/hpnewclosed_thread_icon.gif" alt="This thread has been closed"></td>
+
+								<td bgcolor="#cccccc"><span>Thread closed</span></td>
+					</tr>
+
+			 
+			</tbody></table></td></tr>
+		    
+			<tr><td colspan="2">&nbsp;</td></tr>
+                
+		        
+		
+                        
+                
+			</tbody></table></td>
+          <td bgcolor="#cccccc"><spacer type="block" width="1" height="1"></td></tr>
+        <tr>
+          <td bgcolor="#cccccc"></td>
+	<td bgcolor="#cccccc"><spacer type="block" width="1" height="1"></td>
+        
+          <td bgcolor="#cccccc"></td>
+          <!--SELECTION ADVICE TABLE --></tr></tbody></table>
+</td>
+				</tr>
+			</tbody></table>
+
+		</td>
+<!-- End Left Navigation -->
+	
+
+<!-- Begin Gutter Cell 10px Wide -->
+		<td valign="top" width="10"><a name="jumptocontent"><img src="questionanswer.do_files/s.gif" alt="Content starts here" width="10" height="1" border="0"></a></td>
+<!-- End Gutter Cell 10px Wide -->
+
+<!-- Start Content Area -->
+		<td valign="top" width="560" align="left">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+   
+<script src="questionanswer.do_files/forums.html"></script>
+
+
+
+<!--%@taglib uri="http://jakarta.apache.org/taglibs/i18n" prefix="i18n" %-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<!-- Taglib declarations -->
+
+
+<!--this is will be used for the assign points functionality-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--bean:define id="famKeyWords" name="Question" property="famKeyWords"/-->
+
+  
+  <!--bean:define id="catKeyWords" name="Question" property="catKeyWords"/-->
+ 
+
+  <!--ean:define id="homeKeyWords" name="Question" property="homeKeyWords"/-->
+
+
+
+
+
+<!--bean:define id="arrAttachment" name="Question" property="attachment"/-->
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="560" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr class="decoration">
+<td bgcolor="#cccccc"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="1" border="0"></td>
+</tr>
+<tr class="decoration">
+<td><img src="questionanswer.do_files/s.gif" alt="" width="1" height="10" border="0"></td>
+</tr>
+</tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+<!--OOV meta-tags for stratocaster -->
+ 
+
+ 
+
+
+
+
+<!--end OOV meta-tags -->
+
+<!--startindex--><!-- LET SEARCH ENGINES INTERPRET THE FOLLOWING INFORMATION AS REAL CONTENT -->
+<!-- BEGIN CONTENT -->
+<!-- BEGIN BREADCRUMB TABLE --> 
+
+
+<!--  END HTML HEADER TABLE -->
+<!-- BEGIN SPACER TABLE -->
+
+<!-- start rendering form for admin usage added by K Phani Kumar -->
+
+
+	
+
+<!-- end rendering form for admin usage added by K Phani Kumar -->
+	  
+	  
+      
+	  <!--  END SPACER TABLE -->
+
+	  <!-- BEGIN CONTENT TABLE-->
+
+
+
+
+
+<table width="560" border="0" cellpadding="4" cellspacing="1">
+
+<!-- start admin move thread functionality added by Phani Kumar K -->
+
+
+
+
+
+
+<!-- start admin move thread functionality added by Phani Kumar K -->
+
+
+<tbody>
+	<!-- ************************************ -->
+<tr>
+          <td colspan="4" width="560"><!-- Added by San -->
+		  <table width="560" border="0">
+<!-- ************************************ -->
+<tbody><tr>
+			<td width="500" align="right">
+			
+			&nbsp;&nbsp;
+			<a href="http://forums11.itrc.hp.com/service/forums/postQuestion.do?categoryId=156&amp;forumId=1">
+		        <img src="questionanswer.do_files/hpnewstart_new_thread.gif" alt="Create a new message" border="0"></a>
+			&nbsp;&nbsp;
+			  
+		   	  <a href="http://forums11.itrc.hp.com/service/forums/notify.do?threadId=84029">
+			  <img src="questionanswer.do_files/hpnewnotify_me.gif" alt="Receive e-mail notification if a new reply is posted" border="0"></a>&nbsp;
+			
+			
+			  </td>
+			  <td width="60" align="right">
+			  <a href="http://forums11.itrc.hp.com/service/forums/postanswer.do?threadid=84029&amp;forumId=1&amp;closedFlag=0">
+				<img src="questionanswer.do_files/hpnewreply.gif" alt="Reply to this message" border="0"></a>
+			  </td>
+
+
+          </tr>
+		  <!-- ************************************ -->
+        <tr>
+          <!-- Added by San --></tr></tbody>
+</table>
+
+<table width="560" bgcolor="#cccccc" border="0" cellpadding="4" cellspacing="1">
+        <tbody>
+          <tr valign="top">
+            <td colspan="2">			
+		
+			</td>
+          </tr>
+
+
+<tr class="theme">
+		<td class="themeheader" width="18%" align="left">
+			<!--stopindex-->Author<!--startindex-->
+		</td>
+		
+		<td class="themeheader" width="72%" align="left">
+			Subject: 
+			Perl error on HP-UX - again
+		
+
+		  &nbsp;&nbsp;&nbsp;&nbsp;	
+		  
+	            
+		<a href="http://forums11.itrc.hp.com/service/forums/setFavorites.do?forumId=1&amp;threadId=84029&amp;takeAction=addFavorites">
+		        <img src="questionanswer.do_files/favorites_add.gif" alt="Add to my favorites" border="0"></a>
+		  
+
+		  
+
+		     
+		   
+		</td>
+	</tr>
+
+<tr bgcolor="#dedfdf">
+		<td id="tdIdNameQA" valign="TOP" align="LEFT"> 
+		
+		
+				
+			   <a href="http://forums11.itrc.hp.com/service/forums/publicProfile.do?userId=BR139606&amp;forumId=1" class="udrline"> Radim Jarosek</a>
+			
+					
+		                 
+			     <!--this will show the hats gif according to the user points-->
+	
+			<br>
+			</td> <!-- Added by San -->
+			<td valign="TOP" align="LEFT">
+		
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="SubText">
+					Oct 11, 2000 11:15:22 GMT
+				</td>
+
+				<td align="RIGHT">
+				
+				<!-- edit question by phani kumar K-->
+				
+				
+				
+				
+				&nbsp;&nbsp;
+				
+				
+				
+				
+				<!-- end delete question by Phani Kumar K-->
+				
+					
+				</td>
+			</tr>
+			</tbody></table>
+			<hr size="1" noshade="noshade">
+			<span class="Text"><table><tbody><tr>
+			
+				
+				<td id="tdIdName0">				
+			
+			
+			Hi, <br>
+<br>
+I have installed binutils, then gcc and perl. <br>
+All I installed from :<a href="javascript:openExternal('http://hpux.connect.org.uk/hppd/')">http://hpux.connect.org.uk/hppd/</a> <br>
+But I still got again this message: <br>
+# make <br>
+gcc -c -Ae -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O +Onolimit <br>
+-DVERSION="01.20" -DXS_VERSION="01.20" +z -I/opt/perl5/lib/5.6.0/PA-RISC1. <br>
+1/CORE -DATLEASTFIVEOHOHFIVE HiRes.c <br>
+gcc: +Onolimit: No such file or directory <br>
+gcc: +z: No such file or directory <br>
+*Initialization*:1: missing token-sequence in `#assert' <br>
+*** Error exit code 1 <br>
+<br>
+Stop. <br>
+<br>
+I tried to run again without these parameters +Onolimit , +z. <br>
+<br>
+<br>
+Any advice ? <br>
+<br>
+Thanks <br>
+<br>
+Radim		
+			 
+			  
+				
+			</td></tr></tbody></table></span>
+		</td>
+	<!--stopindex-->
+		
+		
+		</tr>
+		
+		
+	
+	<tr>
+	
+	<td colspan="2" class="TextBlueItalic" bgcolor="#ffffff">
+Note: If you are the author of this question and wish to assign points
+to any of the answers, please login first.For more information on
+assigning points ,click <a class="udrline" href="http://forums11.itrc.hp.com/service/forums/helptips.do">here</a>
+				<!--startindex-->
+	</td>
+	
+	</tr>
+
+	<tr>
+	
+	<td colspan="2" align="RIGHT" bgcolor="#ffffff"><br>
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr><td width="50%" align="left">
+		
+		<!-- render select & delete message buttons added by phanikumar -->		
+		
+		
+		
+
+		
+		
+		<!-- stop render select & delete message buttons added by phanikumar -->
+		
+		</td>
+		<td width="50%" align="right"><b><!--stopindex-->
+			<br>Sort Answers By: 
+			
+			
+			<span class="pageIndicator">Date</span> or <a class="udrline" href="http://forums11.itrc.hp.com/service/forums/questionanswer.do?threadId=84029&amp;sortPointsFlag=1">Points</a><br>
+
+			
+			</b>
+		</td></tr>
+		</tbody></table>
+	</td>
+	</tr>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr bgcolor="#e7e7e7">
+		<td valign="TOP" align="LEFT">
+<!-- beging rendering checkbox -->
+
+
+
+
+
+<!-- end rendering checkbox -->
+	
+				
+<!--startindex-->		
+<a href="http://forums11.itrc.hp.com/service/forums/publicProfile.do?userId=BR25874&amp;forumId=1" class="udrline"> 
+   John Palmer</a>
+
+  
+	
+
+		<img src="questionanswer.do_files/pharoah.gif" alt="This member has accumulated 7500 or more points" align="absbottom" border="0">	
+				
+</td><!-- Added by San Need to Check. Required -->
+<td valign="TOP" align="LEFT">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="SubText" valign="bottom">
+				Oct 11, 2000 11:27:29 GMT&nbsp;		
+                         
+		<!--add code here-->
+			
+			
+			 
+			
+					
+											
+					5&nbsp;pts
+						
+				
+					
+						
+						
+						
+				</td>
+				<td align="RIGHT">
+				
+				<!-- ADMIN/MODERATOR EDIT ANSWER -->
+				
+				
+				
+				
+												
+				<!-- END ADMIN/MODERATOR EDIT ANSWER -->
+				
+			<!--this should be a notEqual tag,change it once you have attachements in the database ashish june10,2003-->
+						
+				</td>
+			</tr>
+
+                         	</tbody></table>
+			
+			
+				
+			<hr size="1" noshade="noshade">
+			<span class="Text"><table><tbody><tr>
+			
+				
+				<td id="tdIdName1">				
+			
+			Is it PERL 5.6.0 that you are trying to compile?<br>
+<br>
+If so, why don't you just download and install the precompiled depot that can just be 'swinstalled'?<br>
+<br>
+Otherwise 'Onolimit' is an X11 routine, check your library paths.<br>
+<br>
+Regards,<br>
+John<!--stopindex--></td></tr></tbody></table></span>
+			
+			
+
+
+
+
+
+
+
+
+
+
+</td></tr><tr bgcolor="#ffffff">
+		<td valign="TOP" align="LEFT">
+<!-- beging rendering checkbox -->
+
+
+
+
+
+<!-- end rendering checkbox -->
+	
+				
+<!--startindex-->		
+<a href="http://forums11.itrc.hp.com/service/forums/publicProfile.do?userId=BR139606&amp;forumId=1" class="udrline"> 
+   Radim Jarosek</a>
+
+  
+	
+		
+</td><!-- Added by San Need to Check. Required -->
+<td valign="TOP" align="LEFT">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="SubText" valign="bottom">
+				Oct 11, 2000 11:46:46 GMT&nbsp;		
+                         
+		<!--add code here-->
+			
+									
+						 &nbsp;	
+						 
+						 N/A: Question Author
+						 
+			
+			 
+			
+					
+						
+				
+					
+						
+						
+						
+				</td>
+				<td align="RIGHT">
+				
+				<!-- ADMIN/MODERATOR EDIT ANSWER -->
+				
+				
+				
+				
+												
+				<!-- END ADMIN/MODERATOR EDIT ANSWER -->
+				
+			<!--this should be a notEqual tag,change it once you have attachements in the database ashish june10,2003-->
+						
+				</td>
+			</tr>
+
+                         	</tbody></table>
+			
+			
+				
+			<hr size="1" noshade="noshade">
+			<span class="Text"><table><tbody><tr>
+			
+				
+				<td id="tdIdName2">				
+			
+			Hi,<br>
+<br>
+I have installed PERL 5.6.0.<br>
+I'm trying installed some modules for perl's program. I received the error message which is above.<br>
+<br>
+I would like to know what means "*Initialization*:1: missing token-sequence in `#assert'"<br>
+<br>
+Thanks<br>
+<br>
+Radim<!--stopindex--></td></tr></tbody></table></span>
+			
+			
+
+
+
+
+
+
+
+
+
+
+</td></tr><tr bgcolor="#e7e7e7">
+		<td valign="TOP" align="LEFT">
+<!-- beging rendering checkbox -->
+
+
+
+
+
+<!-- end rendering checkbox -->
+	
+				
+<!--startindex-->		
+<a href="http://forums11.itrc.hp.com/service/forums/publicProfile.do?userId=BR1489&amp;forumId=1" class="udrline"> 
+   Christian Hettler</a>
+
+  
+	
+		
+</td><!-- Added by San Need to Check. Required -->
+<td valign="TOP" align="LEFT">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="SubText" valign="bottom">
+				Oct 13, 2000 07:21:16 GMT&nbsp;		
+                         
+		<!--add code here-->
+			
+			
+			 
+			
+					
+											
+					3&nbsp;pts
+						
+				
+					
+						
+						
+						
+				</td>
+				<td align="RIGHT">
+				
+				<!-- ADMIN/MODERATOR EDIT ANSWER -->
+				
+				
+				
+				
+												
+				<!-- END ADMIN/MODERATOR EDIT ANSWER -->
+				
+			<!--this should be a notEqual tag,change it once you have attachements in the database ashish june10,2003-->
+						
+				</td>
+			</tr>
+
+                         	</tbody></table>
+			
+			
+				
+			<hr size="1" noshade="noshade">
+			<span class="Text"><table><tbody><tr>
+			
+				
+				<td id="tdIdName3">				
+			
+			hi,<br>
+<br>
+perl depot is compiled with HPUX C-compiler.<br>
+You can have a look on the compile options in the file /opt/perl5/lib/5.6.0/PA-RISC1.1/Config.pm.<br>
+If you build new modules these compile options are used.<br>
+If you don't have HPUX C-Compiler installed,<br>
+I think it's better you compile the whole perl with gcc. (I didn't try to change Config.pm.)<br>
+<br>
+Christian<!--stopindex--></td></tr></tbody></table></span>
+			
+			
+			
+		</td>
+	</tr>
+	</tbody></table> <!-- Added by San -->
+
+	<table width="560" border="0">
+	<tbody><tr><td colspan="2">&nbsp;</td></tr> <!-- Added by San -->
+
+   
+   <!-- Following part is completely changed. All the table tr td tags are commented and new ones are added so that the below contents are displayed in the same table  -->
+   
+   <!-- Commented by San
+   <table width="560" cellpadding="0" cellspacing="0">
+	<tr><td colspan="2">&nbsp;</td></tr>
+	<tr><td>
+	-->
+	
+	</tbody></table>
+
+<table width="560" border="0">
+<!-- ************************************ -->
+<tbody><tr>
+		   <!-- QXCR1000818719...Alignment adjusted by Sathya start ++ -->
+          <td width="110">
+				
+			</td>
+		 				
+			<td colspan="3" align="right">
+				  <a href="http://forums11.itrc.hp.com/service/forums/postQuestion.do?categoryId=156&amp;forumId=1">
+				  <img src="questionanswer.do_files/hpnewstart_new_thread.gif" alt="Create a new message" border="0"></a>&nbsp;&nbsp;&nbsp;
+			
+				  
+					 <a href="http://forums11.itrc.hp.com/service/forums/notify.do?threadId=84029">
+					 <img src="questionanswer.do_files/hpnewnotify_me.gif" alt="Receive e-mail notification if a new reply is posted" border="0"></a>&nbsp;&nbsp;
+				  
+				  
+		      
+				 <a href="http://forums11.itrc.hp.com/service/forums/postanswer.do?threadid=84029&amp;forumId=1&amp;closedFlag=0">
+				 <img src="questionanswer.do_files/hpnewreply.gif" alt="Reply to this message" border="0"></a>
+		       </td>
+			   <!-- QXCR1000818719...Alignment adjusted by Sathya end -- -->
+
+
+
+          </tr>
+		  		  
+<!-- ************************************ -->
+	<tr><td colspan=3 align = left> <!-- Added by San -->
+	
+	</td>
+
+	</tr>
+
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>&nbsp;</td></tr>
+
+
+	<!--><td>&nbsp;</td></tr>
+	<tr><td>&nbsp;</td></tr>
+</tbody></table>	
+	--&gt;
+
+   
+
+
+
+</td></tr></tbody></table>
+
+<input name="reopenMessageId" value="0" type="hidden">
+
+
+
+
+
+
+</td></tr></tbody></table> 
+
+<script language="javascript">
+//Added by Santhosh for breaking large texts which blows up Forums Question Answer Page.
+var cellWidth = 440 ;
+var txtLink = "<A href=\"javascript:openExternal(";
+var txtLinkUpper = txtLink.toUpperCase();
+
+var strToken = "`~`~`~`~";
+var strTokenLength = strToken.length + 2 ;
+
+function showHTML(id)
+{
+	alert (document.getElementById(id).innerHTML);
+}
+function formatPage()
+{
+	var tdId = document.getElementById("tdIdNameQA") ;
+	var widthOfAuthor = tdId.offsetWidth ; 
+	if (widthOfAuthor > 120) //Long Author Name
+	{
+		cellWidth = 560 - widthOfAuthor -20 ; 
+	}
+
+	var noOfRows = 3;
+
+	for (var A=0; A <= noOfRows ; A++)
+	{
+		formatTableCell ("tdIdName" + A) ;
+	}
+}
+
+var Tokens ;
+Tokens = new Array();
+var C ;
+var pretextToken = "" ; //Added to handle posts which start with a URL :- JAGaf82656
+function createTokens(txt)
+{
+	Tokens = new Array();
+	var txtReturn = "" ;
+	var flg = true;
+	var I,intNewLine;
+	I = 0;
+	intNewLine = 0;
+	C = 0;
+	pretextToken = "" ; //Initialize to blanK :-JAGaf82656
+	while (flg)
+	{
+		I = txt.toUpperCase().indexOf(txtLinkUpper,I);
+
+		if (I == -1)
+		{
+			txtReturn = txtReturn + txt;
+			break ;
+		}
+		intNewLine = txt.indexOf("')\">",I);
+		intNewLine = intNewLine+4;
+		txtReturn = txtReturn + txt.substring(0,I) + "<!--COM" + C + "-->";
+		Tokens[C] = txt.substring(I, intNewLine)	;
+		if (I ==0) // ie. The post start with a URL :- JAGaf82656
+		{
+			pretextToken = "<!--COM" + C + "-->";
+		}		
+
+		txt = txt.substring(intNewLine);
+		I = intNewLine;
+		intNewLine = txt.toUpperCase().indexOf("</A>");
+		txt= txt.substring(0,intNewLine) + "<!--COMA" + C + "-->" + txt.substring(intNewLine+4);
+		C = C+1;
+	}
+
+	//test.innerHTML = txtReturn;
+	return txtReturn ;
+
+}
+
+function restoreLink(cellId)
+{	
+	var tdId = document.getElementById(cellId);
+	var txt ;
+	txt = pretextToken + tdId.innerHTML; //Add the pretextToken :- JAGaf82656
+	var Z=0;
+	var txtHolder = "";
+	for (A=0 ; A < C ;A++)
+	{
+		txtHolder = "<!--COM" + A + "-->" ;
+
+		Z= txt.indexOf(txtHolder);
+
+		txt = txt.substring(0,Z) + Tokens[A] + txt.substring(Z+txtHolder.length);
+		
+		txtHolder = "<!--COMA" + A + "-->" ;
+
+		Z= txt.indexOf(txtHolder);
+
+		txt = txt.substring(0,Z) + "</A>" + txt.substring(Z+txtHolder.length);
+		
+	}
+
+	tdId.innerHTML = txt;
+}
+function formatTableCell(cellId)
+{
+
+	var tdId = document.getElementById(cellId);
+
+	if (tdId.offsetWidth <= cellWidth )
+	{
+		return ;
+	}
+	
+	var data = tdId.innerHTML ; 
+	data = createTokens(data);
+	tdId.innerHTML = data;
+
+	var test = new Array() ;
+	
+	//Put some delimitter before the <
+	var Z=0;
+	while (true)
+	{
+		Z = data.indexOf("<",Z);
+		data = data.substring(0,Z) + strToken + data.substring(Z);
+		
+		//alert (Z);
+		
+		if (Z==-1)
+		{
+			//alert ("Final ------\n" + data);
+			break ;
+		}
+
+		Z= Z+strTokenLength;
+	}
+
+	while (true)
+	{
+		Z = data.indexOf(">",Z);
+		data = data.substring(0,Z+1) + strToken + data.substring(Z+1);
+		
+		//alert (Z);
+		
+		if (Z==-1)
+		{
+			//alert ("Final ------\n" + data);
+			break ;
+		}
+
+		Z= Z+strTokenLength;
+	}
+
+	test = data.split(strToken);
+	var tmpArray ;
+	var tmp = "";
+	var tmpSub = "";
+	var tmp1;
+	var tmp2;
+	var lng,lng1 ;
+	var z = "";
+
+	for (var D = 0; D < test.length ; D ++)
+	{
+		
+		tmp = test[D];
+		
+		var startTag = tmp.substring(0,2); 
+		// execute the following text split only if this is not a anchor tag. 
+		if (startTag !=  "<a" && startTag != "<A") {
+		
+			//Added the following "for loop" to handle the words getting chopped. :-JAGaf82656
+			tmpArray = tmp.split(" ");
+			
+			for (var S=0; S < tmpArray.length; S++)
+			{
+				tmpSub = tmpArray[S];
+				if (tmpSub.length > 40) //The post column of the table can accommodate roughly 40 charetcers in one line.
+				{			
+					tdId.innerHTML = tmpSub ;
+					tmpSub = formatText(cellId,tmpSub);
+					tmpArray[S] = tmpSub ;	
+				}
+			}
+			tmpSub = "";
+			for (S=0; S < tmpArray.length; S++)
+			{
+				tmpSub = tmpSub + tmpArray[S] + " ";
+			}
+	
+			test[D] = tmpSub;
+		}//added this condition as <BR> tags were getting added in between URL's, submitted as question or answer text		
+	}
+
+	for (D = 0; D < test.length ; D ++)
+	{
+		z = z + test[D] + " " ;
+
+	}
+
+	tdId.innerHTML = z ;
+
+	restoreLink(cellId);
+}
+
+function formatText(cellId,data)
+{	
+	var returnTxt = "";
+	var tdId = document.getElementById(cellId);
+	var midVal =0;
+	var first,second ;
+	first = 0;
+	second = data.length;
+
+	while (true)
+	{	
+		midVal = Math.ceil((first + second) /2) ;
+		tdId.innerHTML = data.substring(0,midVal) ;		
+		if (tdId.offsetWidth > cellWidth + 25 ) //Added a tolerance of 25 pixels :- JAGaf82656
+		{
+			second = midVal ;
+		}
+		else
+		{
+			first = midVal ;
+		}
+
+		if ((second-first) < 2)
+		{
+			returnTxt = returnTxt + data.substring(0,midVal) ;
+			
+			data =  data.substring((midVal));
+			
+			if (data.length>5) 
+			{
+				returnTxt = returnTxt + "<BR>" ;
+			}
+			
+			tdId.innerHTML = data ;
+			
+			if (tdId.offsetWidth < (cellWidth +2) )
+			{
+				break ;
+			}
+			
+			first = 0;
+			second = data.length ;
+		}
+	}
+	return returnTxt + data ;
+}
+
+function doFormating()
+{
+	var tdId = document.getElementById("tdIdNameQA");
+	if (tdId.offsetWidth > 0)
+	{
+		formatPage() ;
+	}
+	else
+	{
+		//alert ("&");
+		window.setTimeout("doFormating()",100);
+	}
+}
+
+doFormating() ;
+</script> 
+		
+<!-- End Content Area -->
+	
+
+<!-- End Left Navigation and Content Area -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Begin Printable Version -->
+<table width="740" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td valign="bottom" width="170" align="center" bgcolor="#f0f0f0"><img src="questionanswer.do_files/hpweb_1-2_prnt_icn.gif" alt="" width="19" height="13" border="0"><a href="http://forums11.itrc.hp.com/service/forums/questionanswer.do?threadId=84029&amp;hpweb_printable=true" class="udrlinebold">Printable version</a></td>
+		<td width="10"></td>
+		<td width="560"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="60" border="0"></td>
+	</tr>
+	<tr>
+		<td valign="bottom" width="170" align="center" bgcolor="#f0f0f0"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="1" border="0"></td>
+		<td width="10"></td>
+		<td width="560"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="20" border="0"></td>
+	</tr>
+</tbody></table>
+
+<!-- End Printable Version -->
+
+<!-- Begin Footer Area -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr class="decoration">
+		<td class="color666666bg"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="4" border="0"></td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">
+			<table width="740" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr class="decoration">
+					<td colspan="4"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="4" border="0"></td>
+				</tr>
+				<tr>
+					<td width="33%" align="center"><a href="http://welcome.hp.com/country/us/en/privacy.html" class="udrlinesmall">Privacy statement</a></td>
+					<td width="33%" align="center"><a href="http://www.itrc.hp.com/service/help/lpTermAndCond.do" class="udrlinesmall">Using this site means you accept its terms</a></td>
+					<td width="33%"></td>
+				</tr>
+				<tr class="decoration">
+					<td colspan="4"><img src="questionanswer.do_files/s.gif" alt="" width="1" height="4" border="0"></td>
+				</tr>
+				<tr>
+					<td colspan="4" class="small" align="center">© 2010 Hewlett-Packard Development Company, L.P.</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+
+<!-- End Footer Area -->
+
+
+
+<!-- Begin METRICS Javascript -->
+<script type="text/javascript" language="JavaScript" src="questionanswer.do_files/sc_wforums.js"></script><script language="JavaScript" src="questionanswer.do_files/s_code_remote.js"></script>
+<!-- End METRICS Javascript -->
+
+
+</body></html>
