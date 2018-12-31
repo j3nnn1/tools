@@ -105,7 +105,8 @@ call pathogen#helptags()
 
 "All plugins should be before pathogen#infect
 "solarized
-colorscheme solarized
+"colorscheme solarized
+colorscheme solarized8
 set background=dark
 
 "NERDtree

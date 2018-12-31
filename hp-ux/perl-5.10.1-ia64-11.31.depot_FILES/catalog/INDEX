@@ -1,0 +1,51 @@
+distribution
+layout_version 1.0
+data_model_revision 2.40
+uuid dd61c51c-9be5-11de-af00-0017087c49dc
+mod_time 1252352243
+create_time 1252352243
+path_max 255
+name_max 100
+media 
+sequence_number 1
+product
+tag perl
+data_model_revision 2.40
+instance_id 1
+control_directory perl
+revision 5.10.1
+title "perl"
+mod_time 1252352243
+create_time 1252352243
+architecture HP-UX_B.11.31_64
+machine_type *
+os_name HP-UX
+os_release ?.11.??
+os_version *
+directory /usr/local
+all_filesets perl-MAN perl-RUN 
+is_locatable false
+subproduct
+tag Manuals
+contents perl-MAN 
+subproduct
+tag Runtime
+contents perl-RUN 
+fileset
+tag perl-MAN
+data_model_revision 2.40
+instance_id 1
+control_directory perl-MAN
+size 15652123
+mod_time 1252352243
+create_time 1252352243
+state available
+fileset
+tag perl-RUN
+data_model_revision 2.40
+instance_id 1
+control_directory perl-RUN
+size 48793318
+mod_time 1252352243
+create_time 1252352243
+state available

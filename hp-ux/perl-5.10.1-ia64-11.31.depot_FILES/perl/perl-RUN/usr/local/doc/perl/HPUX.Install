@@ -1,0 +1,130 @@
+Package name:     perl
+Version number:   5.10.1
+Original author:  Larry Wall <larry@wall.org>
+Original URL:     http://www.perl.org/
+HP-UX URL:        http://hpux.connect.org.uk/hppd/cgi-bin/search?package=&term=/perl-
+License:          Artistic License
+Languages:        C Perl 
+Build-time deps:  db expat gdbm make
+Run-time deps:    db expat gdbm
+Install tree:     /usr/local
+Report bugs to:   hpux@connect.org.uk
+Tested on:        HP rp3410 running HP-UX 11.11 and 11.23,
+                  HP rx2600 running HP-UX 11.23,
+                  HP rp3440 running HP-UX 11.31 and
+                  HP rx2620 running HP-UX 11.31
+Compilers used:   PA-RISC - B.11.11.20 (HP C)
+                  Itanium - A.06.23 (HP C)
+LDOPTS setting:   export LDOPTS="+s -L/usr/local/lib -L/usr/lib"
+Purpose:
+Practical Extraction and Report Language. It is a language that combines some
+of the features of C, sed, awk and shell. It is an interpreted language
+optimised for scanning arbitrary text files, extracting information from those
+text files, and printing reports based on that information. It's also a good
+language for many system management tasks. The language is intended to be
+practical (easy to use, efficient, complete) rather than beautiful (tiny,
+elegant, minimal).
+Date archived:    Sat  5 Sep 2009
+
+-------------------------------------------------------------------------------
+
+NOTE: You should install the db, expat and gdbm packages before building or
+      installing perl.
+
+PA-RISC HP-UX 11.11 USERS ONLY:
+/usr/include/prot.h has a faulty definition of getspnam() in the standard
+install of HP-UX 11.11. This was fixed by PHCO_23702 (at the time of writing),
+but if that patch isn't on your 11.11 system, you will need to download and
+install it from the HP SupportLine otherwise pp_sys.c will not compile.
+
+Files changed:
+
+* Several */*/*.t files:
+  - Adjusted to allow HP-UX to either pass or skip "gmake check" as
+    appropriate (e.g. use "gmake" for building instead of "make").
+
+  May need fixing:
+  ext/IO-Compress/t/010examples-zlib.t
+
+* Configure:
+  - Compile with -O.
+  - Prefer /usr/local/man ahead of /usr/local/share/man for installation
+    of man pages.
+
+* Makefile.SH:
+  - Skip extras.make rule (not needed).
+  - Force install with -f to installperl script.
+  - Make sure miniperl exists before trying to run "gmake clean".
+  - Tidy up the deletions in the _mopup: rule.
+  - "gmake clean" now completely deletes the lib/auto tree and also the
+    t/perl soft-link.
+
+* configure (created from scratch):
+  - Set up environmental variables for Itanium/PA-RISC.
+  - Additionally clean out any unwanted files.
+  - Add cl and pthread libraries to link list so that Perl modules that
+    talk to Oracle won't fall over.
+  - Run Configure with appropriate params.
+
+* ext/DB_File/Makefile.PL:
+  - Hard-code "-L/usr/local/lib -L/usr/local/lib/hpux32" as library linking
+    flags, so that the Itanium db library is picked up.
+
+* ext/Encode/Makefile.PL, ext/IPC-SysV/Makefile.PL, ext/SDBM_File/Makefile.PL
+  and ext/XML-Parser/Makefile.PL:
+  - Set $MAKE to be "gmake".
+
+* ext/MIME-Base64/Base64.xs:
+  - Define dowarn to be TRUE to allow Itanium version to compile OK.
+  
+* ext/POSIX/Makefile.PL:
+  - -lposix and -lcposix don't exist in HP-UX, so they were removed.
+
+* ext/XML-Parser directory (created from scratch):
+  - XML-Parser-2.36.tar.gz was unpacked and then the directory renamed
+    to this (see Notes).
+
+* ext/XML-Parser/Expat/Expat.xs:
+  - It looks like this file has "bit-rotted" somewhat and some definitions
+    either had to be skipped or undef'ed before being defined.
+
+* ext/XML-Parser/Expat/Makefile.PL:
+  - Generate man pages during "gmake install" and not during "gmake".
+    Achieved by setting MAN3PODS to nothing when writing the Makefile.
+
+* ext/XML-Parser/Makefile.PL:
+  - Set expat library path to /usr/local/lib/hpux32 (note that /usr/local/lib
+    is already searched), so that the Itanium platform would pick it up.
+
+* hints/hpux.sh:
+  - Remove -D_FILE_OFFSET_BITS=64 from compiler flags (not needed).
+
+To compile:
+
+[Install db, expat and gdbm first!]
+./configure
+gmake
+
+To test:
+
+gmake test
+[This should pass all the tests]
+
+To install (as root):
+
+gmake install
+
+Notes:
+
+* Only one additional Perl module was added to this release, namely
+  XML-Parser-2.36 obtained from:
+
+  http://search.cpan.org/~msergeant/XML-Parser-2.36/
+
+  The only reason this module was included is that several other programs,
+  notably GNOME ones, now automatically assume that XML::Parser is available
+  as a Perl module, when in fact it isn't in the standard Perl release at all!
+
+  Please note that no additional requests for Perl modules will be accepted
+  at this time - you will have to build them yourself from source if you
+  need them.

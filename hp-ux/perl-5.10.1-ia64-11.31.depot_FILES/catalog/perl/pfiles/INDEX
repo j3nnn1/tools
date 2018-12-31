@@ -1,0 +1,23 @@
+product
+tag perl
+data_model_revision 2.40
+instance_id 1
+control_directory perl
+revision 5.10.1
+title "perl"
+mod_time 1252352243
+create_time 1252352243
+architecture HP-UX_B.11.31_64
+machine_type *
+os_name HP-UX
+os_release ?.11.??
+os_version *
+directory /usr/local
+all_filesets perl-MAN perl-RUN 
+is_locatable false
+subproduct
+tag Manuals
+contents perl-MAN 
+subproduct
+tag Runtime
+contents perl-RUN 

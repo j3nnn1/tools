@@ -1,0 +1,6738 @@
+control_file
+path INDEX
+size 160
+mode 0444
+mtime 1252352243
+tag INDEX
+control_file
+path INFO
+size 90091
+mode 0444
+mtime 1252352243
+tag INFO
+file
+path /usr/local/man/man1/a2p.1
+type f
+size 10541
+cksum 666702242
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man1/c2ph.1
+type f
+size 13894
+cksum 2563617944
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/config_data.1
+type f
+size 8113
+cksum 2161667340
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/corelist.1
+type f
+size 7534
+cksum 755075701
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/cpan.1
+type f
+size 8046
+cksum 124460427
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/cpan2dist.1
+type f
+size 13651
+cksum 3354464429
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man1/cpanp.1
+type f
+size 6592
+cksum 763615480
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man1/dprofpp.1
+type f
+size 12019
+cksum 2408983396
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/enc2xs.1
+type f
+size 12693
+cksum 2597658195
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/find2perl.1
+type f
+size 11873
+cksum 2248529023
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man1/h2ph.1
+type f
+size 7313
+cksum 3249008861
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/h2xs.1
+type f
+size 20598
+cksum 4182324634
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/instmodsh.1
+type f
+size 4165
+cksum 2044148379
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/libnetcfg.1
+type f
+size 5650
+cksum 3770049527
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/perl.1
+type f
+size 22336
+cksum 172054950
+mode 0644
+uid 0
+gid 3
+mtime 1252352055
+file
+path /usr/local/man/man1/perl5004delta.1
+type f
+size 74524
+cksum 370211061
+mode 0644
+uid 0
+gid 3
+mtime 1252352055
+file
+path /usr/local/man/man1/perl5005delta.1
+type f
+size 47674
+cksum 1437314494
+mode 0644
+uid 0
+gid 3
+mtime 1252352055
+file
+path /usr/local/man/man1/perl5100delta.1
+type f
+size 73706
+cksum 751805001
+mode 0644
+uid 0
+gid 3
+mtime 1252352056
+file
+path /usr/local/man/man1/perl5101delta.1
+type f
+size 65075
+cksum 1816849322
+mode 0644
+uid 0
+gid 3
+mtime 1252352056
+file
+path /usr/local/man/man1/perl561delta.1
+type f
+size 160132
+cksum 1656235602
+mode 0644
+uid 0
+gid 3
+mtime 1252352057
+file
+path /usr/local/man/man1/perl56delta.1
+type f
+size 139314
+cksum 4047101112
+mode 0644
+uid 0
+gid 3
+mtime 1252352057
+file
+path /usr/local/man/man1/perl570delta.1
+type f
+size 28799
+cksum 2642536177
+mode 0644
+uid 0
+gid 3
+mtime 1252352057
+file
+path /usr/local/man/man1/perl571delta.1
+type f
+size 38946
+cksum 2342787866
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl572delta.1
+type f
+size 33044
+cksum 3899957858
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl573delta.1
+type f
+size 9519
+cksum 1510992482
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl581delta.1
+type f
+size 49961
+cksum 2488321492
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl582delta.1
+type f
+size 9071
+cksum 2829802162
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl583delta.1
+type f
+size 11611
+cksum 123063646
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl584delta.1
+type f
+size 13176
+cksum 1830555073
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl585delta.1
+type f
+size 10393
+cksum 950867491
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl586delta.1
+type f
+size 9214
+cksum 3264993284
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl587delta.1
+type f
+size 13986
+cksum 3120677962
+mode 0644
+uid 0
+gid 3
+mtime 1252352058
+file
+path /usr/local/man/man1/perl588delta.1
+type f
+size 35337
+cksum 1395319930
+mode 0644
+uid 0
+gid 3
+mtime 1252352059
+file
+path /usr/local/man/man1/perl589delta.1
+type f
+size 72089
+cksum 3739230001
+mode 0644
+uid 0
+gid 3
+mtime 1252352059
+file
+path /usr/local/man/man1/perl58delta.1
+type f
+size 134944
+cksum 1404622869
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perl590delta.1
+type f
+size 46360
+cksum 2266406564
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perl591delta.1
+type f
+size 17799
+cksum 3670366762
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perl592delta.1
+type f
+size 17099
+cksum 3252211571
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perl593delta.1
+type f
+size 26331
+cksum 3784162340
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perl594delta.1
+type f
+size 19280
+cksum 3326235479
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perl595delta.1
+type f
+size 28265
+cksum 3364724261
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perlaix.1
+type f
+size 24866
+cksum 2155888561
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perlamiga.1
+type f
+size 11794
+cksum 2422319533
+mode 0644
+uid 0
+gid 3
+mtime 1252352060
+file
+path /usr/local/man/man1/perlapi.1
+type f
+size 206769
+cksum 1925923155
+mode 0644
+uid 0
+gid 3
+mtime 1252352061
+file
+path /usr/local/man/man1/perlapio.1
+type f
+size 26914
+cksum 1252447148
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlapollo.1
+type f
+size 4498
+cksum 3652671746
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlartistic.1
+type f
+size 11521
+cksum 3278181106
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlbeos.1
+type f
+size 7190
+cksum 1652308656
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlbook.1
+type f
+size 4479
+cksum 1557258938
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlboot.1
+type f
+size 37848
+cksum 3902014777
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlbot.1
+type f
+size 20282
+cksum 3866249805
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlbs2000.1
+type f
+size 13212
+cksum 4186883061
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlbug.1
+type f
+size 16805
+cksum 1964776963
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/perlcall.1
+type f
+size 66483
+cksum 1917852372
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlce.1
+type f
+size 14635
+cksum 2040981723
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlcheat.1
+type f
+size 8270
+cksum 2534748137
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlclib.1
+type f
+size 13000
+cksum 488016159
+mode 0644
+uid 0
+gid 3
+mtime 1252352062
+file
+path /usr/local/man/man1/perlcn.1
+type f
+size 8138
+cksum 3557334350
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perlcommunity.1
+type f
+size 10707
+cksum 2629673996
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perlcompile.1
+type f
+size 14444
+cksum 4127622121
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perlcygwin.1
+type f
+size 36762
+cksum 1704732610
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perldata.1
+type f
+size 45148
+cksum 3302234072
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perldbmfilter.1
+type f
+size 9643
+cksum 3415792519
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perldebguts.1
+type f
+size 42410
+cksum 1045426600
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perldebtut.1
+type f
+size 29977
+cksum 3061249517
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perldebug.1
+type f
+size 49724
+cksum 4258274926
+mode 0644
+uid 0
+gid 3
+mtime 1252352063
+file
+path /usr/local/man/man1/perldelta.1
+type f
+size 65067
+cksum 2828393149
+mode 0644
+uid 0
+gid 3
+mtime 1252352064
+file
+path /usr/local/man/man1/perldgux.1
+type f
+size 6769
+cksum 2617138745
+mode 0644
+uid 0
+gid 3
+mtime 1252352064
+file
+path /usr/local/man/man1/perldiag.1
+type f
+size 257283
+cksum 957542687
+mode 0644
+uid 0
+gid 3
+mtime 1252352065
+file
+path /usr/local/man/man1/perldoc.1
+type f
+size 12918
+cksum 2562643128
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/perldos.1
+type f
+size 15958
+cksum 1136258965
+mode 0644
+uid 0
+gid 3
+mtime 1252352065
+file
+path /usr/local/man/man1/perldsc.1
+type f
+size 33812
+cksum 3157693550
+mode 0644
+uid 0
+gid 3
+mtime 1252352066
+file
+path /usr/local/man/man1/perlebcdic.1
+type f
+size 79471
+cksum 1481346731
+mode 0644
+uid 0
+gid 3
+mtime 1252352066
+file
+path /usr/local/man/man1/perlembed.1
+type f
+size 47215
+cksum 3740705968
+mode 0644
+uid 0
+gid 3
+mtime 1252352066
+file
+path /usr/local/man/man1/perlepoc.1
+type f
+size 7988
+cksum 4257420874
+mode 0644
+uid 0
+gid 3
+mtime 1252352066
+file
+path /usr/local/man/man1/perlfaq.1
+type f
+size 31404
+cksum 3025728786
+mode 0644
+uid 0
+gid 3
+mtime 1252352067
+file
+path /usr/local/man/man1/perlfaq1.1
+type f
+size 23056
+cksum 2062200892
+mode 0644
+uid 0
+gid 3
+mtime 1252352067
+file
+path /usr/local/man/man1/perlfaq2.1
+type f
+size 28834
+cksum 1332085046
+mode 0644
+uid 0
+gid 3
+mtime 1252352067
+file
+path /usr/local/man/man1/perlfaq3.1
+type f
+size 48360
+cksum 1453585822
+mode 0644
+uid 0
+gid 3
+mtime 1252352067
+file
+path /usr/local/man/man1/perlfaq4.1
+type f
+size 110326
+cksum 2676573514
+mode 0644
+uid 0
+gid 3
+mtime 1252352068
+file
+path /usr/local/man/man1/perlfaq5.1
+type f
+size 66623
+cksum 2619134018
+mode 0644
+uid 0
+gid 3
+mtime 1252352068
+file
+path /usr/local/man/man1/perlfaq6.1
+type f
+size 53576
+cksum 4084962569
+mode 0644
+uid 0
+gid 3
+mtime 1252352069
+file
+path /usr/local/man/man1/perlfaq7.1
+type f
+size 50587
+cksum 3545381661
+mode 0644
+uid 0
+gid 3
+mtime 1252352069
+file
+path /usr/local/man/man1/perlfaq8.1
+type f
+size 61907
+cksum 2325407764
+mode 0644
+uid 0
+gid 3
+mtime 1252352069
+file
+path /usr/local/man/man1/perlfaq9.1
+type f
+size 34459
+cksum 3594561527
+mode 0644
+uid 0
+gid 3
+mtime 1252352070
+file
+path /usr/local/man/man1/perlfilter.1
+type f
+size 27351
+cksum 1270331927
+mode 0644
+uid 0
+gid 3
+mtime 1252352070
+file
+path /usr/local/man/man1/perlfork.1
+type f
+size 17271
+cksum 569546726
+mode 0644
+uid 0
+gid 3
+mtime 1252352070
+file
+path /usr/local/man/man1/perlform.1
+type f
+size 22939
+cksum 2022473577
+mode 0644
+uid 0
+gid 3
+mtime 1252352071
+file
+path /usr/local/man/man1/perlfreebsd.1
+type f
+size 5911
+cksum 214504238
+mode 0644
+uid 0
+gid 3
+mtime 1252352071
+file
+path /usr/local/man/man1/perlfunc.1
+type f
+size 360434
+cksum 3868912944
+mode 0644
+uid 0
+gid 3
+mtime 1252352072
+file
+path /usr/local/man/man1/perlglossary.1
+type f
+size 131617
+cksum 1297239179
+mode 0644
+uid 0
+gid 3
+mtime 1252352073
+file
+path /usr/local/man/man1/perlgpl.1
+type f
+size 23342
+cksum 1808207796
+mode 0644
+uid 0
+gid 3
+mtime 1252352073
+file
+path /usr/local/man/man1/perlguts.1
+type f
+size 129754
+cksum 2532228721
+mode 0644
+uid 0
+gid 3
+mtime 1252352074
+file
+path /usr/local/man/man1/perlhack.1
+type f
+size 142671
+cksum 1076779573
+mode 0644
+uid 0
+gid 3
+mtime 1252352074
+file
+path /usr/local/man/man1/perlhaiku.1
+type f
+size 5348
+cksum 3217795217
+mode 0644
+uid 0
+gid 3
+mtime 1252352074
+file
+path /usr/local/man/man1/perlhist.1
+type f
+size 45666
+cksum 632748926
+mode 0644
+uid 0
+gid 3
+mtime 1252352074
+file
+path /usr/local/man/man1/perlhpux.1
+type f
+size 35628
+cksum 2949628189
+mode 0644
+uid 0
+gid 3
+mtime 1252352074
+file
+path /usr/local/man/man1/perlhurd.1
+type f
+size 5898
+cksum 2831732098
+mode 0644
+uid 0
+gid 3
+mtime 1252352074
+file
+path /usr/local/man/man1/perlintern.1
+type f
+size 34202
+cksum 2968477530
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perlintro.1
+type f
+size 28479
+cksum 1693264579
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perliol.1
+type f
+size 45452
+cksum 1625622102
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perlipc.1
+type f
+size 81747
+cksum 3688593641
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perlirix.1
+type f
+size 8839
+cksum 394609149
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perlivp.1
+type f
+size 7433
+cksum 1724265042
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/perljp.1
+type f
+size 10645
+cksum 2245029901
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perlko.1
+type f
+size 11284
+cksum 4293795173
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perllexwarn.1
+type f
+size 20693
+cksum 664885126
+mode 0644
+uid 0
+gid 3
+mtime 1252352075
+file
+path /usr/local/man/man1/perllinux.1
+type f
+size 5344
+cksum 2072266369
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perllocale.1
+type f
+size 52761
+cksum 2020687069
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perllol.1
+type f
+size 13589
+cksum 1843673534
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perlmachten.1
+type f
+size 8683
+cksum 766110803
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perlmacos.1
+type f
+size 5971
+cksum 924251880
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perlmacosx.1
+type f
+size 16241
+cksum 2092913343
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perlmint.1
+type f
+size 14166
+cksum 4281585390
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perlmod.1
+type f
+size 31823
+cksum 1963788451
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perlmodinstall.1
+type f
+size 19819
+cksum 2611236059
+mode 0644
+uid 0
+gid 3
+mtime 1252352076
+file
+path /usr/local/man/man1/perlmodlib.1
+type f
+size 101969
+cksum 1215302270
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlmodstyle.1
+type f
+size 27754
+cksum 1927119661
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlmpeix.1
+type f
+size 20617
+cksum 2304644569
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlmroapi.1
+type f
+size 7313
+cksum 1181108252
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlnetware.1
+type f
+size 10784
+cksum 2022117805
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlnewmod.1
+type f
+size 16519
+cksum 2540496138
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlnumber.1
+type f
+size 13574
+cksum 1942221277
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlobj.1
+type f
+size 28390
+cksum 3141030229
+mode 0644
+uid 0
+gid 3
+mtime 1252352077
+file
+path /usr/local/man/man1/perlop.1
+type f
+size 118788
+cksum 3333196616
+mode 0644
+uid 0
+gid 3
+mtime 1252352078
+file
+path /usr/local/man/man1/perlopenbsd.1
+type f
+size 5006
+cksum 168765215
+mode 0644
+uid 0
+gid 3
+mtime 1252352078
+file
+path /usr/local/man/man1/perlopentut.1
+type f
+size 47133
+cksum 1984473303
+mode 0644
+uid 0
+gid 3
+mtime 1252352078
+file
+path /usr/local/man/man1/perlos2.1
+type f
+size 114938
+cksum 3493575807
+mode 0644
+uid 0
+gid 3
+mtime 1252352078
+file
+path /usr/local/man/man1/perlos390.1
+type f
+size 21903
+cksum 446407372
+mode 0644
+uid 0
+gid 3
+mtime 1252352079
+file
+path /usr/local/man/man1/perlos400.1
+type f
+size 8954
+cksum 1888469850
+mode 0644
+uid 0
+gid 3
+mtime 1252352079
+file
+path /usr/local/man/man1/perlothrtut.1
+type f
+size 48068
+cksum 4009135894
+mode 0644
+uid 0
+gid 3
+mtime 1252352079
+file
+path /usr/local/man/man1/perlpacktut.1
+type f
+size 63250
+cksum 117910527
+mode 0644
+uid 0
+gid 3
+mtime 1252352079
+file
+path /usr/local/man/man1/perlperf.1
+type f
+size 60406
+cksum 4115056298
+mode 0644
+uid 0
+gid 3
+mtime 1252352079
+file
+path /usr/local/man/man1/perlplan9.1
+type f
+size 9475
+cksum 712941767
+mode 0644
+uid 0
+gid 3
+mtime 1252352079
+file
+path /usr/local/man/man1/perlpod.1
+type f
+size 29349
+cksum 4175503527
+mode 0644
+uid 0
+gid 3
+mtime 1252352079
+file
+path /usr/local/man/man1/perlpodspec.1
+type f
+size 78067
+cksum 3383265665
+mode 0644
+uid 0
+gid 3
+mtime 1252352080
+file
+path /usr/local/man/man1/perlport.1
+type f
+size 105190
+cksum 3440972540
+mode 0644
+uid 0
+gid 3
+mtime 1252352080
+file
+path /usr/local/man/man1/perlpragma.1
+type f
+size 8872
+cksum 1068360310
+mode 0644
+uid 0
+gid 3
+mtime 1252352080
+file
+path /usr/local/man/man1/perlqnx.1
+type f
+size 8457
+cksum 2474663286
+mode 0644
+uid 0
+gid 3
+mtime 1252352080
+file
+path /usr/local/man/man1/perlre.1
+type f
+size 103986
+cksum 22796614
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlreapi.1
+type f
+size 34613
+cksum 3660494750
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlrebackslash.1
+type f
+size 27733
+cksum 1499733832
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlrecharclass.1
+type f
+size 29867
+cksum 2364794698
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlref.1
+type f
+size 33060
+cksum 3471840175
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlreftut.1
+type f
+size 25140
+cksum 2033095684
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlreguts.1
+type f
+size 46253
+cksum 3914732539
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlrepository.1
+type f
+size 30704
+cksum 3360964626
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlrequick.1
+type f
+size 25524
+cksum 349247808
+mode 0644
+uid 0
+gid 3
+mtime 1252352081
+file
+path /usr/local/man/man1/perlreref.1
+type f
+size 17502
+cksum 3457497010
+mode 0644
+uid 0
+gid 3
+mtime 1252352082
+file
+path /usr/local/man/man1/perlretut.1
+type f
+size 137969
+cksum 1586048171
+mode 0644
+uid 0
+gid 3
+mtime 1252352082
+file
+path /usr/local/man/man1/perlriscos.1
+type f
+size 5280
+cksum 1156427549
+mode 0644
+uid 0
+gid 3
+mtime 1252352082
+file
+path /usr/local/man/man1/perlrun.1
+type f
+size 62208
+cksum 2980447665
+mode 0644
+uid 0
+gid 3
+mtime 1252352082
+file
+path /usr/local/man/man1/perlsec.1
+type f
+size 29892
+cksum 3936112703
+mode 0644
+uid 0
+gid 3
+mtime 1252352082
+file
+path /usr/local/man/man1/perlsolaris.1
+type f
+size 36351
+cksum 4000470641
+mode 0644
+uid 0
+gid 3
+mtime 1252352083
+file
+path /usr/local/man/man1/perlstyle.1
+type f
+size 13440
+cksum 1771888426
+mode 0644
+uid 0
+gid 3
+mtime 1252352083
+file
+path /usr/local/man/man1/perlsub.1
+type f
+size 67274
+cksum 864966209
+mode 0644
+uid 0
+gid 3
+mtime 1252352083
+file
+path /usr/local/man/man1/perlsymbian.1
+type f
+size 20889
+cksum 2340321630
+mode 0644
+uid 0
+gid 3
+mtime 1252352083
+file
+path /usr/local/man/man1/perlsyn.1
+type f
+size 41260
+cksum 513362110
+mode 0644
+uid 0
+gid 3
+mtime 1252352083
+file
+path /usr/local/man/man1/perlthrtut.1
+type f
+size 55239
+cksum 1563663108
+mode 0644
+uid 0
+gid 3
+mtime 1252352083
+file
+path /usr/local/man/man1/perltie.1
+type f
+size 47946
+cksum 2887401109
+mode 0644
+uid 0
+gid 3
+mtime 1252352083
+file
+path /usr/local/man/man1/perltoc.1
+type f
+size 1214175
+cksum 310299532
+mode 0644
+uid 0
+gid 3
+mtime 1252352090
+file
+path /usr/local/man/man1/perltodo.1
+type f
+size 61511
+cksum 1492189909
+mode 0644
+uid 0
+gid 3
+mtime 1252352090
+file
+path /usr/local/man/man1/perltooc.1
+type f
+size 61226
+cksum 3697279462
+mode 0644
+uid 0
+gid 3
+mtime 1252352090
+file
+path /usr/local/man/man1/perltoot.1
+type f
+size 79772
+cksum 2969757342
+mode 0644
+uid 0
+gid 3
+mtime 1252352090
+file
+path /usr/local/man/man1/perltrap.1
+type f
+size 52618
+cksum 2295262335
+mode 0644
+uid 0
+gid 3
+mtime 1252352091
+file
+path /usr/local/man/man1/perltru64.1
+type f
+size 12359
+cksum 2732720939
+mode 0644
+uid 0
+gid 3
+mtime 1252352091
+file
+path /usr/local/man/man1/perltw.1
+type f
+size 8836
+cksum 719203822
+mode 0644
+uid 0
+gid 3
+mtime 1252352091
+file
+path /usr/local/man/man1/perlunicode.1
+type f
+size 68587
+cksum 2099161771
+mode 0644
+uid 0
+gid 3
+mtime 1252352091
+file
+path /usr/local/man/man1/perlunifaq.1
+type f
+size 20168
+cksum 2439459864
+mode 0644
+uid 0
+gid 3
+mtime 1252352091
+file
+path /usr/local/man/man1/perluniintro.1
+type f
+size 41951
+cksum 3647220035
+mode 0644
+uid 0
+gid 3
+mtime 1252352091
+file
+path /usr/local/man/man1/perlunitut.1
+type f
+size 12840
+cksum 2931376024
+mode 0644
+uid 0
+gid 3
+mtime 1252352091
+file
+path /usr/local/man/man1/perlutil.1
+type f
+size 14666
+cksum 1879545050
+mode 0644
+uid 0
+gid 3
+mtime 1252352092
+file
+path /usr/local/man/man1/perluts.1
+type f
+size 7284
+cksum 3902703968
+mode 0644
+uid 0
+gid 3
+mtime 1252352092
+file
+path /usr/local/man/man1/perlvar.1
+type f
+size 78232
+cksum 1675194006
+mode 0644
+uid 0
+gid 3
+mtime 1252352092
+file
+path /usr/local/man/man1/perlvmesa.1
+type f
+size 8237
+cksum 1528828747
+mode 0644
+uid 0
+gid 3
+mtime 1252352092
+file
+path /usr/local/man/man1/perlvms.1
+type f
+size 64464
+cksum 3738575890
+mode 0644
+uid 0
+gid 3
+mtime 1252352092
+file
+path /usr/local/man/man1/perlvos.1
+type f
+size 9872
+cksum 2145126121
+mode 0644
+uid 0
+gid 3
+mtime 1252352092
+file
+path /usr/local/man/man1/perlwin32.1
+type f
+size 48901
+cksum 2464473487
+mode 0644
+uid 0
+gid 3
+mtime 1252352092
+file
+path /usr/local/man/man1/perlxs.1
+type f
+size 92183
+cksum 3941506543
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man1/perlxstut.1
+type f
+size 62426
+cksum 2658701176
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man1/piconv.1
+type f
+size 7187
+cksum 3116207425
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/pl2pm.1
+type f
+size 4434
+cksum 2778269284
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/pod2html.1
+type f
+size 6791
+cksum 3826339500
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man1/pod2latex.1
+type f
+size 8324
+cksum 3121682944
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man1/pod2man.1
+type f
+size 25746
+cksum 1691488906
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/pod2text.1
+type f
+size 11583
+cksum 1796090539
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/pod2usage.1
+type f
+size 6104
+cksum 402394269
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/podchecker.1
+type f
+size 6003
+cksum 23894933
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/podselect.1
+type f
+size 5449
+cksum 1075185058
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/prove.1
+type f
+size 15381
+cksum 496298493
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/psed.1
+type f
+size 27108
+cksum 932634729
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man1/ptar.1
+type f
+size 4810
+cksum 2274318014
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/ptardiff.1
+type f
+size 4780
+cksum 1618643570
+mode 0644
+uid 0
+gid 3
+mtime 1252352124
+file
+path /usr/local/man/man1/shasum.1
+type f
+size 6249
+cksum 2434221553
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man1/splain.1
+type f
+size 10679
+cksum 4182759100
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man1/xsubpp.1
+type f
+size 7530
+cksum 3787117891
+mode 0644
+uid 0
+gid 3
+mtime 1252352125
+file
+path /usr/local/man/man3/AnyDBM_File.3
+type f
+size 6430
+cksum 3441621035
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man3/App::Prove.3
+type f
+size 11967
+cksum 2291574691
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man3/App::Prove::State.3
+type f
+size 7590
+cksum 3366126008
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man3/App::Prove::State::Result.3
+type f
+size 7209
+cksum 1461595984
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man3/App::Prove::State::Result::Test.3
+type f
+size 6641
+cksum 4065898054
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man3/Archive::Extract.3
+type f
+size 17739
+cksum 2715744365
+mode 0644
+uid 0
+gid 3
+mtime 1252352093
+file
+path /usr/local/man/man3/Archive::Tar.3
+type f
+size 43091
+cksum 4176231197
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/Archive::Tar::File.3
+type f
+size 11881
+cksum 3386528006
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/Attribute::Handlers.3
+type f
+size 31821
+cksum 404963883
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/AutoLoader.3
+type f
+size 14693
+cksum 1287323101
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/AutoSplit.3
+type f
+size 12049
+cksum 1719029521
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/B.3
+type f
+size 28393
+cksum 2075340839
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/B::Concise.3
+type f
+size 33707
+cksum 4026803272
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/B::Debug.3
+type f
+size 6653
+cksum 939067518
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/B::Deparse.3
+type f
+size 20896
+cksum 214873120
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/B::Lint.3
+type f
+size 9937
+cksum 2132664234
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/B::Lint::Debug.3
+type f
+size 4024
+cksum 3026565341
+mode 0644
+uid 0
+gid 3
+mtime 1252352094
+file
+path /usr/local/man/man3/B::Showlex.3
+type f
+size 6471
+cksum 3153068188
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/B::Terse.3
+type f
+size 5113
+cksum 3820424958
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/B::Xref.3
+type f
+size 7033
+cksum 4278452699
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/Benchmark.3
+type f
+size 18475
+cksum 2289928730
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI.3
+type f
+size 155624
+cksum 73357376
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Apache.3
+type f
+size 4147
+cksum 2399145045
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Carp.3
+type f
+size 15768
+cksum 3557203891
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Cookie.3
+type f
+size 14412
+cksum 2469882519
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Fast.3
+type f
+size 8929
+cksum 3689170853
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Pretty.3
+type f
+size 6774
+cksum 4177620505
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Push.3
+type f
+size 11917
+cksum 4116907326
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Switch.3
+type f
+size 4160
+cksum 666656200
+mode 0644
+uid 0
+gid 3
+mtime 1252352095
+file
+path /usr/local/man/man3/CGI::Util.3
+type f
+size 4615
+cksum 1704538181
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CORE.3
+type f
+size 5723
+cksum 1718901102
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN.3
+type f
+size 107370
+cksum 2898882565
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::API::HOWTO.3
+type f
+size 5178
+cksum 229696881
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::Debug.3
+type f
+size 3941
+cksum 790003259
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::Distroprefs.3
+type f
+size 7593
+cksum 2850958915
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::FirstTime.3
+type f
+size 24137
+cksum 2198347966
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::HandleConfig.3
+type f
+size 4838
+cksum 3759771491
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::Kwalify.3
+type f
+size 5136
+cksum 2803686635
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::Nox.3
+type f
+size 4445
+cksum 2285695457
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::Queue.3
+type f
+size 3941
+cksum 3167795637
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::Tarzip.3
+type f
+size 3943
+cksum 769627037
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPAN::Version.3
+type f
+size 4907
+cksum 3982129521
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPANPLUS.3
+type f
+size 9752
+cksum 183996390
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPANPLUS::Backend.3
+type f
+size 27329
+cksum 2013262881
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPANPLUS::Backend::RV.3
+type f
+size 6759
+cksum 3195748603
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPANPLUS::Config.3
+type f
+size 13757
+cksum 3789682090
+mode 0644
+uid 0
+gid 3
+mtime 1252352096
+file
+path /usr/local/man/man3/CPANPLUS::Configure.3
+type f
+size 9510
+cksum 2984284993
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Dist.3
+type f
+size 9308
+cksum 2413072857
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Dist::Autobundle.3
+type f
+size 4339
+cksum 3088043768
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Dist::Base.3
+type f
+size 11283
+cksum 2193642661
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Dist::Build.3
+type f
+size 11259
+cksum 987099876
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Dist::Build::Constants.3
+type f
+size 4620
+cksum 340570751
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Dist::MM.3
+type f
+size 10928
+cksum 3582294014
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Dist::Sample.3
+type f
+size 4064
+cksum 911892791
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Error.3
+type f
+size 6656
+cksum 1840041414
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::FAQ.3
+type f
+size 4467
+cksum 3834414360
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Hacking.3
+type f
+size 8312
+cksum 419563421
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals.3
+type f
+size 8909
+cksum 2593445265
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Extract.3
+type f
+size 6937
+cksum 1130789993
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Fetch.3
+type f
+size 7435
+cksum 701233615
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Report.3
+type f
+size 9522
+cksum 1936619616
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Search.3
+type f
+size 7192
+cksum 4213981798
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Source.3
+type f
+size 15637
+cksum 1159370229
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Source::Memory.3
+type f
+size 5578
+cksum 598824799
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Source::SQLite.3
+type f
+size 3917
+cksum 2919790803
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Internals::Utils.3
+type f
+size 8685
+cksum 1293806363
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Module.3
+type f
+size 24036
+cksum 94951075
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Module::Author.3
+type f
+size 6406
+cksum 842387111
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Module::Author::Fake.3
+type f
+size 4700
+cksum 3663419411
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Module::Checksums.3
+type f
+size 4676
+cksum 3127052012
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Module::Fake.3
+type f
+size 4895
+cksum 625798656
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Selfupdate.3
+type f
+size 10743
+cksum 286113500
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Shell.3
+type f
+size 5362
+cksum 2736185680
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Shell::Classic.3
+type f
+size 4740
+cksum 316361667
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Shell::Default.3
+type f
+size 8396
+cksum 3819758301
+mode 0644
+uid 0
+gid 3
+mtime 1252352097
+file
+path /usr/local/man/man3/CPANPLUS::Shell::Default::Plugins::CustomSource.3
+type f
+size 5522
+cksum 4060525760
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/CPANPLUS::Shell::Default::Plugins::HOWTO.3
+type f
+size 8587
+cksum 3179477560
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/CPANPLUS::Shell::Default::Plugins::Remote.3
+type f
+size 5454
+cksum 2114900998
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/CPANPLUS::Shell::Default::Plugins::Source.3
+type f
+size 5353
+cksum 863669561
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Carp.3
+type f
+size 11229
+cksum 1308129608
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Carp::Heavy.3
+type f
+size 3873
+cksum 3269717191
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Class::ISA.3
+type f
+size 8913
+cksum 2162106428
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Class::Struct.3
+type f
+size 19899
+cksum 1570710457
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Compress::Raw::Bzip2.3
+type f
+size 14787
+cksum 1836050944
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Compress::Raw::Zlib.3
+type f
+size 39588
+cksum 492570029
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Compress::Zlib.3
+type f
+size 39624
+cksum 3626426216
+mode 0644
+uid 0
+gid 3
+mtime 1252352098
+file
+path /usr/local/man/man3/Config.3
+type f
+size 319616
+cksum 1170482369
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/Config::Extensions.3
+type f
+size 4985
+cksum 1131071607
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/Cwd.3
+type f
+size 8772
+cksum 842483846
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DB.3
+type f
+size 12320
+cksum 1438567417
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DBM_Filter.3
+type f
+size 14479
+cksum 1170782944
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DBM_Filter::compress.3
+type f
+size 4471
+cksum 790892431
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DBM_Filter::encode.3
+type f
+size 4732
+cksum 1680541128
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DBM_Filter::int32.3
+type f
+size 4399
+cksum 986056714
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DBM_Filter::null.3
+type f
+size 4683
+cksum 42356050
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DBM_Filter::utf8.3
+type f
+size 4390
+cksum 775179530
+mode 0644
+uid 0
+gid 3
+mtime 1252352100
+file
+path /usr/local/man/man3/DB_File.3
+type f
+size 65043
+cksum 1926218907
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Data::Dumper.3
+type f
+size 27325
+cksum 1761047069
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Devel::DProf.3
+type f
+size 11105
+cksum 2790831252
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Devel::InnerPackage.3
+type f
+size 4854
+cksum 3144273083
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Devel::PPPort.3
+type f
+size 26540
+cksum 87338856
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Devel::Peek.3
+type f
+size 22345
+cksum 2374494567
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Devel::SelfStubber.3
+type f
+size 6789
+cksum 4291516584
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Digest.3
+type f
+size 14964
+cksum 1830979568
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Digest::MD5.3
+type f
+size 15757
+cksum 1564827672
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Digest::SHA.3
+type f
+size 23613
+cksum 2202370238
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Digest::base.3
+type f
+size 4694
+cksum 1379357478
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Digest::file.3
+type f
+size 5387
+cksum 2275014386
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/DirHandle.3
+type f
+size 4918
+cksum 152042605
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Dumpvalue.3
+type f
+size 9076
+cksum 1554764245
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/DynaLoader.3
+type f
+size 19874
+cksum 621210195
+mode 0644
+uid 0
+gid 3
+mtime 1252352101
+file
+path /usr/local/man/man3/Encode.3
+type f
+size 29470
+cksum 3494079941
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Alias.3
+type f
+size 6946
+cksum 579224692
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Byte.3
+type f
+size 7004
+cksum 1355181550
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::CJKConstants.3
+type f
+size 3897
+cksum 121117473
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::CN.3
+type f
+size 6079
+cksum 3191359939
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::CN::HZ.3
+type f
+size 3864
+cksum 2954715038
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Config.3
+type f
+size 3860
+cksum 1633117948
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::EBCDIC.3
+type f
+size 4626
+cksum 2054553024
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Encoder.3
+type f
+size 8583
+cksum 1727703002
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Encoding.3
+type f
+size 11696
+cksum 2537088156
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::GSM0338.3
+type f
+size 5437
+cksum 2817572145
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Guess.3
+type f
+size 9819
+cksum 3513010627
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::JP.3
+type f
+size 6826
+cksum 1014229659
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::JP::H2Z.3
+type f
+size 3877
+cksum 1193021623
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::JP::JIS7.3
+type f
+size 3870
+cksum 1052577400
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::KR.3
+type f
+size 5933
+cksum 3766410046
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::KR::2022_KR.3
+type f
+size 3879
+cksum 3179293727
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::MIME::Header.3
+type f
+size 5848
+cksum 824723188
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::MIME::Name.3
+type f
+size 3923
+cksum 2135439653
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::PerlIO.3
+type f
+size 10645
+cksum 4160067540
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Supported.3
+type f
+size 39959
+cksum 3603034590
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Symbol.3
+type f
+size 4607
+cksum 3449907555
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::TW.3
+type f
+size 6450
+cksum 2973993397
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Unicode.3
+type f
+size 12802
+cksum 2374366101
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Encode::Unicode::UTF7.3
+type f
+size 5250
+cksum 4217754996
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/English.3
+type f
+size 5093
+cksum 3288817502
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Env.3
+type f
+size 6163
+cksum 4231878776
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Errno.3
+type f
+size 5443
+cksum 3847879991
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Exporter.3
+type f
+size 22846
+cksum 3963890677
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/Exporter::Heavy.3
+type f
+size 3983
+cksum 2525266749
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/ExtUtils::CBuilder.3
+type f
+size 12779
+cksum 2995757984
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/ExtUtils::CBuilder::Platform::Windows.3
+type f
+size 4716
+cksum 4148625327
+mode 0644
+uid 0
+gid 3
+mtime 1252352102
+file
+path /usr/local/man/man3/ExtUtils::Command.3
+type f
+size 7534
+cksum 2793300853
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Command::MM.3
+type f
+size 6839
+cksum 2436080655
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Constant.3
+type f
+size 11459
+cksum 2715236561
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Constant::Base.3
+type f
+size 13573
+cksum 2583603052
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Constant::Utils.3
+type f
+size 4844
+cksum 2842325078
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Constant::XS.3
+type f
+size 4344
+cksum 1859826676
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Embed.3
+type f
+size 11044
+cksum 2227686840
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Install.3
+type f
+size 13934
+cksum 2162831740
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Installed.3
+type f
+size 9825
+cksum 3138768610
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::Liblist.3
+type f
+size 14294
+cksum 3003711233
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM.3
+type f
+size 4442
+cksum 3497877003
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_AIX.3
+type f
+size 4535
+cksum 1672747474
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_Any.3
+type f
+size 25859
+cksum 2175555181
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_BeOS.3
+type f
+size 4390
+cksum 350019925
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_Cygwin.3
+type f
+size 4759
+cksum 4028534750
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_DOS.3
+type f
+size 4613
+cksum 3799289371
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_Darwin.3
+type f
+size 4278
+cksum 3973491086
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_MacOS.3
+type f
+size 4762
+cksum 391037308
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_NW5.3
+type f
+size 4858
+cksum 1155413664
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_OS2.3
+type f
+size 4478
+cksum 1930955491
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_QNX.3
+type f
+size 4534
+cksum 2586505577
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_UWIN.3
+type f
+size 4650
+cksum 3242343994
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_Unix.3
+type f
+size 21896
+cksum 3545740177
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_VMS.3
+type f
+size 14995
+cksum 1412815768
+mode 0644
+uid 0
+gid 3
+mtime 1252352103
+file
+path /usr/local/man/man3/ExtUtils::MM_VOS.3
+type f
+size 4518
+cksum 2233724250
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::MM_Win32.3
+type f
+size 7020
+cksum 3745450200
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::MM_Win95.3
+type f
+size 5005
+cksum 3300808593
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::MY.3
+type f
+size 4377
+cksum 3941175455
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::MakeMaker.3
+type f
+size 67378
+cksum 1281687952
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::MakeMaker::Config.3
+type f
+size 4200
+cksum 1341951463
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::MakeMaker::FAQ.3
+type f
+size 18851
+cksum 4025269998
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::MakeMaker::Tutorial.3
+type f
+size 8765
+cksum 3314682007
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::Manifest.3
+type f
+size 13397
+cksum 2120517966
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::Miniperl.3
+type f
+size 4813
+cksum 756905963
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::Mkbootstrap.3
+type f
+size 5051
+cksum 240396059
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::Mksymlists.3
+type f
+size 8293
+cksum 113268841
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::Packlist.3
+type f
+size 8453
+cksum 1788923899
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::ParseXS.3
+type f
+size 8101
+cksum 1408682944
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::XSSymSet.3
+type f
+size 8281
+cksum 2678211165
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/ExtUtils::testlib.3
+type f
+size 4282
+cksum 2839868750
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/Fatal.3
+type f
+size 8956
+cksum 1182836992
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/Fcntl.3
+type f
+size 6086
+cksum 3120729543
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/File::Basename.3
+type f
+size 10884
+cksum 1231276376
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/File::CheckTree.3
+type f
+size 6056
+cksum 260718511
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/File::Compare.3
+type f
+size 5155
+cksum 1115209311
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/File::Copy.3
+type f
+size 11574
+cksum 8492695
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/File::DosGlob.3
+type f
+size 9115
+cksum 2766508829
+mode 0644
+uid 0
+gid 3
+mtime 1252352104
+file
+path /usr/local/man/man3/File::Fetch.3
+type f
+size 15882
+cksum 3680593763
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Find.3
+type f
+size 20518
+cksum 313825063
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Glob.3
+type f
+size 17126
+cksum 3738781757
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::GlobMapper.3
+type f
+size 13039
+cksum 3574773235
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Path.3
+type f
+size 24808
+cksum 585922743
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec.3
+type f
+size 15286
+cksum 3414004860
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::Cygwin.3
+type f
+size 5567
+cksum 1099818393
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::Epoc.3
+type f
+size 4838
+cksum 1096849498
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::Functions.3
+type f
+size 5391
+cksum 2543957625
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::Mac.3
+type f
+size 20020
+cksum 2891852597
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::OS2.3
+type f
+size 4710
+cksum 2446228478
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::Unix.3
+type f
+size 11181
+cksum 3695325528
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::VMS.3
+type f
+size 9265
+cksum 932281955
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Spec::Win32.3
+type f
+size 8011
+cksum 1179366564
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::Temp.3
+type f
+size 36142
+cksum 585071501
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/File::stat.3
+type f
+size 6169
+cksum 1777256007
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/FileCache.3
+type f
+size 6954
+cksum 4149347782
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/FileHandle.3
+type f
+size 9525
+cksum 349450701
+mode 0644
+uid 0
+gid 3
+mtime 1252352105
+file
+path /usr/local/man/man3/Filter::Simple.3
+type f
+size 23400
+cksum 553720418
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/Filter::Util::Call.3
+type f
+size 17533
+cksum 3199491991
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/FindBin.3
+type f
+size 6813
+cksum 1795656189
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/GDBM_File.3
+type f
+size 4947
+cksum 903998174
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/Getopt::Long.3
+type f
+size 50812
+cksum 2610798324
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/Getopt::Std.3
+type f
+size 7465
+cksum 900345418
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/Hash::Util.3
+type f
+size 13996
+cksum 117061116
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/Hash::Util::FieldHash.3
+type f
+size 36261
+cksum 2319736393
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/I18N::Collate.3
+type f
+size 6055
+cksum 950547962
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/I18N::LangTags.3
+type f
+size 23538
+cksum 3191639824
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/I18N::LangTags::Detect.3
+type f
+size 6062
+cksum 2423912319
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/I18N::LangTags::List.3
+type f
+size 44731
+cksum 55686728
+mode 0644
+uid 0
+gid 3
+mtime 1252352106
+file
+path /usr/local/man/man3/I18N::Langinfo.3
+type f
+size 7597
+cksum 4071972584
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO.3
+type f
+size 4945
+cksum 900219645
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Compress::Base.3
+type f
+size 5019
+cksum 2663489291
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Compress::Bzip2.3
+type f
+size 22447
+cksum 465152784
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Compress::Deflate.3
+type f
+size 25941
+cksum 192460363
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Compress::Gzip.3
+type f
+size 33643
+cksum 326139263
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Compress::RawDeflate.3
+type f
+size 26307
+cksum 2824538545
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Compress::Zip.3
+type f
+size 34537
+cksum 2313908511
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Dir.3
+type f
+size 7110
+cksum 4119929475
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::File.3
+type f
+size 7893
+cksum 777979890
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Handle.3
+type f
+size 14977
+cksum 2678135625
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Pipe.3
+type f
+size 6607
+cksum 1541169707
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Poll.3
+type f
+size 6180
+cksum 3774906072
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Seekable.3
+type f
+size 6869
+cksum 4232294588
+mode 0644
+uid 0
+gid 3
+mtime 1252352107
+file
+path /usr/local/man/man3/IO::Select.3
+type f
+size 8809
+cksum 2899543436
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Socket.3
+type f
+size 9859
+cksum 1044928777
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Socket::INET.3
+type f
+size 9583
+cksum 737498620
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Socket::UNIX.3
+type f
+size 5910
+cksum 1999722422
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::AnyInflate.3
+type f
+size 31557
+cksum 3853458424
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::AnyUncompress.3
+type f
+size 29018
+cksum 3567520358
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::Base.3
+type f
+size 5030
+cksum 1608397748
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::Bunzip2.3
+type f
+size 27925
+cksum 276611541
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::Gunzip.3
+type f
+size 30472
+cksum 38271194
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::Inflate.3
+type f
+size 28669
+cksum 1212693437
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::RawInflate.3
+type f
+size 28320
+cksum 3539880638
+mode 0644
+uid 0
+gid 3
+mtime 1252352108
+file
+path /usr/local/man/man3/IO::Uncompress::Unzip.3
+type f
+size 28179
+cksum 107571883
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IO::Zlib.3
+type f
+size 12998
+cksum 2500490506
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IPC::Cmd.3
+type f
+size 18865
+cksum 291704484
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IPC::Msg.3
+type f
+size 6977
+cksum 389165769
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IPC::Open2.3
+type f
+size 7457
+cksum 463616577
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IPC::Open3.3
+type f
+size 8172
+cksum 3415777750
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IPC::Semaphore.3
+type f
+size 8246
+cksum 19480340
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IPC::SharedMem.3
+type f
+size 7484
+cksum 3727405584
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/IPC::SysV.3
+type f
+size 6758
+cksum 2044504755
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/List::Util.3
+type f
+size 10819
+cksum 3027633569
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/List::Util::XS.3
+type f
+size 4600
+cksum 3850074915
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/Locale::Constants.3
+type f
+size 5525
+cksum 1061611215
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/Locale::Country.3
+type f
+size 14239
+cksum 2385677666
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/Locale::Currency.3
+type f
+size 9172
+cksum 232836374
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/Locale::Language.3
+type f
+size 8288
+cksum 1988507928
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/Locale::Maketext.3
+type f
+size 58768
+cksum 3673519443
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/Locale::Maketext::Simple.3
+type f
+size 10211
+cksum 1517643955
+mode 0644
+uid 0
+gid 3
+mtime 1252352109
+file
+path /usr/local/man/man3/Locale::Maketext::TPJ13.3
+type f
+size 42714
+cksum 3692193455
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Locale::Script.3
+type f
+size 11445
+cksum 4212345828
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Log::Message.3
+type f
+size 15033
+cksum 1938485826
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Log::Message::Config.3
+type f
+size 5883
+cksum 631117236
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Log::Message::Handlers.3
+type f
+size 6985
+cksum 96753439
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Log::Message::Item.3
+type f
+size 7241
+cksum 560194606
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Log::Message::Simple.3
+type f
+size 9697
+cksum 3675829340
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/MIME::Base64.3
+type f
+size 9015
+cksum 3840984836
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/MIME::QuotedPrint.3
+type f
+size 7342
+cksum 1500474788
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Math::BigFloat.3
+type f
+size 31732
+cksum 70312120
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Math::BigInt.3
+type f
+size 86711
+cksum 1993518288
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Math::BigInt::Calc.3
+type f
+size 12069
+cksum 3118556997
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Math::BigInt::CalcEmu.3
+type f
+size 4996
+cksum 772280476
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Math::BigInt::FastCalc.3
+type f
+size 5910
+cksum 2964152547
+mode 0644
+uid 0
+gid 3
+mtime 1252352110
+file
+path /usr/local/man/man3/Math::BigRat.3
+type f
+size 18689
+cksum 1677190469
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Math::Complex.3
+type f
+size 25326
+cksum 2648768639
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Math::Trig.3
+type f
+size 23033
+cksum 1903230059
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize.3
+type f
+size 33382
+cksum 399273811
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize::AnyDBM_File.3
+type f
+size 3962
+cksum 1348249180
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize::Expire.3
+type f
+size 12914
+cksum 545829018
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize::ExpireFile.3
+type f
+size 3949
+cksum 3983891201
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize::ExpireTest.3
+type f
+size 4328
+cksum 3554474370
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize::NDBM_File.3
+type f
+size 3954
+cksum 3868397166
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize::SDBM_File.3
+type f
+size 3954
+cksum 376986839
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Memoize::Storable.3
+type f
+size 3938
+cksum 530739423
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Module::Build.3
+type f
+size 42022
+cksum 3524850980
+mode 0644
+uid 0
+gid 3
+mtime 1252352111
+file
+path /usr/local/man/man3/Module::Build::API.3
+type f
+size 81609
+cksum 2827260647
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Authoring.3
+type f
+size 17114
+cksum 2620954280
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Base.3
+type f
+size 4945
+cksum 3167054226
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Compat.3
+type f
+size 10050
+cksum 2611576569
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::ConfigData.3
+type f
+size 7180
+cksum 3574383629
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Cookbook.3
+type f
+size 25747
+cksum 3410383139
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::ModuleInfo.3
+type f
+size 6979
+cksum 3686849073
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Notes.3
+type f
+size 6807
+cksum 550258121
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::PPMMaker.3
+type f
+size 4674
+cksum 3055550385
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::Amiga.3
+type f
+size 4273
+cksum 2314036425
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::Default.3
+type f
+size 4278
+cksum 4274155530
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::EBCDIC.3
+type f
+size 4277
+cksum 2363967975
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::MPEiX.3
+type f
+size 4273
+cksum 2098426633
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::MacOS.3
+type f
+size 5186
+cksum 1966819805
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::RiscOS.3
+type f
+size 4277
+cksum 3853795393
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::Unix.3
+type f
+size 4269
+cksum 2550754409
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::VMS.3
+type f
+size 7254
+cksum 75388701
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::VOS.3
+type f
+size 4265
+cksum 2110878334
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::Windows.3
+type f
+size 4317
+cksum 218919696
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::aix.3
+type f
+size 4260
+cksum 269863921
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::cygwin.3
+type f
+size 4293
+cksum 3911145387
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::darwin.3
+type f
+size 4279
+cksum 4146503075
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::Platform::os2.3
+type f
+size 4262
+cksum 2566480014
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Build::YAML.3
+type f
+size 4708
+cksum 2011558198
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::CoreList.3
+type f
+size 6553
+cksum 2624319863
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Load.3
+type f
+size 7018
+cksum 2347467555
+mode 0644
+uid 0
+gid 3
+mtime 1252352112
+file
+path /usr/local/man/man3/Module::Load::Conditional.3
+type f
+size 12942
+cksum 2548811189
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Module::Loaded.3
+type f
+size 6570
+cksum 1225817156
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Module::Pluggable.3
+type f
+size 12151
+cksum 2791810145
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Module::Pluggable::Object.3
+type f
+size 5190
+cksum 757060851
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/NDBM_File.3
+type f
+size 6773
+cksum 4056011280
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/NEXT.3
+type f
+size 17967
+cksum 1286814923
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::Cmd.3
+type f
+size 10041
+cksum 1812373529
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::Config.3
+type f
+size 9067
+cksum 1745362915
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::Domain.3
+type f
+size 5077
+cksum 1803394635
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::FTP.3
+type f
+size 26940
+cksum 2441411511
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::NNTP.3
+type f
+size 21364
+cksum 95425821
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::Netrc.3
+type f
+size 7973
+cksum 1444100788
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::POP3.3
+type f
+size 11715
+cksum 3543273728
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::Ping.3
+type f
+size 20983
+cksum 1698997758
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::SMTP.3
+type f
+size 17331
+cksum 2253105035
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::Time.3
+type f
+size 5778
+cksum 28764968
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::hostent.3
+type f
+size 6773
+cksum 3459025263
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::libnetFAQ.3
+type f
+size 16633
+cksum 3919785365
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::netent.3
+type f
+size 7536
+cksum 743684818
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::protoent.3
+type f
+size 5998
+cksum 1595491056
+mode 0644
+uid 0
+gid 3
+mtime 1252352113
+file
+path /usr/local/man/man3/Net::servent.3
+type f
+size 6440
+cksum 3562507284
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/O.3
+type f
+size 7431
+cksum 2344020766
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/ODBM_File.3
+type f
+size 6618
+cksum 1612087903
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/Object::Accessor.3
+type f
+size 20163
+cksum 2301214093
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/Opcode.3
+type f
+size 19599
+cksum 2337349758
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/POSIX.3
+type f
+size 79998
+cksum 801109990
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/Package::Constants.3
+type f
+size 5541
+cksum 3216644408
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/Params::Check.3
+type f
+size 16595
+cksum 1157864581
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/Parse::CPAN::Meta.3
+type f
+size 6372
+cksum 996541064
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/PerlIO.3
+type f
+size 16530
+cksum 4171116151
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/PerlIO::encoding.3
+type f
+size 4773
+cksum 1138247216
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/PerlIO::scalar.3
+type f
+size 4849
+cksum 2783684543
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/PerlIO::via.3
+type f
+size 13611
+cksum 1273883718
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/PerlIO::via::QuotedPrint.3
+type f
+size 5124
+cksum 445168783
+mode 0644
+uid 0
+gid 3
+mtime 1252352114
+file
+path /usr/local/man/man3/Pod::Checker.3
+type f
+size 18047
+cksum 2218098068
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Escapes.3
+type f
+size 10058
+cksum 11308337
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Find.3
+type f
+size 9695
+cksum 342480149
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Html.3
+type f
+size 9415
+cksum 1415151870
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::InputObjects.3
+type f
+size 19246
+cksum 3600782558
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::LaTeX.3
+type f
+size 14064
+cksum 1505131186
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Man.3
+type f
+size 17009
+cksum 1083763557
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::ParseLink.3
+type f
+size 6945
+cksum 392702210
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::ParseUtils.3
+type f
+size 15414
+cksum 3295464566
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Parser.3
+type f
+size 45644
+cksum 2212287213
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToChecker.3
+type f
+size 4990
+cksum 1199033457
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToMan.3
+type f
+size 5149
+cksum 3398072306
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToNroff.3
+type f
+size 5151
+cksum 3419896229
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToPod.3
+type f
+size 4861
+cksum 505961170
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToRtf.3
+type f
+size 5474
+cksum 129259260
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToText.3
+type f
+size 5031
+cksum 2331921578
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToTk.3
+type f
+size 4429
+cksum 2367900081
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Perldoc::ToXml.3
+type f
+size 4921
+cksum 3178599564
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::PlainText.3
+type f
+size 9017
+cksum 12909669
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Plainer.3
+type f
+size 4552
+cksum 1869132555
+mode 0644
+uid 0
+gid 3
+mtime 1252352115
+file
+path /usr/local/man/man3/Pod::Select.3
+type f
+size 14934
+cksum 1522131950
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple.3
+type f
+size 12871
+cksum 898253000
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::Checker.3
+type f
+size 5006
+cksum 343408437
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::Debug.3
+type f
+size 6323
+cksum 1865674954
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::DumpAsText.3
+type f
+size 5016
+cksum 1362873600
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::DumpAsXML.3
+type f
+size 5481
+cksum 2893389596
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::HTML.3
+type f
+size 5706
+cksum 3989145074
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::HTMLBatch.3
+type f
+size 16186
+cksum 844593070
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::LinkSection.3
+type f
+size 6211
+cksum 976620036
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::Methody.3
+type f
+size 6355
+cksum 4220745101
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::PullParser.3
+type f
+size 11949
+cksum 3267106234
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::PullParserEndToken.3
+type f
+size 6117
+cksum 1688911881
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::PullParserStartToken.3
+type f
+size 7253
+cksum 3276338224
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::PullParserTextToken.3
+type f
+size 6336
+cksum 2532042544
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::PullParserToken.3
+type f
+size 6811
+cksum 3209163894
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::RTF.3
+type f
+size 8620
+cksum 1507401773
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::Search.3
+type f
+size 19662
+cksum 1753869051
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::SimpleTree.3
+type f
+size 6462
+cksum 1481597702
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::Subclassing.3
+type f
+size 38190
+cksum 951370774
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::Text.3
+type f
+size 4916
+cksum 3434570105
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::TextContent.3
+type f
+size 4942
+cksum 672141609
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::XHTML.3
+type f
+size 9975
+cksum 809783842
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Simple::XMLOutStream.3
+type f
+size 5744
+cksum 2509166128
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Text.3
+type f
+size 11887
+cksum 1574486413
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Text::Color.3
+type f
+size 5417
+cksum 889989838
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Text::Overstrike.3
+type f
+size 5969
+cksum 396031850
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Text::Termcap.3
+type f
+size 5540
+cksum 1820068208
+mode 0644
+uid 0
+gid 3
+mtime 1252352116
+file
+path /usr/local/man/man3/Pod::Usage.3
+type f
+size 19090
+cksum 1809598202
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/SDBM_File.3
+type f
+size 6765
+cksum 858303287
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Safe.3
+type f
+size 16367
+cksum 2986627578
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Scalar::Util.3
+type f
+size 11705
+cksum 1166019433
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Search::Dict.3
+type f
+size 5186
+cksum 3690949046
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/SelectSaver.3
+type f
+size 4648
+cksum 3856519522
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/SelfLoader.3
+type f
+size 16958
+cksum 1435524860
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Shell.3
+type f
+size 9106
+cksum 2845692172
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Socket.3
+type f
+size 11370
+cksum 2430733117
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Storable.3
+type f
+size 40249
+cksum 4186681937
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Switch.3
+type f
+size 20346
+cksum 4100990796
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Symbol.3
+type f
+size 6933
+cksum 1347924915
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Sys::Hostname.3
+type f
+size 4650
+cksum 958180099
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/Sys::Syslog.3
+type f
+size 28564
+cksum 3350365828
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Base.3
+type f
+size 4870
+cksum 3693221104
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::Base.3
+type f
+size 7681
+cksum 4258557407
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::Color.3
+type f
+size 5309
+cksum 2246848320
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::Console.3
+type f
+size 4314
+cksum 2767164480
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::Console::ParallelSession.3
+type f
+size 4657
+cksum 2952615094
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::Console::Session.3
+type f
+size 4424
+cksum 3089168851
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::File.3
+type f
+size 4285
+cksum 1116362683
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::File::Session.3
+type f
+size 4439
+cksum 2872557419
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Formatter::Session.3
+type f
+size 5020
+cksum 433580221
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Harness.3
+type f
+size 16777
+cksum 90557787
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Object.3
+type f
+size 5821
+cksum 3322306877
+mode 0644
+uid 0
+gid 3
+mtime 1252352117
+file
+path /usr/local/man/man3/TAP::Parser.3
+type f
+size 41170
+cksum 2532304532
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Aggregator.3
+type f
+size 9615
+cksum 3494371196
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Grammar.3
+type f
+size 10198
+cksum 2338420467
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Iterator.3
+type f
+size 6652
+cksum 2627465355
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Iterator::Array.3
+type f
+size 5456
+cksum 904153396
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Iterator::Process.3
+type f
+size 6278
+cksum 1882094714
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Iterator::Stream.3
+type f
+size 5386
+cksum 3468927861
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::IteratorFactory.3
+type f
+size 7068
+cksum 2592662857
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Multiplexer.3
+type f
+size 6238
+cksum 4237791654
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result.3
+type f
+size 9131
+cksum 1577520196
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::Bailout.3
+type f
+size 4885
+cksum 40680130
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::Comment.3
+type f
+size 4710
+cksum 769572807
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::Plan.3
+type f
+size 5765
+cksum 1961022475
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::Pragma.3
+type f
+size 4665
+cksum 1074335141
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::Test.3
+type f
+size 8705
+cksum 4201350209
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::Unknown.3
+type f
+size 4565
+cksum 3396603134
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::Version.3
+type f
+size 4746
+cksum 1810435579
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Result::YAML.3
+type f
+size 4678
+cksum 3321624920
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::ResultFactory.3
+type f
+size 7195
+cksum 2808073917
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Scheduler.3
+type f
+size 4849
+cksum 3125188603
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Scheduler::Job.3
+type f
+size 5217
+cksum 679769739
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Scheduler::Spinner.3
+type f
+size 4770
+cksum 473122377
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Source.3
+type f
+size 6456
+cksum 1927287268
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Source::Perl.3
+type f
+size 7329
+cksum 1194958284
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::Utils.3
+type f
+size 4908
+cksum 3805274045
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::YAMLish::Reader.3
+type f
+size 5585
+cksum 2740743892
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/TAP::Parser::YAMLish::Writer.3
+type f
+size 6471
+cksum 1946032697
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/Term::ANSIColor.3
+type f
+size 19505
+cksum 2833615304
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/Term::Cap.3
+type f
+size 11905
+cksum 3662867051
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/Term::Complete.3
+type f
+size 5016
+cksum 180007227
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/Term::ReadLine.3
+type f
+size 10782
+cksum 3684095169
+mode 0644
+uid 0
+gid 3
+mtime 1252352118
+file
+path /usr/local/man/man3/Term::UI.3
+type f
+size 18100
+cksum 1513854984
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Term::UI::History.3
+type f
+size 5748
+cksum 2354339282
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test.3
+type f
+size 23400
+cksum 899031746
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::Builder.3
+type f
+size 26896
+cksum 3100835845
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::Builder::Module.3
+type f
+size 7024
+cksum 1878100798
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::Builder::Tester.3
+type f
+size 12855
+cksum 3845096524
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::Builder::Tester::Color.3
+type f
+size 4723
+cksum 1636205908
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::Harness.3
+type f
+size 10959
+cksum 760220358
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::More.3
+type f
+size 37025
+cksum 2287649453
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::Simple.3
+type f
+size 10553
+cksum 900222443
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Test::Tutorial.3
+type f
+size 25487
+cksum 3416178988
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Text::Abbrev.3
+type f
+size 4448
+cksum 682775318
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Text::Balanced.3
+type f
+size 55571
+cksum 2236265470
+mode 0644
+uid 0
+gid 3
+mtime 1252352119
+file
+path /usr/local/man/man3/Text::ParseWords.3
+type f
+size 7662
+cksum 886485398
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Text::Soundex.3
+type f
+size 9577
+cksum 3912651628
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Text::Tabs.3
+type f
+size 5213
+cksum 3689338726
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Text::Wrap.3
+type f
+size 9638
+cksum 3975127172
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Thread.3
+type f
+size 13305
+cksum 2485314596
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Thread::Queue.3
+type f
+size 12878
+cksum 2850104953
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Thread::Semaphore.3
+type f
+size 7699
+cksum 3637705039
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::Array.3
+type f
+size 9873
+cksum 3300683852
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::File.3
+type f
+size 30195
+cksum 353656450
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::Handle.3
+type f
+size 7171
+cksum 766571982
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::Hash.3
+type f
+size 10664
+cksum 1769021031
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::Hash::NamedCapture.3
+type f
+size 5447
+cksum 2539040723
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::Memoize.3
+type f
+size 6935
+cksum 3069296930
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::RefHash.3
+type f
+size 6211
+cksum 3780043446
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::Scalar.3
+type f
+size 6465
+cksum 1514791260
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::StdHandle.3
+type f
+size 4528
+cksum 386573605
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Tie::SubstrHash.3
+type f
+size 5300
+cksum 311627248
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Time::HiRes.3
+type f
+size 28400
+cksum 579691989
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Time::Local.3
+type f
+size 11517
+cksum 461465386
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Time::Piece.3
+type f
+size 13227
+cksum 1764064126
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Time::Seconds.3
+type f
+size 5748
+cksum 4281231973
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Time::gmtime.3
+type f
+size 5727
+cksum 560987260
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Time::localtime.3
+type f
+size 5522
+cksum 525759046
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Time::tm.3
+type f
+size 4347
+cksum 1976496923
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/UNIVERSAL.3
+type f
+size 11778
+cksum 3385757009
+mode 0644
+uid 0
+gid 3
+mtime 1252352120
+file
+path /usr/local/man/man3/Unicode::Collate.3
+type f
+size 35850
+cksum 2676388625
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/Unicode::Normalize.3
+type f
+size 22450
+cksum 1655339988
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/Unicode::UCD.3
+type f
+size 29058
+cksum 3194219014
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/User::grent.3
+type f
+size 5963
+cksum 65327446
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/User::pwent.3
+type f
+size 9162
+cksum 3549418219
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XML::Parser.3
+type f
+size 26377
+cksum 2714278632
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XML::Parser::Expat.3
+type f
+size 26625
+cksum 2975990469
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XML::Parser::Style::Debug.3
+type f
+size 4206
+cksum 712445205
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XML::Parser::Style::Objects.3
+type f
+size 4661
+cksum 653771294
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XML::Parser::Style::Stream.3
+type f
+size 5723
+cksum 1631265250
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XML::Parser::Style::Subs.3
+type f
+size 4622
+cksum 3416702165
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XML::Parser::Style::Tree.3
+type f
+size 5306
+cksum 788299874
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XS::APItest.3
+type f
+size 7999
+cksum 468872416
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XS::Typemap.3
+type f
+size 5150
+cksum 624659898
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/XSLoader.3
+type f
+size 12865
+cksum 324067354
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/attributes.3
+type f
+size 18469
+cksum 2270718062
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/attrs.3
+type f
+size 5282
+cksum 1001963412
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/autodie.3
+type f
+size 16240
+cksum 1412183254
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/autodie::exception.3
+type f
+size 11624
+cksum 1729325685
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/autodie::exception::system.3
+type f
+size 5005
+cksum 3911385655
+mode 0644
+uid 0
+gid 3
+mtime 1252352121
+file
+path /usr/local/man/man3/autodie::hints.3
+type f
+size 17513
+cksum 3719010462
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/autouse.3
+type f
+size 6193
+cksum 1468319666
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/base.3
+type f
+size 6374
+cksum 3947518729
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/bigint.3
+type f
+size 16854
+cksum 4141580857
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/bignum.3
+type f
+size 18789
+cksum 605175726
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/bigrat.3
+type f
+size 13933
+cksum 128868892
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/blib.3
+type f
+size 4577
+cksum 2995326557
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/bytes.3
+type f
+size 6062
+cksum 1121241010
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/charnames.3
+type f
+size 12520
+cksum 1642017272
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/constant.3
+type f
+size 13752
+cksum 3327243542
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/diagnostics.3
+type f
+size 10689
+cksum 1907913347
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/encoding.3
+type f
+size 21458
+cksum 3351799911
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/encoding::warnings.3
+type f
+size 9063
+cksum 4076094160
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/feature.3
+type f
+size 7747
+cksum 438665582
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/fields.3
+type f
+size 8826
+cksum 3040768152
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/filetest.3
+type f
+size 8149
+cksum 1820838937
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/if.3
+type f
+size 4606
+cksum 1552910577
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/integer.3
+type f
+size 7226
+cksum 2209268655
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/less.3
+type f
+size 6298
+cksum 2359334507
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/lib.3
+type f
+size 8471
+cksum 1517184133
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/locale.3
+type f
+size 4554
+cksum 3310511887
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/mro.3
+type f
+size 16616
+cksum 3135200702
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/open.3
+type f
+size 8886
+cksum 4167265092
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/ops.3
+type f
+size 4447
+cksum 3077418808
+mode 0644
+uid 0
+gid 3
+mtime 1252352122
+file
+path /usr/local/man/man3/overload.3
+type f
+size 56965
+cksum 3891085743
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/overloading.3
+type f
+size 5015
+cksum 4254137843
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/parent.3
+type f
+size 6634
+cksum 863390604
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/re.3
+type f
+size 15473
+cksum 107711051
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/sigtrap.3
+type f
+size 9633
+cksum 3968065000
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/sort.3
+type f
+size 8656
+cksum 3086594918
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/strict.3
+type f
+size 7351
+cksum 488674415
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/subs.3
+type f
+size 4532
+cksum 3909441592
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/threads.3
+type f
+size 41207
+cksum 456991225
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/threads::shared.3
+type f
+size 20372
+cksum 1466573697
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/utf8.3
+type f
+size 11287
+cksum 3661934768
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/vars.3
+type f
+size 5193
+cksum 3830656614
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/version.3
+type f
+size 18189
+cksum 1926238820
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/version::Internals.3
+type f
+size 28186
+cksum 2676920271
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/vmsish.3
+type f
+size 7998
+cksum 3134056742
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/warnings.3
+type f
+size 7644
+cksum 85902464
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man3/warnings::register.3
+type f
+size 4138
+cksum 941734385
+mode 0644
+uid 0
+gid 3
+mtime 1252352123
+file
+path /usr/local/man/man1/perlthanks.1
+type h
+link_source /usr/local/man/man1/perlbug.1
+file
+path /usr/local/man/man1/pstruct.1
+type h
+link_source /usr/local/man/man1/c2ph.1
+file
+path /usr/local/man/man1/s2p.1
+type h
+link_source /usr/local/man/man1/psed.1

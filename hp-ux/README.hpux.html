@@ -1,0 +1,321 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+ 
+  <link rel="stylesheet" href="README.hpux_files/style.css" type="text/css">
+<link rel="stylesheet" href="README.hpux_files/print.css" type="text/css" media="print">
+  <link rel="alternate" type="application/rss+xml" title="RSS 1.0" href="http://search.cpan.org/uploads.rdf">
+  <link rel="search" href="http://st.pimg.net/tucs/opensearch.xml" type="application/opensearchdescription+xml" title="SearchCPAN">
+  <title>README.hpux - search.cpan.org</title>
+ </head><body id="cpansearch">
+<center><div class="logo"><a href="http://search.cpan.org/"><img src="README.hpux_files/cpan_banner.png" alt="CPAN"></a></div></center>
+<div class="menubar">
+ <a href="http://search.cpan.org/">Home</a>
+· <a href="http://search.cpan.org/author/">Authors</a>
+· <a href="http://search.cpan.org/recent">Recent</a>
+· <a href="http://log.perl.org/cpansearch/">News</a>
+· <a href="http://search.cpan.org/mirror">Mirrors</a>
+· <a href="http://search.cpan.org/faq.html">FAQ</a>
+· <a href="http://search.cpan.org/feedback">Feedback</a>
+</div>
+<form method="get" action="/search" name="f" class="searchbox">
+<input name="query" size="35" type="text">
+<br>in <select name="mode">
+ <option selected="selected" value="all">All</option>
+ <option value="module">Modules</option>
+ <option value="dist">Distributions</option>
+ <option value="author">Authors</option>
+</select>&nbsp;<input value="CPAN Search" type="submit">
+</form>
+
+
+ <a name="_top"></a>
+  <div class="path">
+<div id="permalink" class="noprint"><a href="http://search.cpan.org/perldoc?README.hpux">permalink</a></div>
+  <a href="http://search.cpan.org/%7Elbrocard/">Léon Brocard</a> &gt;
+  <a href="http://search.cpan.org/%7Elbrocard/perl5.005_04/">perl5.005_04</a> &gt;
+  README.hpux
+ </div>
+
+<div class="noprint" style="float: right; width: 19ex;">
+<a href="http://hexten.net/cpan-faces/"><img src="README.hpux_files/avatar.jpeg" style="float: right;" width="80" height="80"></a>
+<br style="clear: both;">
+<p style="text-align: right;">Download:<br> <a href="http://search.cpan.org/CPAN/authors/id/L/LB/LBROCARD/perl5.005_04.tar.gz">perl5.005_04.tar.gz</a></p>
+<p style="text-align: right;"><a href="http://www.annocpan.org/%7ELBROCARD/perl5.005_04/README.hpux">Annotate this POD
+</a></p>
+
+<div style="float: right;">
+<div class="box" style="width: 150px;">
+<h1 class="t5">CPAN RT</h1>
+<div style="margin: 2px;">
+<table style="margin-left: auto; margin-right: auto;">
+<tbody><tr><td>New&nbsp;</td><td style="text-align: right;"> 1</td></tr>
+<tr><td>Open&nbsp;</td><td style="text-align: right;"> 1</td></tr>
+</tbody></table>
+<a href="https://rt.cpan.org/NoAuth/Bugs.html?Dist=perl">View Bugs</a><br>
+<a href="https://rt.cpan.org/Public/Bug/Report.html?Queue=perl">Report a bug</a>
+</div>
+</div>
+
+</div>
+</div>
+<span class="noprint">
+  <a href="http://search.cpan.org/src/LBROCARD/perl5.005_04/README.hpux">Source</a> &nbsp;
+  Latest&nbsp;Release:&nbsp;<a href="http://search.cpan.org/%7Eshay/perl/README.hpux">perl-5.11.5</a>
+</span>
+<a name="___top"></a>
+<div class="pod">
+<div class="toc">
+<div class="indexgroup">
+<ul class="indexList indexList1">
+  <li class="indexItem indexItem1"><a href="#NAME">NAME</a>
+  </li><li class="indexItem indexItem1"><a href="#DESCRIPTION">DESCRIPTION</a>
+  <ul class="indexList indexList2">
+    <li class="indexItem indexItem2"><a href="#Compiling_Perl_5_on_HP-UX">Compiling Perl 5 on HP-UX</a>
+    </li><li class="indexItem indexItem2"><a href="#PA-RISC">PA-RISC</a>
+    </li><li class="indexItem indexItem2"><a href="#PA-RISC_1.0">PA-RISC 1.0</a>
+    </li><li class="indexItem indexItem2"><a href="#PA-RISC_1.1">PA-RISC 1.1</a>
+    </li><li class="indexItem indexItem2"><a href="#PA-RISC_2.0">PA-RISC 2.0</a>
+    </li><li class="indexItem indexItem2"><a href="#Portability_Between_PA-RISC_Versions">Portability Between PA-RISC Versions</a>
+    </li><li class="indexItem indexItem2"><a href="#Building_Dynamic_Extensions_on_HP-UX">Building Dynamic Extensions on HP-UX</a>
+    </li><li class="indexItem indexItem2"><a href="#The_HP_ANSI_C_Compiler">The HP ANSI C Compiler</a>
+    </li><li class="indexItem indexItem2"><a href="#Using_Large_Files_with_Perl">Using Large Files with Perl</a>
+    </li><li class="indexItem indexItem2"><a href="#Threaded_Perl">Threaded Perl</a>
+    </li><li class="indexItem indexItem2"><a href="#64-bit_Perl">64-bit Perl</a>
+    </li><li class="indexItem indexItem2"><a href="#GDBM_and_Threads">GDBM and Threads</a>
+    </li><li class="indexItem indexItem2"><a href="#NFS_filesystems_and_utime%282%29">NFS filesystems and utime(2)</a>
+  </li></ul>
+  </li><li class="indexItem indexItem1"><a href="#AUTHOR">AUTHOR</a>
+  </li><li class="indexItem indexItem1"><a href="#DATE">DATE</a>
+</li></ul>
+</div>
+</div>
+
+<h1><a class="u" href="#___top" title="click to go to top of document" name="NAME">NAME <img alt="^" src="README.hpux_files/up.gif"></a></h1>
+
+<p>README.hpux - Perl version 5 on Hewlett-Packard Unix (HP-UX) systems</p>
+
+<h1><a class="u" href="#___top" title="click to go to top of document" name="DESCRIPTION">DESCRIPTION <img alt="^" src="README.hpux_files/up.gif"></a></h1>
+
+<p>This document describes various features of HP's Unix operating
+system (HP-UX) that will affect how Perl version 5 (hereafter just
+Perl) is compiled and/or runs.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="Compiling_Perl_5_on_HP-UX">Compiling Perl 5 on HP-UX</a></h2>
+
+<p>When compiling Perl,
+the use of an ANSI C compiler is highly recommended.
+The C compiler that ships with all HP-UX systems is a K&amp;R compiler that should only be used to build new kernels.</p>
+
+<p>Perl can be compiled with either HP's ANSI C compiler or with gcc.
+The former is recommended,
+as not only can it compile Perl with no difficulty,
+but also can take advantage of features listed later that require the use of HP compiler-specific command-line flags.</p>
+
+<p>If you decide to use gcc,
+make sure your installation is recent and complete,
+and be sure to read the Perl README file for more gcc-specific details.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="PA-RISC">PA-RISC</a></h2>
+
+<p>HP's current Unix systems run on its own Precision Architecture
+(PA-RISC) chip.
+HP-UX used to run on the Motorola MC68000 family of chips,
+but any machine with this chip in it is quite obsolete and this
+document will not attempt to address issues for compiling Perl on the
+Motorola chipset.</p>
+
+<p>The most recent version of PA-RISC at the time of this document's last update is 2.0.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="PA-RISC_1.0">PA-RISC 1.0</a></h2>
+
+<p>The original version of PA-RISC,
+HP no longer sells any system with this chip.</p>
+
+<p>The following systems contain PA-RISC 1.0 chips:</p>
+
+<pre>    600, 635, 645, 800, 808, 815, 822, 825, 832, 834, 835, 840,
+    842, 845, 850, 852, 855, 860, 865, 870, 890</pre>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="PA-RISC_1.1">PA-RISC 1.1</a></h2>
+
+<p>An upgrade to the PA-RISC design, it shipped for many years in many different system.</p>
+
+<p>The following systems contain with PA-RISC 1.1 chips:</p>
+
+<pre>    705, 710, 712, 715, 720, 722, 725, 728, 730, 735, 743, 745, 747, 750,
+    755, 770, 807S, 817S, 827S, 837S, 847S, 857S, 867S, 877S, 887S, 897S,
+    D200, D210, D220, D230, D250, D260, D310, D320, D330, D350, D360, D400,
+    E25, E35, E45, E55, F10, F20, F30, G30, G40, G50, G60, G70, H30, H40,
+    H50, H60, H70, I30, I40, I50, I60, I70, K100, K200, K210, K220, K400,
+    K410, K420, T500, T520</pre>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="PA-RISC_2.0">PA-RISC 2.0</a></h2>
+
+<p>The most recent upgrade to the PA-RISC design, it added support for 64-bit integer data.</p>
+
+<p>The following systems contain PA-RISC 2.0 chips (this is very likely to be out of date):</p>
+
+<pre>    D270, D280, D370, D380, K250, K260, K370, K380, K450, K460, K570, K580,
+    T600, V2200</pre>
+
+<p>A complete list of models at the time the OS was built is in the
+file /opt/langtools/lib/sched.models. The first column corresponds to
+the output of the "uname -m" command (without the leading "9000/"). The
+second column is the PA-RISC version and the third column is the exact
+chip type used.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="Portability_Between_PA-RISC_Versions">Portability Between PA-RISC Versions</a></h2>
+
+<p>An executable compiled on a PA-RISC 2.0 platform will not execute on
+a PA-RISC 1.1 platform, even if they are running the same version of
+HP-UX. If you are building Perl on a PA-RISC 2.0 platform and want that
+Perl to to also run on a PA-RISC 1.1, the compiler flags +DAportable
+and +DS32 should be used.</p>
+
+<p>It is no longer possible to compile PA-RISC 1.0 executables on either the PA-RISC 1.1 or 2.0 platforms.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="Building_Dynamic_Extensions_on_HP-UX">Building Dynamic Extensions on HP-UX</a></h2>
+
+<p>HP-UX supports dynamically loadable libraries (shared libraries). Shared libraries end with the suffix .sl.</p>
+
+<p>Shared libraries created on a platform using a particular PA-RISC
+version are not usable on platforms using an earlier PA-RISC version by
+default. However, this backwards compatibility may be enabled using the
+same +DAportable compiler flag (with the same PA-RISC 1.0 caveat
+mentioned above).</p>
+
+<p>To create a shared library, the following steps must be performed:</p>
+
+<pre>    1. Compile source modules with +z or +Z flag to create a .o module
+       which contains Position-Independent Code (PIC).  The linker will
+       tell you in the next step if +Z was needed.
+
+    2. Link the shared library using the -b flag.  If the code calls
+       any functions in other system libraries (e.g., libm), it must
+       be included on this line.</pre>
+
+<p>(Note that these steps are usually handled automatically by the extension's Makefile).</p>
+
+<p>If these dependent libraries are not listed at shared library
+creation time, you will get fatal "Unresolved symbol" errors at run
+time when the library is loaded.</p>
+
+<p>You may create a shared library that referers to another library,
+which may be either an archive library or a shared library. If it is a
+shared library, this is called a "dependent library". The dependent
+library's name is recorded in the main shared library, but it is not
+linked into the shared library. Instead, it is loaded when the main
+shared library is loaded.</p>
+
+<p>If the referred library is an archive library, then it is treated as
+a simple collection of .o modules (all of which must contain PIC).
+These modules are then linked into the shared library.</p>
+
+<p>Note that it is okay to create a library which contains a dependent library that is already linked into perl.</p>
+
+<p>It is no longer possible to link PA-RISC 1.0 shared libraries.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="The_HP_ANSI_C_Compiler">The HP ANSI C Compiler</a></h2>
+
+<p>When using this compiler to build Perl, you should make sure that
+the flag -Aa is added to the cpprun and cppstdin variables in the
+config.sh file.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="Using_Large_Files_with_Perl">Using Large Files with Perl</a></h2>
+
+<p>Beginning with HP-UX version 10.20, files larger than 2GB (2^31) may
+be created and manipulated. Three separate methods of doing this are
+available. Of these methods, the best method for Perl is to compile
+using the -D_FILE_OFFSET_BITS=64 compiler flag. This causes Perl to be
+compiled using structures and functions in which these are 64 bits
+wide, rather than 32 bits wide.</p>
+
+<p>There are only two drawbacks to this approach: the first is that the
+seek and tell functions (both the builtin version and the POSIX
+module's version) will not correctly function for these large files
+(the offset arguments in seek and tell are implemented as type long).
+The second is that any extension which calls any file-manipulating C
+function will need to be recompiled using the above-mentioned
+-D_FILE_OFFSET_BITS=64 flag. The list of functions that will need to
+recompiled is: creat, fgetpos, fopen, freopen, fsetpos, fstat,
+fstatvfs, fstatvfsdev, ftruncate, ftw, lockf, lseek, lstat, mmap, nftw,
+open, prealloc, stat, statvfs, statvfsdev, tmpfile, truncate,
+getrlimit, setrlimit</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="Threaded_Perl">Threaded Perl</a></h2>
+
+<p>It is impossible to compile a version of threaded Perl on any
+version of HP-UX before 10.30, and it is strongly suggested that you be
+running on HP-UX 11.00 at least.</p>
+
+<p>To compile Perl with thread, add -Dusethreads to the arguments of
+Configure. Ensure that the -D_POSIX_C_SOURCE=199506L compiler flag is
+automatically added to the list of flags. Also make sure that -lpthread
+is listed before -lc in the list of libraries to link Perl with.</p>
+
+<p>As of the date of this document, Perl threads are not fully supported on HP-UX.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="64-bit_Perl">64-bit Perl</a></h2>
+
+<p>Beginning with HP-UX 11.00, programs compiled under HP-UX can take
+advantage of the LP64 programming environment (LP64 means Longs and
+Pointers are 64 bits wide).</p>
+
+<p>Work is being performed on Perl to make it 64-bit compliant on all
+versions of Unix. Once this is complete, scalar variables will be able
+to hold numbers larger than 2^32 with complete precision.</p>
+
+<p>As of the date of this document, Perl is not 64-bit compliant on HP-UX.</p>
+
+<p>Should a user wish to experiment with compiling Perl in the LP64
+environment, the following steps must be taken: libraries must be
+searched only within /lib/pa20_64, the compiler flag +DD64 must be
+used, and the C library is now located at /lib/pa20_64/libc.sl.</p>
+
+<p>On the brighter side, the large file problem goes away, as longs are now 64 bits wide.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="GDBM_and_Threads">GDBM and Threads</a></h2>
+
+<p>If you attempt to compile Perl with threads on an 11.X system and
+also link in the GDBM library, then Perl will immediately core dump
+when it starts up. The only workaround at this point is to relink the
+GDBM library under 11.X, then relink it into Perl.</p>
+
+<h2><a class="u" href="#___top" title="click to go to top of document" name="NFS_filesystems_and_utime(2)">NFS filesystems and utime(2)</a></h2>
+
+<p>If you are compiling Perl on a remotely-mounted NFS filesystem, the
+test io/fs.t may fail on test #18. This appears to be a bug in HP-UX
+and no fix is currently available.</p>
+
+<h1><a class="u" href="#___top" title="click to go to top of document" name="AUTHOR">AUTHOR <img alt="^" src="README.hpux_files/up.gif"></a></h1>
+
+<p>Jeff Okamoto &lt;okamoto@corp.hp.com&gt;</p>
+
+<p>With much assistance regarding shared libraries from Marc Sabatella.</p>
+
+<h1><a class="u" href="#___top" title="click to go to top of document" name="DATE">DATE <img alt="^" src="README.hpux_files/up.gif"></a></h1>
+
+<p>Version 0.2: 1999/03/01</p>
+
+</div>
+
+
+<div class="footer"><div class="cpanstats">62259 Uploads, 19744 Distributions
+79382 Modules, 8040 Uploaders
+</div>
+hosted by <a href="http://www.yellowbot.com/">YellowBot</a><br>
+<a href="http://www.yellowbot.com/"><img alt="do. tag. write. share." src="README.hpux_files/yellowbot_logo.gif"></a>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="README.hpux_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3528438-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- Tue Mar  2 17:52:01 2010 GMT (0.0934429168701172) @cpansearch1 -->
+ </body></html>
