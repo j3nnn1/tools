@@ -83,7 +83,7 @@ Tools and Config Files
 * put ./notebook/idea.sh at /usr/local/sbin/idea
 * put ./notebook/postman at /usr/local/sbin/postman
 * put ./notebook/soapui.sh at /usr/local/sbin/soapui
-* put ./notebook/docker-clean-all at /usr/local/sbin/soapui
+* put ./notebook/docker-clean-all at /usr/local/sbin/docker-clean-all
 
 * give execution permission!
 $chmod +x  scriptNuevoParaBUSCAR
