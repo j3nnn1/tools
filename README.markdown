@@ -78,11 +78,12 @@ Tools and Config Files
 * more config files.
 
 ### Additional executables or binaries
-* put keyboard.sh at home
-* put phpstorm.sh at /usr/local/sbin/phpstorm
-* put idea.sh at /usr/local/sbin/idea
-* put postman at /usr/local/sbin/postman
-* put soapui.sh at /usr/local/sbin/soapui
+* put ./notebook/keyboard.sh at home
+* put ./notebook/phpstorm.sh at /usr/local/sbin/phpstorm
+* put ./notebook/idea.sh at /usr/local/sbin/idea
+* put ./notebook/postman at /usr/local/sbin/postman
+* put ./notebook/soapui.sh at /usr/local/sbin/soapui
+* put ./notebook/docker-clean-all at /usr/local/sbin/soapui
 
 * give execution permission!
 $chmod +x  scriptNuevoParaBUSCAR
