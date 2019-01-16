@@ -77,19 +77,17 @@ Tools and Config Files
 ### conky dir, save my conky config
 * more config files.
 
-## Notebook >>
-
 ### Additional executables or binaries
-put ./notebook/keyboard.sh at home
-put ./notebook/phpstorm.sh at /usr/local/sbin/phpstorm
-put ./notebook/idea.sh at /usr/local/sbin/idea
-put ./notebook/postman at /usr/local/sbin/postman
-put ./notebook/soapui.sh at /usr/local/sbin/soapui
+* put keyboard.sh at home
+* put phpstorm.sh at /usr/local/sbin/phpstorm
+* put idea.sh at /usr/local/sbin/idea
+* put postman at /usr/local/sbin/postman
+* put soapui.sh at /usr/local/sbin/soapui
 
-give execution permission!
+* give execution permission!
 $chmod +x  scriptNuevoParaBUSCAR
 
-update locate database 
+* update locate database 
 $updatedb
 
 
