@@ -1,2 +1,6 @@
 
 put keyboard.sh at home
+put phpstorm.sh at /usr/local/sbin/phpstorm
+put idea.sh at /usr/local/sbin/idea
+put postman at /usr/local/sbin/postman
+put soapui.sh at /usr/local/sbin/soapui
