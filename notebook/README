@@ -1,4 +1,6 @@
 
+VER DIRECTORIO EXECUTABLE
+
 put keyboard.sh at home
 put phpstorm.sh at /usr/local/sbin/phpstorm
 put idea.sh at /usr/local/sbin/idea
@@ -6,3 +8,4 @@ put postman at /usr/local/sbin/postman
 put soapui.sh at /usr/local/sbin/soapui
 put goland at /usr/local/sbin/goland
 put netbeans at /usr/local/sbin/netbeans
+put webstorm at /usr/local/sbin/webstorm
