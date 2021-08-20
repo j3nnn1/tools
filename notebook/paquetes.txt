@@ -2,6 +2,7 @@ base base-devel grub os-prober ntfs-3g networkmanager efibootmgr gvfs gvfs-afc d
 # virtual - env \
   extra/python-virtualenv   community/python-pipenv  community/python-virtualenv-clone \
 # anaconda \
-  libxau libxi libxss libxtst libxcursor libxcomposite libxdamage libxfixes libxrandr libxrender mesa-libgl  alsa-lib libglvnd
-
+  libxau libxi libxss libxtst libxcursor libxcomposite libxdamage libxfixes libxrandr libxrender mesa-libgl  alsa-lib libglvnd \
+# libreoffice \
+  libreoffice-fresh
 
