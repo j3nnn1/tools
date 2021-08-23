@@ -5,7 +5,7 @@ base base-devel grub os-prober ntfs-3g networkmanager efibootmgr gvfs gvfs-afc d
   libxau libxi libxss libxtst libxcursor libxcomposite libxdamage libxfixes libxrandr libxrender mesa-libgl  alsa-lib libglvnd \
 # libreoffice \
   libreoffice-fresh \
-# nvidia
+# nvidia \ 
   community/cudnn community/cuda-tools 
 
 
