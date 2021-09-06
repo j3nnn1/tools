@@ -10,6 +10,6 @@ base base-devel grub os-prober ntfs-3g networkmanager efibootmgr gvfs gvfs-afc d
 # bluetooth
 bluez bluez-utils blueman pulseaudio-bluetooth pulseaudio \
 # screenshot
-xdotool    ffmpeg 
+xdotool    ffmpeg  gnome-screenshot
 
 
