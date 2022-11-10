@@ -1,0 +1,17 @@
+// ==UserScript==
+// @name         Nacion
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  remove footer in BNA.
+// @author       j3nnn1
+// @match        https://hb.redlink.com.ar/bna/login.htm
+// @grant none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    var elem = document.querySelector('#divCuerpo');
+
+    elem.style.display = 'none'
+})();
