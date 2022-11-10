@@ -2,6 +2,10 @@
 Tools and Config Files
 ======================
 
+### delete footer on webpage in nacion bank. (tampermonkey script) tampermonkey/
+* **nacion.tampermonkey**
+* settings: original matches checked with: https://hb.redlink.com.ar/bna/login.htm 
+
 ### cpan dir 
 * config files for CPAN
 * config files specialized on cygwin and linux 
